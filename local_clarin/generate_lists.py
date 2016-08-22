@@ -6,6 +6,7 @@ import codecs
 
 def process(dir,audio):
 
+	dir = realpath(dir)
 	if not exists(dir+'/sessions'):
 		print 'You need to have '+dir+' already created!'
 		print 'It needs to contain a sessions file with a list of sessions for that subset!'
@@ -31,7 +32,7 @@ def process(dir,audio):
 			with codecs.open(audio+'/'+s+'/'+n+'.txt','r','utf-8') as f:
 				try:
 					txt_file=f.read().splitlines()[0]
-				except UnicodeDecodeError:
+				except:
 					print('Error in file '+s+'_'+n+'\n')
 			
 			text.write(s+'_'+n+' '+txt_file.encode('utf-8')+'\n')

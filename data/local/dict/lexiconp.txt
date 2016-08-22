@@ -893,7 +893,6 @@ angażuje 1.0	a n g a Z u j e
 angeles 1.0	a n g e l e s
 angeli 1.0	a n dZ e l i
 angeli 1.0	a n g e l i
-angelowie 1.0	a n g e l o v j e
 angielska 1.0	a n g j e l s k a
 angielski 1.0	a n g j e l s k i
 angielskich 1.0	a n g j e l s k i x
@@ -3284,8 +3283,6 @@ biedota 1.0	b j e d o t a
 biedoty 1.0	b j e d o t I
 biedronka 1.0	b j e d r o n k a
 biedy 1.0	b j e d I
-biedzenie 1.0	b j e dz e ni e
-biedzenie 1.0	b j e dz e ni j e
 biedzie 1.0	b j e dzi e
 biega 1.0	b j e g a
 biegać 1.0	b j e g a tsi
@@ -3501,7 +3498,6 @@ birkenau 1.0	b i r k e n a u
 birkenau 1.0	b i r k e n a w
 birłukin 1.0	b i r w u k i n
 bis 1.0	b i s
-biserowa 1.0	b i s e r o v a
 biskupa 1.0	b i s k u p a
 biskup 1.0	b i s k u p
 biskupi 1.0	b i s k u p i
@@ -5427,7 +5423,6 @@ chinach 1.0	x i n a x
 chińczyka 1.0	x i ni tS I k a
 chińczyków 1.0	x i ni tS I k u f
 chińczyków 1.0	x i ni tS I k u v
-chindżał 1.0	x i n dZ a w
 chinom 1.0	x i n o m
 chińska 1.0	x i ni s k a
 chińską 1.0	x i ni s k o m
@@ -7615,7 +7610,6 @@ darowiznę 1.0	d a r o v i z n en
 daru 1.0	d a r u
 daruj 1.0	d a r u j
 darujmy 1.0	d a r u j m I
-darunkami 1.0	d a r u n k a m i
 dary 1.0	d a r I
 darzą 1.0	d a Z o m
 darzą 1.0	d a Z on
@@ -8638,7 +8632,6 @@ dodawaniu 1.0	d o d a v a ni u
 dodawany 1.0	d o d a v a n I
 do 1.0	d o
 dodona 1.0	d o d o n a
-dodrzewiać 1.0	d o d Z e v j a tsi
 doe 1.0	d o w
 dofinansowania 1.0	d o f i n a n s o v a ni a
 dofinansowania 1.0	d o f i n a n s o v a ni j a
@@ -9318,6 +9311,7 @@ dorobi 1.0	d o r o b i
 dorobił 1.0	d o r o b i w
 dorobiłem 1.0	d o r o b i w e m
 dorobili 1.0	d o r o b i l i
+dorobionej 1.0	d o r o b j o n e j
 dorobkiem 1.0	d o r o b k j e m
 dorobkiem 1.0	d o r o p k j e m
 dorobku 1.0	d o r o b k u
@@ -10786,7 +10780,6 @@ dzbanek 1.0	dz b a n e k
 dzbanku 1.0	dz b a n k u
 dz 1.0	dz
 dżdżownica 1.0	dZ dZ o v ni i ts a
-dżdżysko 1.0	dZ dZ I s k o
 dżdżysto 1.0	dZ dZ I s t o
 dżejms 1.0	dZ e j m s
 dżekson 1.0	dZ e k s o n
@@ -11788,7 +11781,6 @@ eleganckim 1.0	e l e g a n ts k i m
 eleganckimi 1.0	e l e g a n ts k i m i
 elegię 1.0	e l e g j e
 elegię 1.0	e l e g j en
-elegnickie 1.0	e l e g ni i ts k j e
 elei 1.0	e l e i
 elei 1.0	e l e j i
 elekt 1.0	e l e k t
@@ -11975,7 +11967,6 @@ endecji 1.0	e n d e ts j i
 endecką 1.0	e n d e ts k o m
 endecką 1.0	e n d e ts k on
 endeckie 1.0	e n d e ts k j e
-endencki 1.0	e n d e n ts k i
 endorfiny 1.0	e n d o r f i n I
 endywią 1.0	e n d I v j o m
 endywią 1.0	e n d I v j on
@@ -12131,8 +12122,6 @@ esman 1.0	e s m a n
 esperalem 1.0	e s p e r a l e m
 espresso 1.0	e s p r e s o
 espresso 1.0	e s p r e s s o
-essalaam 1.0	e s a l a a m
-essalaam 1.0	e s s a l a a m
 esta 1.0	e s t a
 estakadę 1.0	e s t a k a d e
 estakadę 1.0	e s t a k a d en
@@ -13264,6 +13253,7 @@ frazeologii 1.0	f r a z e o l o g i
 frazeologii 1.0	f r a z e o l o g j i
 frazie 1.0	f r a zi e
 frazowaniu 1.0	f r a z o v a ni u
+frazy 1.0	f r a z I
 fregaty 1.0	f r e g a t I
 frekwencyjnego 1.0	f r e k f e n ts I j n e g o
 frenkel 1.0	f r e n k e l
@@ -15268,7 +15258,6 @@ grzywnę 1.0	g Z I v n en
 grzywny 1.0	g Z I v n I
 grzywy 1.0	g Z I v I
 gubernatora 1.0	g u b e r n a t o r a
-gubernatorem 1.0	g u b e r n a t o r e m
 gubernator 1.0	g u b e r n a t o r
 gubienie 1.0	g u b j e ni e
 gubienie 1.0	g u b j e ni j e
@@ -15411,8 +15400,6 @@ gwizdkiem 1.0	g v i z d k j e m
 gwizdkiem 1.0	g v i z t k j e m
 gwiżdże 1.0	g v i Z dZ e
 gwoli 1.0	g v o l i
-gwożdżenie 1.0	g v o Z dZ e ni e
-gwożdżenie 1.0	g v o Z dZ e ni j e
 gwóźdź 1.0	g v u zi dzi
 gwóźdź 1.0	g v u zi tsi
 gwoździach 1.0	g v o zi dzi a x
@@ -15921,7 +15908,6 @@ hołówko 1.0	x o w u f k o
 hołówko 1.0	x o w u v k o
 hołubić 1.0	x o w u b i tsi
 holu 1.0	x o l u
-homendabartosińska 1.0	x o m e n d a b a r t o si i ni s k a
 homeostazy 1.0	x o m e o s t a z I
 homera 1.0	x o m e r a
 homologację 1.0	x o m o l o g a ts j e
@@ -16038,8 +16024,6 @@ humoru 1.0	x u m o r u
 humor 1.0	x u m o r
 hunowie 1.0	x u n o v j e
 hurcie 1.0	x u r tsi e
-hurrapatriotyzmem 1.0	x u r a p a t r j o t I z m e m
-hurrapatriotyzmem 1.0	x u r r a p a t r j o t I z m e m
 hurra 1.0	x u r a
 hurra 1.0	x u r r a
 hurtowni 1.0	x u r t o v ni i
@@ -16197,7 +16181,6 @@ idziemy 1.0	i dzi e m I
 idzikowski 1.0	i dzi i k o f s k i
 idzikowski 1.0	i dzi i k o v s k i
 idź 1.0	i tsi
-iefo 1.0	j e f o
 igłą 1.0	i g w o m
 igłą 1.0	i g w on
 iglastych 1.0	i g l a s t I x
@@ -17122,7 +17105,6 @@ istotnym 1.0	i s t o t n I m
 istoty 1.0	i s t o t I
 istrii 1.0	i s t r i
 istrii 1.0	i s t r j i
-iszkoła 1.0	i S k o w a
 italii 1.0	i t a l i
 italii 1.0	i t a l j i
 itepe 1.0	i t e p e
@@ -17589,7 +17571,6 @@ jedenaście 1.0	j e d e n a si tsi e
 jedenastego 1.0	j e d e n a s t e g o
 jedenastej 1.0	j e d e n a s t e j
 jedenastka 1.0	j e d e n a s t k a
-jedenastm 1.0	j e d e n a s t m
 jedenastoosobowa 1.0	j e d e n a s t o o s o b o v a
 jedenastu 1.0	j e d e n a s t u
 jedenego 1.0	j e d e n e g o
@@ -18097,7 +18078,6 @@ kagańcowe 1.0	k a g a ni ts o v e
 kaganiec 1.0	k a g a ni e ts
 kaganiec 1.0	k a g a ni j e ts
 kaganki 1.0	k a g a n k i
-kagiehaem 1.0	k a g j e x a e m
 kairu 1.0	k a i r u
 kairu 1.0	k a j i r u
 kajak 1.0	k a j a k
@@ -18354,8 +18334,6 @@ kapitalistyczną 1.0	k a p i t a l i s t I tS n on
 kapitalistycznego 1.0	k a p i t a l i s t I tS n e g o
 kapitalizmem 1.0	k a p i t a l i z m e m
 kapitalizm 1.0	k a p i t a l i z m
-kapitalizmów 1.0	k a p i t a l i z m u f
-kapitalizmów 1.0	k a p i t a l i z m u v
 kapitalizmu 1.0	k a p i t a l i z m u
 kapitalizmy 1.0	k a p i t a l i z m I
 kapitał 1.0	k a p i t a w
@@ -19167,7 +19145,6 @@ kładzeniem 1.0	k w a dz e ni j e m
 kładzie 1.0	k w a dzi e
 kładzione 1.0	k w a dzi o n e
 kładziono 1.0	k w a dzi o n o
-klafoutis 1.0	k l a f o u t i s
 klaką 1.0	k l a k o m
 klaką 1.0	k l a k on
 klaksonu 1.0	k l a k s o n u
@@ -19522,7 +19499,6 @@ klubów 1.0	k l u b u f
 klubów 1.0	k l u b u v
 klubowy 1.0	k l u b o v I
 klubu 1.0	k l u b u
-kłubus 1.0	k w u b u s
 kluby 1.0	k l u b I
 klucie 1.0	k l u tsi e
 klucząc 1.0	k l u tS o n ts
@@ -19547,7 +19523,6 @@ kluczyków 1.0	k l u tS I k u f
 kluczyków 1.0	k l u tS I k u v
 kłuje 1.0	k w u j e
 klu 1.0	k l u
-klupczyńskiego 1.0	k l u p tS I ni s k j e g o
 kluska 1.0	k l u s k a
 kluski 1.0	k l u s k i
 kły 1.0	k w I
@@ -20137,6 +20112,7 @@ kompetencji 1.0	k o m p e t e n ts j i
 kompetentnie 1.0	k o m p e t e n t ni e
 kompetentny 1.0	k o m p e t e n t n I
 kompie 1.0	k o m p j e
+kompilacjami 1.0	k o m p i l a ts j a m i
 kompleksowego 1.0	k o m p l e k s o v e g o
 kompleksowej 1.0	k o m p l e k s o v e j
 kompleksów 1.0	k o m p l e k s u f
@@ -21432,8 +21408,6 @@ kraju 1.0	k r a j u
 krakanie 1.0	k r a k a ni e
 krakanie 1.0	k r a k a ni j e
 krakovia 1.0	k r a k o v j a
-krakovię 1.0	k r a k o v j e
-krakovię 1.0	k r a k o v j en
 krakovii 1.0	k r a k o v i
 krakovii 1.0	k r a k o v j i
 krakowa 1.0	k r a k o v a
@@ -22418,6 +22392,7 @@ kubkiem 1.0	k u p k j e m
 kubki 1.0	k u b k i
 kubki 1.0	k u p k i
 kublik 1.0	k u b l i k
+kubus 1.0	k u b u s
 kuby 1.0	k u b I
 kuca 1.0	k u ts a
 kucery 1.0	k u ts e r I
@@ -22666,8 +22641,6 @@ kuriozalny 1.0	k u r j o z a l n I
 kurka 1.0	k u r k a
 kurkę 1.0	k u r k e
 kurkę 1.0	k u r k en
-kurkumową 1.0	k u r k u m o v o m
-kurkumową 1.0	k u r k u m o v on
 kurlandii 1.0	k u r l a n d i
 kurlandii 1.0	k u r l a n d j i
 kuronia 1.0	k u r o ni a
@@ -23758,7 +23731,6 @@ liberalnej 1.0	l i b e r a l n e j
 liberalne 1.0	l i b e r a l n e
 liberalnych 1.0	l i b e r a l n I x
 liberalny 1.0	l i b e r a l n I
-liberatowa 1.0	l i b e r a t o v a
 liberia 1.0	l i b e r j a
 liberii 1.0	l i b e r i
 liberii 1.0	l i b e r j i
@@ -23915,8 +23887,6 @@ likwidowanych 1.0	l i k f i d o v a n I x
 likwidowany 1.0	l i k f i d o v a n I
 likwidujemy 1.0	l i k f i d u j e m I
 lilie 1.0	l i l j e
-łilliama 1.0	w i l j a m a
-łilliama 1.0	w i l l j a m a
 limanowskiego 1.0	l i m a n o f s k j e g o
 limanowskiego 1.0	l i m a n o v s k j e g o
 limberk 1.0	l i m b e r k
@@ -25675,14 +25645,6 @@ mąż 1.0	m o n S
 mąż 1.0	m on S
 mąż 1.0	m o n Z
 mąż 1.0	m on Z
-maźnięcię 1.0	m a zi ni e ni tsi e
-maźnięcię 1.0	m a zi ni e ni tsi en
-maźnięcię 1.0	m a zi ni en tsi e
-maźnięcię 1.0	m a zi ni en tsi en
-maźnięcię 1.0	m a zi ni j e ni tsi e
-maźnięcię 1.0	m a zi ni j e ni tsi en
-maźnięcię 1.0	m a zi ni j en tsi e
-maźnięcię 1.0	m a zi ni j en tsi en
 mazowieckiego 1.0	m a z o v j e ts k j e g o
 mazowieckiej 1.0	m a z o v j e ts k j e j
 mazowieckie 1.0	m a z o v j e ts k j e
@@ -26680,8 +26642,6 @@ mijania 1.0	m i j a ni j a
 mijankach 1.0	m i j a n k a x
 miki 1.0	m i k i
 mikołaja 1.0	m i k o w a j a
-mikołajczykowną 1.0	m i k o w a j tS I k o v n o m
-mikołajczykowną 1.0	m i k o w a j tS I k o v n on
 mikołajem 1.0	m i k o w a j e m
 mikołaj 1.0	m i k o w a j
 mikroelementów 1.0	m i k r o e l e m e n t u f
@@ -27926,10 +27886,6 @@ muzealną 1.0	m u z e a l n o m
 muzealną 1.0	m u z e a l n on
 muzealne 1.0	m u z e a l n e
 muzea 1.0	m u z e a
-muzeinów 1.0	m u z e i n u f
-muzeinów 1.0	m u z e i n u v
-muzeinów 1.0	m u z e j i n u f
-muzeinów 1.0	m u z e j i n u v
 muzeów 1.0	m u z e u f
 muzeów 1.0	m u z e u v
 muzeów 1.0	m u z e w f
@@ -31146,7 +31102,6 @@ niepełną 1.0	ni e p e w n o m
 niepełną 1.0	ni e p e w n on
 niepełnoletnich 1.0	ni e p e w n o l e t ni i x
 niepełnosprawnych 1.0	ni e p e w n o s p r a v n I x
-nieperfumowane 1.0	ni e p e r f u m o v a n e
 niepewna 1.0	ni e p e v n a
 niepewnej 1.0	ni e p e v n e j
 niepewne 1.0	ni e p e v n e
@@ -31923,8 +31878,6 @@ niewybaczalnych 1.0	ni e v I b a tS a l n I x
 niewyczerpalne 1.0	ni e v I tS e r p a l n e
 niewyczerpana 1.0	ni e v I tS e r p a n a
 niewyczerpane 1.0	ni e v I tS e r p a n e
-niewydająca 1.0	ni e v I d a j o n ts a
-niewydająca 1.0	ni e v I d a j on ts a
 niewydolną 1.0	ni e v I d o l n o m
 niewydolną 1.0	ni e v I d o l n on
 niewydolności 1.0	ni e v I d o l n o si tsi i
@@ -33873,8 +33826,6 @@ obsłużyć 1.0	o b s w u Z I tsi
 obsłużyć 1.0	o p s w u Z I tsi
 obstalowanych 1.0	o b s t a l o v a n I x
 obstalowanych 1.0	o p s t a l o v a n I x
-obstalowywali 1.0	o b s t a l o v I v a l i
-obstalowywali 1.0	o p s t a l o v I v a l i
 obstawał 1.0	o b s t a v a w
 obstawał 1.0	o p s t a v a w
 obstawili 1.0	o b s t a v i l i
@@ -36196,6 +36147,8 @@ odurzające 1.0	o d u Z a j o n ts e
 odurzające 1.0	o d u Z a j on ts e
 odurzający 1.0	o d u Z a j o n ts I
 odurzający 1.0	o d u Z a j on ts I
+odurzenia 1.0	o d u Z e ni a
+odurzenia 1.0	o d u Z e ni j a
 odurzeni 1.0	o d u Z e ni i
 ód 1.0	u t
 odwadze 1.0	o d v a dz e
@@ -37041,6 +36994,7 @@ określeniem 1.0	o k r e si l e ni j e m
 określenie 1.0	o k r e si l e ni e
 określenie 1.0	o k r e si l e ni j e
 określeniu 1.0	o k r e si l e ni u
+określeń 1.0	o k r e si l e ni
 określić 1.0	o k r e si l i tsi
 określiła 1.0	o k r e si l i w a
 określił 1.0	o k r e si l i w
@@ -38391,7 +38345,6 @@ ośmiu 1.0	o si m j u
 ośmiuset 1.0	o si m j u s e t
 ósmym 1.0	u s m I m
 ósmy 1.0	u s m I
-osnabruk 1.0	o s n a b r u k
 osnowę 1.0	o s n o v e
 osnowę 1.0	o s n o v en
 osobami 1.0	o s o b a m i
@@ -39044,7 +38997,6 @@ ozdób 1.0	o z d u p
 ozdoby 1.0	o z d o b I
 ożenić 1.0	o Z e ni i tsi
 ożenił 1.0	o Z e ni i w
-ożeńku 1.0	o Z e ni k u
 ożenku 1.0	o Z e n k u
 oziębłość 1.0	o zi e m b w o si tsi
 oziębłość 1.0	o zi en b w o si tsi
@@ -39689,7 +39641,7 @@ parlamentem 1.0	p a r l a m e n t e m
 parlamentowi 1.0	p a r l a m e n t o v i
 parlament 1.0	p a r l a m e n t
 parlamentu 1.0	p a r l a m e n t u
-parli 1.0	p a r l i
+parlin 1.0	p a r l i n
 parma 1.0	p a r m a
 parmą 1.0	p a r m o m
 parmą 1.0	p a r m on
@@ -41083,6 +41035,7 @@ pijana 1.0	p i j a n a
 pijanego 1.0	p i j a n e g o
 pijane 1.0	p i j a n e
 pijani 1.0	p i j a ni i
+pijaństwo 1.0	p i j a ni s t f o
 pijanych 1.0	p i j a n I x
 pijanymi 1.0	p i j a n I m i
 pijany 1.0	p i j a n I
@@ -41307,7 +41260,6 @@ pisarzowi 1.0	p i s a Z o v i
 pisarz 1.0	p i s a S
 pisarz 1.0	p i s a Z
 pisarzy 1.0	p i s a Z I
-piselpeer 1.0	p i s e l p e e r
 pisemka 1.0	p i s e m k a
 pisemna 1.0	p i s e m n a
 pisemną 1.0	p i s e m n o m
@@ -44617,13 +44569,11 @@ polskie 1.0	p o l s k j e
 polskimi 1.0	p o l s k i m i
 polskim 1.0	p o l s k i m
 polski 1.0	p o l s k i
-polskoamerykańskie 1.0	p o l s k o a m e r I k a ni s k j e
 polskoangielskofrancuskoniemieckorosyjskiego 1.0	p o l s k o a n g j e l s k o f r a n ts u s k o ni e m j e ts k o r o s I j s k j e g o
 polskoangielskofrancuskoniemieckorosyjskiego 1.0	p o l s k o a n g j e l s k o f r a n ts u s k o ni j e m j e ts k o r o s I j s k j e g o
 polskobolszewicka 1.0	p o l s k o b o l S e v i ts k a
 polskobolszewickiej 1.0	p o l s k o b o l S e v i ts k j e j
 polskofrancuskiego 1.0	p o l s k o f r a n ts u s k j e g o
-polskokoreańskie 1.0	p o l s k o k o r e a ni s k j e
 polskolitewskie 1.0	p o l s k o l i t e f s k j e
 polskolitewskie 1.0	p o l s k o l i t e v s k j e
 polskołotewska 1.0	p o l s k o w o t e f s k a
@@ -44641,8 +44591,6 @@ polskorosyjskich 1.0	p o l s k o r o s I j s k i x
 polskości 1.0	p o l s k o si tsi i
 polskoukraińskiego 1.0	p o l s k o u k r a i ni s k j e g o
 polskoukraińskiego 1.0	p o l s k o u k r a j i ni s k j e g o
-polskowęgierska 1.0	p o l s k o v e n g j e r s k a
-polskowęgierska 1.0	p o l s k o v en g j e r s k a
 polskożydowskie 1.0	p o l s k o Z I d o f s k j e
 polskożydowskie 1.0	p o l s k o Z I d o v s k j e
 polsku 1.0	p o l s k u
@@ -44655,8 +44603,6 @@ polszczyzną 1.0	p o l S tS I z n on
 polszczyźnie 1.0	p o l S tS I zi ni e
 polszczyzny 1.0	p o l S tS I z n I
 półszlachetnych 1.0	p u w S l a x e t n I x
-półszwed 1.0	p u w S f e d
-półszwed 1.0	p u w S f e t
 połtawy 1.0	p o w t a v I
 półtora 1.0	p u w t o r a
 półtorej 1.0	p u w t o r e j
@@ -46827,7 +46773,6 @@ powiedzieliśmy 1.0	p o v j e dzi e l i si m I
 powiedzmy 1.0	p o v j e dz m I
 powiedzmy 1.0	p o v j e ts m I
 powiedzonko 1.0	p o v j e dz o n k o
-powiedzony 1.0	p o v j e dz o n I
 powiedz 1.0	p o v j e dz
 powiedz 1.0	p o v j e ts
 powieje 1.0	p o v j e j e
@@ -50228,7 +50173,6 @@ przejściu 1.0	p S e j si tsi u
 przejść 1.0	p S e j si tsi
 przekartkować 1.0	p S e k a r t k o v a tsi
 przekartkowałem 1.0	p S e k a r t k o v a w e m
-przekartujmy 1.0	p S e k a r t u j m I
 przekazach 1.0	p S e k a z a x
 przekazać 1.0	p S e k a z a tsi
 przekazałam 1.0	p S e k a z a w a m
@@ -52178,8 +52122,6 @@ przylgnęła 1.0	p S I l g n e w a
 przylotów 1.0	p S I l o t u f
 przylotów 1.0	p S I l o t u v
 przyłożyć 1.0	p S I w o Z I tsi
-przylutowują 1.0	p S I l u t o v u j o m
-przylutowują 1.0	p S I l u t o v u j on
 przymglone 1.0	p S I m g l o n e
 przymglony 1.0	p S I m g l o n I
 przymierzają 1.0	p S I m j e Z a j o m
@@ -57437,7 +57379,6 @@ rysy 1.0	r I s I
 ryszarda 1.0	r I S a r d a
 ryszard 1.0	r I S a r d
 ryszard 1.0	r I S a r t
-rysztunku 1.0	r I S t u n k u
 rytmem 1.0	r I t m e m
 rytmiczna 1.0	r I t m i tS n a
 rytmicznej 1.0	r I t m i tS n e j
@@ -57732,6 +57673,8 @@ rzeźbą 1.0	Z e zi b o m
 rzeźbą 1.0	Z e zi b on
 rzeźbiarskiej 1.0	Z e si b j a r s k j e j
 rzeźbiarskiej 1.0	Z e zi b j a r s k j e j
+rzeźbiarza 1.0	Z e si b j a Z a
+rzeźbiarza 1.0	Z e zi b j a Z a
 rzeźbiarzy 1.0	Z e si b j a Z I
 rzeźbiarzy 1.0	Z e zi b j a Z I
 rzeźbiły 1.0	Z e si b i w I
@@ -57929,8 +57872,6 @@ saharze 1.0	s a x a Z e
 sahel 1.0	s a x e l
 sahelu 1.0	s a x e l u
 sahlu 1.0	s a x l u
-sajensfikszyn 1.0	s a j e n s f i k S I n
-sajensfikszyn 1.0	s a j en s f i k S I n
 sajgonu 1.0	s a j g o n u
 sakralnych 1.0	s a k r a l n I x
 sakramentu 1.0	s a k r a m e n t u
@@ -60760,7 +60701,6 @@ smakuje 1.0	s m a k u j e
 smaku 1.0	s m a k u
 smalcu 1.0	s m a l ts u
 smarami 1.0	s m a r a m i
-smardom 1.0	s m a r d o m
 smarowali 1.0	s m a r o v a l i
 smarowe 1.0	s m a r o v e
 smarów 1.0	s m a r u f
@@ -63776,7 +63716,6 @@ stuleciach 1.0	s t u l e tsi a x
 stulecia 1.0	s t u l e tsi a
 stuleci 1.0	s t u l e tsi i
 stuleciu 1.0	s t u l e tsi u
-stulitrowego 1.0	s t u l i t r o v e g o
 stupa 1.0	s t u p a
 sturlać 1.0	s t u r l a tsi
 stu 1.0	s t u
@@ -63936,7 +63875,6 @@ subtelności 1.0	s u p t e l n o si tsi i
 subtelny 1.0	s u b t e l n I
 subtelny 1.0	s u p t e l n I
 subwencje 1.0	s u b v e n ts j e
-sucharskiej 1.0	s u x a r s k j e j
 sucha 1.0	s u x a
 suchą 1.0	s u x o m
 suchą 1.0	s u x on
@@ -67440,8 +67378,6 @@ treść 1.0	t r e si tsi
 trick 1.0	t r i ts k
 trikiem 1.0	t r i k j e m
 trilery 1.0	t r i l e r I
-trillery 1.0	t r i l e r I
-trillery 1.0	t r i l l e r I
 triolach 1.0	t r j o l a x
 tristana 1.0	t r i s t a n a
 triumfalny 1.0	t r j u m f a l n I
@@ -68250,6 +68186,7 @@ tworzę 1.0	t f o Z en
 tworzoną 1.0	t f o Z o n o m
 tworzoną 1.0	t f o Z o n on
 tworzonego 1.0	t f o Z o n e g o
+tworzonej 1.0	t f o Z o n e j
 tworzone 1.0	t f o Z o n e
 tworzonych 1.0	t f o Z o n I x
 tworzony 1.0	t f o Z o n I
@@ -71032,10 +70969,6 @@ utęsknieniem 1.0	u t e n s k ni e ni e m
 utęsknieniem 1.0	u t en s k ni e ni e m
 utęsknieniem 1.0	u t e n s k ni e ni j e m
 utęsknieniem 1.0	u t en s k ni e ni j e m
-utęsknieniona 1.0	u t e n s k ni e ni j o n a
-utęsknieniona 1.0	u t en s k ni e ni j o n a
-utęsknieniona 1.0	u t e n s k ni e ni o n a
-utęsknieniona 1.0	u t en s k ni e ni o n a
 utęskniona 1.0	u t e n s k ni o n a
 utęskniona 1.0	u t en s k ni o n a
 utkanego 1.0	u t k a n e g o
@@ -72198,6 +72131,7 @@ ważki 1.0	v a S k i
 ważki 1.0	v a Z k i
 ważkość 1.0	v a S k o si tsi
 ważkość 1.0	v a Z k o si tsi
+ważnaa 1.0	v a Z n a a
 ważna 1.0	v a Z n a
 ważną 1.0	v a Z n o m
 ważną 1.0	v a Z n on
@@ -74807,8 +74741,6 @@ wręczył 1.0	v r en tS I w
 wrednego 1.0	v r e d n e g o
 wrednych 1.0	v r e d n I x
 wreszcie 1.0	v r e S tsi e
-wręsz 1.0	v r e n S
-wręsz 1.0	v r en S
 wróble 1.0	v r u b l e
 wróblewscy 1.0	v r u b l e f s ts I
 wróblewscy 1.0	v r u b l e v s ts I
@@ -74843,8 +74775,6 @@ wrocławskie 1.0	v r o ts w a f s k j e
 wrocławskie 1.0	v r o ts w a v s k j e
 wrocławski 1.0	v r o ts w a f s k i
 wrocławski 1.0	v r o ts w a v s k i
-wrocławśródmieście 1.0	v r o ts w a f si r u d m j e si tsi e
-wrocławśródmieście 1.0	v r o ts w a v si r u d m j e si tsi e
 wrocław 1.0	v r o ts w a f
 wrocław 1.0	v r o ts w a v
 wróćmy 1.0	v r u tsi m I
@@ -75551,8 +75481,6 @@ wszechstronnie 1.0	f S e x s t r o ni ni e
 wszechstronnie 1.0	f S e x s t r o n ni e
 wszechświata 1.0	f S e x si f j a t a
 wszechświecie 1.0	f S e x si f j e tsi e
-wszechzrozumienie 1.0	f S e x z r o z u m j e ni e
-wszechzrozumienie 1.0	f S e x z r o z u m j e ni j e
 wszedłem 1.0	f S e d w e m
 wszedłeś 1.0	f S e d w e si
 wszedł 1.0	f S e d
@@ -84547,8 +84475,6 @@ zelandii 1.0	z e l a n d j i
 żelem 1.0	Z e l e m
 żelichowski 1.0	Z e l i x o f s k i
 żelichowski 1.0	Z e l i x o v s k i
-zełigowskiego 1.0	z e w i g o f s k j e g o
-zełigowskiego 1.0	z e w i g o v s k j e g o
 żelu 1.0	Z e l u
 zelżał 1.0	z e l Z a w
 żel 1.0	Z e l
@@ -85980,7 +85906,6 @@ znaleziony 1.0	z n a l e zi o n I
 znalezisk 1.0	z n a l e zi i s k
 znaleźliśmy 1.0	z n a l e zi l i si m I
 znaleźli 1.0	z n a l e zi l i
-źnaleźne 1.0	zi n a l e zi n e
 znaleźne 1.0	z n a l e zi n e
 znaliśmy 1.0	z n a l i si m I
 znali 1.0	z n a l i

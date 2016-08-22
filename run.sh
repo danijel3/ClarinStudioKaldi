@@ -5,7 +5,7 @@
            ## This relates to the queue.
 
 #check if the user wants to clean the project
-local/clarin_pl_clean.sh
+local_clarin/clarin_pl_clean.sh
 
 export nj=10 ##number of concurrent processes
 
@@ -13,7 +13,7 @@ export nj=10 ##number of concurrent processes
 # one by copying and pasting into the shell.
 
 #run some initial data preparation (look at the file for more details):
-local/clarin_pl_data_prep.sh || exit 1;
+local_clarin/clarin_pl_data_prep.sh || exit 1;
 
 #prepare the lang directory
 utils/prepare_lang.sh data/local/dict "<unk>" data/local/lang data/lang || exit 1;
