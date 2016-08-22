@@ -36,7 +36,7 @@ steps/train_mono.sh --nj $nj --cmd "$train_cmd" \
 
 #test Monophone system
 utils/mkgraph.sh --mono data/lang_test exp/mono0 exp/mono0/graph || exit 1;
-steps/decode.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
+steps/decode.sh --nj $nj --cmd "$decode_cmd" \
   exp/mono0/graph data/test exp/mono0/decode || exit 1;
 
 #align using the Monophone system
@@ -45,11 +45,11 @@ steps/align_si.sh --nj $nj --cmd "$train_cmd" \
 
 #train initial Triphone system
 steps/train_deltas.sh --cmd "$train_cmd" \
-    2000 10000 data/train data/lang_test exp/mono0_ali exp/tri1 || exit 1;
+    2000 10000 data/train data/lang exp/mono0_ali exp/tri1 || exit 1;
 
 #test initial Triphone system
 utils/mkgraph.sh data/lang_test exp/tri1 exp/tri1/graph || exit 1;
-steps/decode.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
+steps/decode.sh --nj $nj --cmd "$decode_cmd" \
   exp/tri1/graph data/test exp/tri1/decode || exit 1;
 
 #re-align using the initial Triphone system
@@ -62,17 +62,17 @@ steps/train_deltas.sh --cmd "$train_cmd" \
 
 #test tri2a
 utils/mkgraph.sh data/lang_test exp/tri2a exp/tri2a/graph || exit 1;
-steps/decode.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
+steps/decode.sh --nj $nj --cmd "$decode_cmd" \
   exp/tri2a/graph data/test exp/tri2a/decode || exit 1;
 
 #train tri2b, which is tri2a + LDA
 steps/train_lda_mllt.sh --cmd "$train_cmd" \
    --splice-opts "--left-context=3 --right-context=3" \
-   2500 15000 data/train data/lang_test exp/tri1_ali exp/tri2b || exit 1;
+   2500 15000 data/train data/lang exp/tri1_ali exp/tri2b || exit 1;
 
 #test tri2b
-utils/mkgraph.sh data/lang exp/tri2b exp/tri2b/graph || exit 1;
-steps/decode.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
+utils/mkgraph.sh data/lang_test exp/tri2b exp/tri2b/graph || exit 1;
+steps/decode.sh --nj $nj --cmd "$decode_cmd" \
   exp/tri2b/graph data/test exp/tri2b/decode || exit 1;
 
 
@@ -87,7 +87,7 @@ steps/train_sat.sh --cmd "$train_cmd" \
 
 #test tri3b
 utils/mkgraph.sh data/lang_test exp/tri3b exp/tri3b/graph || exit 1;
-steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
+steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" \
   exp/tri3b/graph data/test exp/tri3b/decode || exit 1;
 
 
@@ -96,7 +96,7 @@ steps/mixup.sh --cmd "$train_cmd" \
    20000 data/train data/lang exp/tri3b exp/tri3b_20k || exit 1;
 
 #test the larger model
-steps/decode_fmllr.sh --cmd "$decode_cmd" --beam 72 --nj $nj \
+steps/decode_fmllr.sh --cmd "$decode_cmd" --nj $nj \
    exp/tri3b/graph data/test exp/tri3b_20k/decode  || exit 1;
 
 #from 3b system, align all data
@@ -110,9 +110,31 @@ steps/make_denlats.sh --nj $nj --cmd "$train_cmd" \
 steps/train_mmi.sh --cmd "$train_cmd" data/train data/lang exp/tri3b_ali exp/tri3b_denlats exp/tri3b_mmi || exit 1;
 
 #test MMI
-steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
+steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" \
   --alignment-model exp/tri3b/final.alimdl --adapt-model exp/tri3b/final.mdl \
   exp/tri3b/graph data/test exp/tri3b_mmi/decode || exit 1;
 
+#decode MMI using wider beam
+steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" \
+  --alignment-model exp/tri3b/final.alimdl --adapt-model exp/tri3b/final.mdl \
+  --beam 24 --lattice-beam 12 \
+  exp/tri3b/graph data/test exp/tri3b_mmi/decode_wb || exit 1;
+
+#download a large LM (~843MB)
+if [ ! -f data/local/large.arpa.gz ] ; then
+(
+	cd data/local
+	curl -O http://mowa.clarin-pl.eu/korpusy/large.arpa.gz
+)
+fi
+
+#create the CARPA lang dir
+./utils/build_const_arpa_lm.sh data/local/large.arpa.gz data/lang data/lang_carpa
+
+
+#perform the rescoring
+./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/tri3b_mmi/decode_wb exp/tri3b_mmi/decode_rs
+
 # Getting results [see RESULTS file]
-cat exp/*/decode*/scoring_kaldi/best_wer
+cat exp/*/decode*/scoring_kaldi/best_wer | sort -k2nr
+cat exp/*/decode*/oracle_wer

@@ -4,9 +4,6 @@ A baseline Automatic Speech Recognition system for Polish based on Kaldi.
 
 The scripts and files are based on WSJ Kladi example pulled from the github on Aug, 19. 2016
 
-# WORK IN PROGRESS!!!
-
-
 ## Contacts
 
  * Krzysztof Marasek <kmarasek@pja.edu.pl>
@@ -33,10 +30,30 @@ Open and read run.sh for all the details or simply run the script.
 
 The corpus was contructed from the full studio corpus, where 10% (55) of randomly chosen sessions were held-out for the test set. If you intend to compare your result to this baseline, we recommend not modifying the train/test set.
 
+## LM description
+
+TODO
+
 ## Baseline results
 
-TODO
+```
+%WER 29.68 [ 7773 / 26189, 999 ins, 1682 del, 5092 sub ] exp/mono0/decode/wer_11_0.0
+%WER 17.45 [ 4570 / 26189, 1013 ins, 698 del, 2859 sub ] exp/tri3b/decode.si/wer_17_0.0
+%WER 17.45 [ 4570 / 26189, 1013 ins, 698 del, 2859 sub ] exp/tri3b_mmi/decode.si/wer_17_0.0
+%WER 17.45 [ 4570 / 26189, 1013 ins, 698 del, 2859 sub ] exp/tri3b_mmi/decode_wb.si/wer_17_0.0
+%WER 17.18 [ 4498 / 26189, 889 ins, 828 del, 2781 sub ] exp/tri1/decode/wer_17_0.0
+%WER 17.11 [ 4482 / 26189, 1021 ins, 655 del, 2806 sub ] exp/tri3b_20k/decode.si/wer_16_0.0
+%WER 16.28 [ 4263 / 26189, 939 ins, 686 del, 2638 sub ] exp/tri2a/decode/wer_16_0.0
+%WER 15.82 [ 4143 / 26189, 979 ins, 620 del, 2544 sub ] exp/tri2b/decode/wer_16_0.0
+%WER 13.40 [ 3509 / 26189, 1012 ins, 474 del, 2023 sub ] exp/tri3b/decode/wer_18_0.0
+%WER 13.07 [ 3423 / 26189, 928 ins, 516 del, 1979 sub ] exp/tri3b_20k/decode/wer_20_0.0
+%WER 12.59 [ 3296 / 26189, 1048 ins, 412 del, 1836 sub ] exp/tri3b_mmi/decode/wer_14_0.0
+%WER 11.98 [ 3137 / 26189, 973 ins, 419 del, 1745 sub ] exp/tri3b_mmi/decode_wb/wer_14_0.0
+%WER 7.56 [ 1980 / 26189, 700 ins, 289 del, 991 sub ] exp/tri3b_mmi/decode_rs/wer_19_0.5
+```
 
-## LM result
+### Lattice oracle of exp/tri3b_mmi/decode_wb
 
-TODO
+```
+3.30% [ 865 / 26189, 567 insertions, 13 deletions, 285 substitutions ]
+```
