@@ -1,10 +1,16 @@
 from os import listdir
-from os.path import basename, splitext, realpath
+from os.path import basename, splitext, realpath, exists
+import argparse
 import glob
 import codecs
 
 def process(dir,audio):
-	
+
+	if not exists(dir+'/sessions'):
+		print 'You need to have '+dir+' already created!'
+		print 'It needs to contain a sessions file with a list of sessions for that subset!'
+		raise IOError('Missing '+dir+'/sessions')
+
 	with open(dir+'/sessions','r') as f:
 		lines=f.read().splitlines()
 	
@@ -38,5 +44,10 @@ def process(dir,audio):
 	spk_list.close()
 
 
-process('train','../audio')
-process('test','../audio')
+parser = argparse.ArgumentParser(description='Generate files in the train/test subdirs of the data dir: wav.scp, ,text, utt2spk')
+parser.add_argument('audio', help='path to dir with audio files')
+parser.add_argument('data', help='path to data dir')
+args = parser.parse_args()
+
+process(args.data+'/train',args.audio)
+process(args.data+'/test',args.audio)

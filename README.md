@@ -9,10 +9,10 @@ The scripts and files are based on WSJ Kladi example pulled from the github on A
 
 ## Contacts
 
-Krzysztof Marasek <kmarasek@pja.edu.pl>
-Danijel Koržinek <danijel@pja.edu.pl>
-Łukasz Brocki <lucas@pja.eud.pl>
-Krzysztof Wołk <kwolk@pja.edu.pl>
+ * Krzysztof Marasek <kmarasek@pja.edu.pl>
+ * Danijel Koržinek <danijel@pja.edu.pl>
+ * Łukasz Brocki <lucas@pja.eud.pl>
+ * Krzysztof Wołk <kwolk@pja.edu.pl>
 
 ## About the licenses
 

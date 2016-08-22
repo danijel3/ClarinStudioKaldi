@@ -15,24 +15,14 @@ export nj=10 ##number of concurrent processes
 #run some initial data preparation (look at the file for more details):
 local/clarin_pl_data_prep.sh || exit 1;
 
-#prepare the lang directory (with the word lists and initial FSTs)
+#prepare the lang directory
 utils/prepare_lang.sh data/local/dict "<unk>" data/local/lang data/lang || exit 1;
 
-#make G.fst from the toy LM
-( 
-  cat data/local/lm.arpa | \
-    grep -v "<s> <s>" | grep -v "</s> <s>" | grep -v "</s> </s>" | \
-    arpa2fst - | fstprint | utils/eps2disambig.pl | utils/s2eps.pl | \
-    fstcompile --isymbols=data/lang_test/words.txt \
-      --osymbols=data/lang_test/words.txt --keep_isymbols=false \
-      --keep_osymbols=false | \
-    fstrmepsilon > data/lang_test/G.fst
-)
-
-ln -s ../lang_test/G.fst data/lang/G.fst
+#make G.fst
+utils/format_lm.sh data/lang data/local/arpa.lm.gz data/local/dict/lexicon.txt data/lang_test || exit 1;
 
 # Make MFCC features.
-# mfccdir should be some place where you want to store MFCC features (225MB in size)
+# mfccdir should be some place where you want to store MFCC features (~225MB in size)
 mfccdir=feat
 for x in train test ; do 
  steps/make_mfcc.sh --cmd "$train_cmd" --nj $nj \
@@ -45,7 +35,7 @@ steps/train_mono.sh --nj $nj --cmd "$train_cmd" \
   data/train data/lang exp/mono0 || exit 1;
 
 #test Monophone system
-utils/mkgraph.sh --mono data/lang exp/mono0 exp/mono0/graph || exit 1;
+utils/mkgraph.sh --mono data/lang_test exp/mono0 exp/mono0/graph || exit 1;
 steps/decode.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
   exp/mono0/graph data/test exp/mono0/decode || exit 1;
 
@@ -55,10 +45,10 @@ steps/align_si.sh --nj $nj --cmd "$train_cmd" \
 
 #train initial Triphone system
 steps/train_deltas.sh --cmd "$train_cmd" \
-    2000 10000 data/train data/lang exp/mono0_ali exp/tri1 || exit 1;
+    2000 10000 data/train data/lang_test exp/mono0_ali exp/tri1 || exit 1;
 
 #test initial Triphone system
-utils/mkgraph.sh data/lang exp/tri1 exp/tri1/graph || exit 1;
+utils/mkgraph.sh data/lang_test exp/tri1 exp/tri1/graph || exit 1;
 steps/decode.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
   exp/tri1/graph data/test exp/tri1/decode || exit 1;
 
@@ -71,14 +61,14 @@ steps/train_deltas.sh --cmd "$train_cmd" \
   2500 15000 data/train data/lang exp/tri1_ali exp/tri2a || exit 1;
 
 #test tri2a
-utils/mkgraph.sh data/lang exp/tri2a exp/tri2a/graph || exit 1;
+utils/mkgraph.sh data/lang_test exp/tri2a exp/tri2a/graph || exit 1;
 steps/decode.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
   exp/tri2a/graph data/test exp/tri2a/decode || exit 1;
 
 #train tri2b, which is tri2a + LDA
 steps/train_lda_mllt.sh --cmd "$train_cmd" \
    --splice-opts "--left-context=3 --right-context=3" \
-   2500 15000 data/train data/lang exp/tri1_ali exp/tri2b || exit 1;
+   2500 15000 data/train data/lang_test exp/tri1_ali exp/tri2b || exit 1;
 
 #test tri2b
 utils/mkgraph.sh data/lang exp/tri2b exp/tri2b/graph || exit 1;
@@ -96,7 +86,7 @@ steps/train_sat.sh --cmd "$train_cmd" \
   2500 15000 data/train data/lang exp/tri2b_ali exp/tri3b || exit 1;
 
 #test tri3b
-utils/mkgraph.sh data/lang exp/tri3b exp/tri3b/graph || exit 1;
+utils/mkgraph.sh data/lang_test exp/tri3b exp/tri3b/graph || exit 1;
 steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
   exp/tri3b/graph data/test exp/tri3b/decode || exit 1;
 
@@ -125,5 +115,4 @@ steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" --beam 72 \
   exp/tri3b/graph data/test exp/tri3b_mmi/decode || exit 1;
 
 # Getting results [see RESULTS file]
-for x in exp/*/decode*; do [ -d $x ] && grep WER $x/wer_* | utils/best_wer.sh; done
-
+cat exp/*/decode*/scoring_kaldi/best_wer

@@ -17,4 +17,8 @@ rm -f data/local/lm.arpa
 rm -f data/local/vocab_full.txt
 rm -f data/local/dict/lexicon.txt
 rm -f data/local/dict/lexiconp.txt
+find data/train ! -name 'sessions' -type f -exec rm -f {} +
+find data/test ! -name 'sessions' -type f -exec rm -f {} +
+rm -rf data/train/split*
+rm -rf data/test/split*
 echo "Done!"
