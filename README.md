@@ -2,7 +2,7 @@
 
 A baseline Automatic Speech Recognition system for Polish based on Kaldi.
 
-The scripts and files are based on WSJ Kladi example pulled from the github on Aug, 19. 2016
+The scripts and files are based on WSJ Kaldi example pulled from the github on Aug, 19. 2016
 
 ## Contacts
 
@@ -57,4 +57,19 @@ TODO
 
 ```
 3.30% [ 865 / 26189, 567 insertions, 13 deletions, 285 substitutions ]
+```
+
+## NNest results
+
+These take a little bit longer to train and require GPUs (~2.5 hours)
+
+### TDNN setup (nnet3)
+```
+%WER 9.72 [ 2545 / 26189, 792 ins, 406 del, 1347 sub ] exp/nnet3/nnet_tdnn_a/decode/wer_12_0.0
+%WER 6.24 [ 1634 / 26189, 613 ins, 257 del, 764 sub ] exp/nnet3/nnet_tdnn_a/decode_rs/wer_16_0.0
+```
+
+### Oracle of nnet3 lattices
+```
+3.13% [ 598 / 19098, 355 insertions, 23 deletions, 220 substitutions ]
 ```

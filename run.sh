@@ -137,6 +137,14 @@ fi
 #perform rescoring using the large LM in carpa format (much faster than regular arpa)
 ./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/tri3b_mmi/decode_wb exp/tri3b_mmi/decode_rs
 
-# Getting results [see RESULTS file]
+# Getting results
 cat exp/*/decode*/scoring_kaldi/best_wer | sort -k2nr
 cat exp/*/decode*/oracle_wer
+
+
+# NNET - run this only if you have a fast computer with GPUs!
+# ./local_clarin/clarin_tdnn.sh
+# ./steps/oracle_wer.sh data/test data/lang exp/nnet3/nnet_tdnn_a/decode
+# ./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/nnet3/nnet_tdnn_a/decode exp/nnet3/nnet_tdnn_a/decode_rs
+# cat exp/nnet3/nnet_tdnn_a/decode*/scoring_kaldi/best_wer | sort -k2nr
+# cat exp/nnet3/nnet_tdnn_a/decode/oracle_wer
