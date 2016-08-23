@@ -23,10 +23,11 @@ Any other code in the archive is released on the same terms as the majority of t
 
 Obtain Kaldi from http://kaldi-asr.org/
 
-Modify path.sh and run this before use:
-. ./path.sh
+Modify path.sh and possibly cmd.sh.
 
 Open and read run.sh for all the details or simply run the script.
+
+From the begnning, until rescoring tri3b_mmi using the large const-arpa model, it takes about 5 hours to run, with nj=10.
 
 The corpus was contructed from the full studio corpus, where 10% (55) of randomly chosen sessions were held-out for the test set. If you intend to compare your result to this baseline, we recommend not modifying the train/test set.
 

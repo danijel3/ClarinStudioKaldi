@@ -120,6 +120,9 @@ steps/decode_fmllr.sh --nj $nj --cmd "$decode_cmd" \
   --beam 24 --lattice-beam 12 \
   exp/tri3b/graph data/test exp/tri3b_mmi/decode_wb || exit 1;
 
+#compute the oracle on the last decoding result - to see how much is possible using these lattices
+./steps/oracle_wer.sh data/test data/lang exp/tri3b_mmi/decode_wb
+
 #download a large LM (~843MB)
 if [ ! -f data/local/large.arpa.gz ] ; then
 (
@@ -128,11 +131,10 @@ if [ ! -f data/local/large.arpa.gz ] ; then
 )
 fi
 
-#create the CARPA lang dir
+#create the const-arpa lang dir
 ./utils/build_const_arpa_lm.sh data/local/large.arpa.gz data/lang data/lang_carpa
 
-
-#perform the rescoring
+#perform rescoring using the large LM in carpa format (much faster than regular arpa)
 ./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/tri3b_mmi/decode_wb exp/tri3b_mmi/decode_rs
 
 # Getting results [see RESULTS file]
