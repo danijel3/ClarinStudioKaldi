@@ -56,7 +56,7 @@ else
 
     comm -23 $tmp/iv $tmp/vocab > $tmp/oov.list
 
-    grep -f $tmp/oov.list $tmp/counts > $tmp/oov.counts
+    cat $tmp/oov.list  | while read w ; do grep " $w\$" -m 1 $tmp/counts ; done > $tmp/oov.counts 
 
     iv_num=`wc -l < $tmp/iv`
     iv_count=`awk '{sum+=$1} END {print sum}' $tmp/counts`
