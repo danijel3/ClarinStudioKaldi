@@ -36,6 +36,10 @@ echo Removing BOMs from data...
 sed -i 's/\xef\xbb\xbf//g' data/test/text
 sed -i 's/\xef\xbb\xbf//g' data/train/text
 
+echo Removing empty lines...
+python local_clarin/remove_empty.py data/train/text
+python local_clarin/remove_empty.py data/test/text
+
 echo Generating spk2utt...
 utils/utt2spk_to_spk2utt.pl data/train/utt2spk > data/train/spk2utt
 utils/utt2spk_to_spk2utt.pl data/test/utt2spk > data/test/spk2utt
