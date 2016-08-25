@@ -27,15 +27,22 @@ def process(dir,audio):
 			n=splitext(basename(w))[0]
 			p=realpath(w)
 
-			wav_list.write(s+'_'+n+' '+p+'\n')
-			
 			with codecs.open(audio+'/'+s+'/'+n+'.txt','r','utf-8') as f:
 				try:
 					txt_file=f.read().splitlines()[0]
 				except:
-					print('Error in file '+s+'_'+n+'\n')
+					print('WARNING: error in file '+s+'_'+n+'\n')
+					continue
+
+			txt=txt_file.encode('utf-8').replace('\xef\xbb\xbf','')
+
+			if len(txt) == 0:
+				print('WARNING: skipped empty file: '+s+'_'+n)
+				continue
 			
-			text.write(s+'_'+n+' '+txt_file.encode('utf-8')+'\n')
+			wav_list.write(s+'_'+n+' '+p+'\n')
+
+			text.write(s+'_'+n+' '+txt+'\n')
 			
 			spk_list.write(s+'_'+n+' '+s+'\n')
 
