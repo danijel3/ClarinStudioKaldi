@@ -148,3 +148,10 @@ cat exp/*/decode*/oracle_wer
 # ./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/nnet3/nnet_tdnn_a/decode exp/nnet3/nnet_tdnn_a/decode_rs
 # cat exp/nnet3/nnet_tdnn_a/decode*/scoring_kaldi/best_wer | sort -k2nr
 # cat exp/nnet3/nnet_tdnn_a/decode/oracle_wer
+
+# LSTM - this one is even slower to train!
+# ./local_clarin/clarin_lstm.sh
+# ./steps/oracle_wer.sh data/test data/lang exp/nnet3/lstm_ld5/decode
+# ./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/nnet3/lstm_ld5/decode exp/nnet3/lstm_ld5/decode_rs
+# cat exp/nnet3/lstm_ld5/decode*/scoring_kaldi/best_wer | sort -k2nr
+# cat exp/nnet3/lstm_ld5/decode/oracle_wer

@@ -63,13 +63,9 @@ dir=exp/nnet3/lstm
 dir=$dir${affix:+_$affix}
 if [ $label_delay -gt 0 ]; then dir=${dir}_ld$label_delay; fi
 
-local/nnet3/run_ivector_common.sh --stage $stage || exit 1;
+local_clarin/clarin_ivector_common.sh --stage $stage || exit 1;
 
 if [ $stage -le 8 ]; then
-  if [[ $(hostname -f) == *.clsp.jhu.edu ]] && [ ! -d $dir/egs/storage ]; then
-    utils/create_split_dir.pl \
-     /export/b0{3,4,5,6}/$USER/kaldi-data/egs/wsj-$(date +'%m_%d_%H_%M')/s5/$dir/egs/storage $dir/egs/storage
-  fi
 
   steps/nnet3/lstm/train.sh --stage $train_stage \
     --label-delay $label_delay \
@@ -79,7 +75,7 @@ if [ $stage -le 8 ]; then
     --samples-per-iter $samples_per_iter \
     --splice-indexes "$splice_indexes" \
     --feat-type raw \
-    --online-ivector-dir exp/nnet3/ivectors_train_si284 \
+    --online-ivector-dir exp/nnet3/ivectors_train \
     --cmvn-opts "--norm-means=false --norm-vars=false" \
     --initial-effective-lrate $initial_effective_lrate --final-effective-lrate $final_effective_lrate \
     --momentum $momentum \
@@ -94,7 +90,7 @@ if [ $stage -le 8 ]; then
     --chunk-right-context $chunk_right_context \
     --egs-dir "$common_egs_dir" \
     --remove-egs $remove_egs \
-    data/train_si284_hires data/lang exp/tri4b_ali_si284 $dir  || exit 1;
+    data/train_hires data/lang exp/tri3b_ali $dir  || exit 1;
 fi
 
 if [ $stage -le 9 ]; then
@@ -107,21 +103,14 @@ if [ $stage -le 9 ]; then
   if [ -z $frames_per_chunk ]; then
     frames_per_chunk=$chunk_width
   fi
-  for lm_suffix in tgpr bd_tgpr; do
-    graph_dir=exp/tri4b/graph_${lm_suffix}
-    # use already-built graphs
-    for year in eval92 dev93; do
-      (
-      num_jobs=`cat data/test_${year}_hires/utt2spk|cut -d' ' -f2|sort -u|wc -l`
-      steps/nnet3/lstm/decode.sh --nj $num_jobs --cmd "$decode_cmd" \
+  graph_dir=exp/tri3b/graph
+  num_jobs=`cat data/test_hires/utt2spk|cut -d' ' -f2|sort -u|wc -l`
+  steps/nnet3/lstm/decode.sh --nj $num_jobs --cmd "$decode_cmd" \
 	  --extra-left-context $extra_left_context \
 	  --extra-right-context $extra_right_context \
 	  --frames-per-chunk "$frames_per_chunk" \
-	  --online-ivector-dir exp/nnet3/ivectors_test_$year \
-	 $graph_dir data/test_${year}_hires $dir/decode_${lm_suffix}_${year} || exit 1;
-      ) &
-    done
-  done
+	  --online-ivector-dir exp/nnet3/ivectors_test \
+	 $graph_dir data/test_hires $dir/decode || exit 1;
 fi
 
 exit 0;

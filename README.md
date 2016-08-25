@@ -61,7 +61,7 @@ TODO
 
 ## NNest results
 
-These take a little bit longer to train and require GPUs (~2.5 hours)
+These take a little bit longer to train and require GPUs: ~2.5 hours for TDNN and >12 hours for LSTM.
 
 ### TDNN setup (nnet3)
 ```
@@ -72,4 +72,15 @@ These take a little bit longer to train and require GPUs (~2.5 hours)
 ### Oracle of nnet3 lattices
 ```
 3.13% [ 598 / 19098, 355 insertions, 23 deletions, 220 substitutions ]
+```
+
+### LSTM setup
+```
+%WER 9.03 [ 2366 / 26189, 680 ins, 416 del, 1270 sub ] exp/nnet3/lstm_ld5/decode/wer_11_0.0
+%WER 5.85 [ 1531 / 26189, 580 ins, 242 del, 709 sub ] exp/nnet3/lstm_ld5/decode_rs/wer_12_0.0
+```
+
+### Oracle for lstm lattices
+```
+1.92% [ 62 / 3227, 48 insertions, 1 deletions, 13 substitutions ]
 ```
