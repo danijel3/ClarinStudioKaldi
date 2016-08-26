@@ -38,25 +38,25 @@ TODO
 ## Baseline results
 
 ```
-%WER 29.68 [ 7773 / 26189, 999 ins, 1682 del, 5092 sub ] exp/mono0/decode/wer_11_0.0
-%WER 17.45 [ 4570 / 26189, 1013 ins, 698 del, 2859 sub ] exp/tri3b/decode.si/wer_17_0.0
-%WER 17.45 [ 4570 / 26189, 1013 ins, 698 del, 2859 sub ] exp/tri3b_mmi/decode.si/wer_17_0.0
-%WER 17.45 [ 4570 / 26189, 1013 ins, 698 del, 2859 sub ] exp/tri3b_mmi/decode_wb.si/wer_17_0.0
-%WER 17.18 [ 4498 / 26189, 889 ins, 828 del, 2781 sub ] exp/tri1/decode/wer_17_0.0
-%WER 17.11 [ 4482 / 26189, 1021 ins, 655 del, 2806 sub ] exp/tri3b_20k/decode.si/wer_16_0.0
-%WER 16.28 [ 4263 / 26189, 939 ins, 686 del, 2638 sub ] exp/tri2a/decode/wer_16_0.0
-%WER 15.82 [ 4143 / 26189, 979 ins, 620 del, 2544 sub ] exp/tri2b/decode/wer_16_0.0
-%WER 13.40 [ 3509 / 26189, 1012 ins, 474 del, 2023 sub ] exp/tri3b/decode/wer_18_0.0
-%WER 13.07 [ 3423 / 26189, 928 ins, 516 del, 1979 sub ] exp/tri3b_20k/decode/wer_20_0.0
-%WER 12.59 [ 3296 / 26189, 1048 ins, 412 del, 1836 sub ] exp/tri3b_mmi/decode/wer_14_0.0
-%WER 11.98 [ 3137 / 26189, 973 ins, 419 del, 1745 sub ] exp/tri3b_mmi/decode_wb/wer_14_0.0
-%WER 7.56 [ 1980 / 26189, 700 ins, 289 del, 991 sub ] exp/tri3b_mmi/decode_rs/wer_19_0.5
+%WER 30.28 [ 7929 / 26189, 1185 ins, 1532 del, 5212 sub ] exp/mono0/decode/wer_10_0.0
+%WER 17.61 [ 4613 / 26189, 1011 ins, 710 del, 2892 sub ] exp/tri3b/decode.si/wer_17_0.0
+%WER 17.61 [ 4613 / 26189, 1011 ins, 710 del, 2892 sub ] exp/tri3b_mmi/decode.si/wer_17_0.0
+%WER 17.61 [ 4613 / 26189, 1011 ins, 710 del, 2892 sub ] exp/tri3b_mmi/decode_wb.si/wer_17_0.0
+%WER 17.26 [ 4520 / 26189, 1007 ins, 768 del, 2745 sub ] exp/tri1/decode/wer_16_0.0
+%WER 17.19 [ 4501 / 26189, 998 ins, 701 del, 2802 sub ] exp/tri3b_20k/decode.si/wer_17_0.0
+%WER 16.75 [ 4387 / 26189, 1104 ins, 660 del, 2623 sub ] exp/tri2a/decode/wer_15_0.0
+%WER 15.82 [ 4143 / 26189, 990 ins, 657 del, 2496 sub ] exp/tri2b/decode/wer_17_0.0
+%WER 13.69 [ 3584 / 26189, 1041 ins, 529 del, 2014 sub ] exp/tri3b/decode/wer_19_0.0
+%WER 13.43 [ 3516 / 26189, 987 ins, 567 del, 1962 sub ] exp/tri3b_20k/decode/wer_18_0.5
+%WER 13.23 [ 3465 / 26189, 1185 ins, 453 del, 1827 sub ] exp/tri3b_mmi/decode/wer_15_0.0
+%WER 12.38 [ 3242 / 26189, 991 ins, 490 del, 1761 sub ] exp/tri3b_mmi/decode_wb/wer_16_0.0
+%WER 7.69 [ 2015 / 26189, 798 ins, 256 del, 961 sub ] exp/tri3b_mmi/decode_rs/wer_19_0.0
 ```
 
 ### Lattice oracle of exp/tri3b_mmi/decode_wb
 
 ```
-3.30% [ 865 / 26189, 567 insertions, 13 deletions, 285 substitutions ]
+3.27% [ 857 / 26189, 561 insertions, 16 deletions, 280 substitutions ]
 ```
 
 ## NNest results
