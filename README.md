@@ -31,32 +31,25 @@ From the begnning, until rescoring tri3b_mmi using the large const-arpa model, i
 
 The corpus was contructed from the full studio corpus, where 10% (55) of randomly chosen sessions were held-out for the test set. If you intend to compare your result to this baseline, we recommend not modifying the train/test set.
 
-## LM description
-
-TODO
-
 ## Baseline results
 
 ```
-%WER 30.28 [ 7929 / 26189, 1185 ins, 1532 del, 5212 sub ] exp/mono0/decode/wer_10_0.0
-%WER 17.61 [ 4613 / 26189, 1011 ins, 710 del, 2892 sub ] exp/tri3b/decode.si/wer_17_0.0
-%WER 17.61 [ 4613 / 26189, 1011 ins, 710 del, 2892 sub ] exp/tri3b_mmi/decode.si/wer_17_0.0
-%WER 17.61 [ 4613 / 26189, 1011 ins, 710 del, 2892 sub ] exp/tri3b_mmi/decode_wb.si/wer_17_0.0
-%WER 17.26 [ 4520 / 26189, 1007 ins, 768 del, 2745 sub ] exp/tri1/decode/wer_16_0.0
-%WER 17.19 [ 4501 / 26189, 998 ins, 701 del, 2802 sub ] exp/tri3b_20k/decode.si/wer_17_0.0
-%WER 16.75 [ 4387 / 26189, 1104 ins, 660 del, 2623 sub ] exp/tri2a/decode/wer_15_0.0
-%WER 15.82 [ 4143 / 26189, 990 ins, 657 del, 2496 sub ] exp/tri2b/decode/wer_17_0.0
-%WER 13.69 [ 3584 / 26189, 1041 ins, 529 del, 2014 sub ] exp/tri3b/decode/wer_19_0.0
-%WER 13.43 [ 3516 / 26189, 987 ins, 567 del, 1962 sub ] exp/tri3b_20k/decode/wer_18_0.5
-%WER 13.23 [ 3465 / 26189, 1185 ins, 453 del, 1827 sub ] exp/tri3b_mmi/decode/wer_15_0.0
-%WER 12.38 [ 3242 / 26189, 991 ins, 490 del, 1761 sub ] exp/tri3b_mmi/decode_wb/wer_16_0.0
-%WER 7.69 [ 2015 / 26189, 798 ins, 256 del, 961 sub ] exp/tri3b_mmi/decode_rs/wer_19_0.0
+%WER 30.06 [ 7872 / 26189, 1141 ins, 1536 del, 5195 sub ] exp/mono0/decode/wer_10_0.0
+%WER 17.56 [ 4598 / 26189, 1005 ins, 758 del, 2835 sub ] exp/tri1/decode/wer_16_0.0
+%WER 16.75 [ 4387 / 26189, 1068 ins, 659 del, 2660 sub ] exp/tri2a/decode/wer_15_0.0
+%WER 15.75 [ 4125 / 26189, 885 ins, 707 del, 2533 sub ] exp/tri2b/decode/wer_19_0.0
+%WER 13.50 [ 3535 / 26189, 1066 ins, 486 del, 1983 sub ] exp/tri3b/decode/wer_18_0.0
+%WER 13.10 [ 3432 / 26189, 993 ins, 453 del, 1986 sub ] exp/tri3b/decode_sp/wer_18_0.5
+%WER 12.88 [ 3372 / 26189, 976 ins, 459 del, 1937 sub ] exp/tri3b_20k/decode/wer_18_0.5
+%WER 12.41 [ 3251 / 26189, 1099 ins, 344 del, 1808 sub ] exp/tri3b_mmi/decode/wer_13_0.0
+%WER 11.64 [ 3048 / 26189, 969 ins, 364 del, 1715 sub ] exp/tri3b_mmi/decode_wb/wer_14_0.0
+%WER 7.37 [ 1930 / 26189, 752 ins, 204 del, 974 sub ] exp/tri3b_mmi/decode_rs/wer_18_0.0
 ```
 
 ### Lattice oracle of exp/tri3b_mmi/decode_wb
 
 ```
-3.27% [ 857 / 26189, 561 insertions, 16 deletions, 280 substitutions ]
+3.23% [ 847 / 26189, 564 insertions, 18 deletions, 265 substitutions ]
 ```
 
 ## NNest results

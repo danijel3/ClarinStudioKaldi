@@ -1,4 +1,6 @@
-<unk> sil
+!SIL sil
+<unk> spn
+<spn> spn
 a a
 aare a a r e
 ab a b e
