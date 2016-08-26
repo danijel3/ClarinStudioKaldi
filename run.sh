@@ -143,14 +143,15 @@ cat exp/*/decode*/oracle_wer
 
 
 # NNET - run this only if you have a fast computer with GPUs!
-# ./local_clarin/clarin_tdnn.sh
+# ./local_clarin/clarin_ivector_common.sh
+# ./local_clarin/clarin_tdnn.sh --stage 8
 # ./steps/oracle_wer.sh data/test data/lang exp/nnet3/nnet_tdnn_a/decode
 # ./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/nnet3/nnet_tdnn_a/decode exp/nnet3/nnet_tdnn_a/decode_rs
 # cat exp/nnet3/nnet_tdnn_a/decode*/scoring_kaldi/best_wer | sort -k2nr
 # cat exp/nnet3/nnet_tdnn_a/decode/oracle_wer
 
 # LSTM - this one is even slower to train!
-# ./local_clarin/clarin_lstm.sh
+# ./local_clarin/clarin_lstm.sh --stage 8
 # ./steps/oracle_wer.sh data/test data/lang exp/nnet3/lstm_ld5/decode
 # ./steps/lmrescore_const_arpa.sh data/lang_test data/lang_carpa data/test exp/nnet3/lstm_ld5/decode exp/nnet3/lstm_ld5/decode_rs
 # cat exp/nnet3/lstm_ld5/decode*/scoring_kaldi/best_wer | sort -k2nr
