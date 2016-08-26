@@ -65,13 +65,13 @@ These take a little bit longer to train and require GPUs: ~2.5 hours for TDNN an
 
 ### TDNN setup (nnet3)
 ```
-%WER 9.72 [ 2545 / 26189, 792 ins, 406 del, 1347 sub ] exp/nnet3/nnet_tdnn_a/decode/wer_12_0.0
-%WER 6.24 [ 1634 / 26189, 613 ins, 257 del, 764 sub ] exp/nnet3/nnet_tdnn_a/decode_rs/wer_16_0.0
+%WER 9.59 [ 2512 / 26189, 699 ins, 497 del, 1316 sub ] exp/nnet3/nnet_tdnn_a/decode/wer_14_0.0
+%WER 6.11 [ 1601 / 26189, 602 ins, 275 del, 724 sub ] exp/nnet3/nnet_tdnn_a/decode_rs/wer_16_0.0
 ```
 
 ### Oracle of nnet3 lattices
 ```
-3.13% [ 598 / 19098, 355 insertions, 23 deletions, 220 substitutions ]
+3.07% [ 587 / 19098, 354 insertions, 27 deletions, 206 substitutions ]
 ```
 
 ### LSTM setup
