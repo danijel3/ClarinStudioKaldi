@@ -64,7 +64,7 @@ These take a little bit longer to train and require GPUs: ~2.5 hours for TDNN an
 
 ### Oracle of nnet3 lattices
 ```
-2.92% [ 557 / 19098, 353 insertions, 21 deletions, 183 substitutions ]
+2.83% [ 740 / 26189, 485 insertions, 27 deletions, 228 substitutions ]
 ```
 
 ### LSTM setup
@@ -75,5 +75,5 @@ These take a little bit longer to train and require GPUs: ~2.5 hours for TDNN an
 
 ### Oracle for lstm lattices
 ```
-2.26% [ 73 / 3227, 52 insertions, 3 deletions, 18 substitutions ]
+2.61% [ 684 / 26189, 416 insertions, 36 deletions, 232 substitutions ]
 ```
