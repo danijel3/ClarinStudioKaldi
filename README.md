@@ -69,11 +69,11 @@ These take a little bit longer to train and require GPUs: ~2.5 hours for TDNN an
 
 ### LSTM setup
 ```
-%WER 9.03 [ 2366 / 26189, 680 ins, 416 del, 1270 sub ] exp/nnet3/lstm_ld5/decode/wer_11_0.0
-%WER 5.85 [ 1531 / 26189, 580 ins, 242 del, 709 sub ] exp/nnet3/lstm_ld5/decode_rs/wer_12_0.0
+%WER 8.91 [ 2333 / 26189, 687 ins, 393 del, 1253 sub ] exp/nnet3/lstm_ld5/decode/wer_12_0.0
+%WER 5.78 [ 1514 / 26189, 547 ins, 255 del, 712 sub ] exp/nnet3/lstm_ld5/decode_rs/wer_15_0.0
 ```
 
 ### Oracle for lstm lattices
 ```
-1.92% [ 62 / 3227, 48 insertions, 1 deletions, 13 substitutions ]
+2.26% [ 73 / 3227, 52 insertions, 3 deletions, 18 substitutions ]
 ```

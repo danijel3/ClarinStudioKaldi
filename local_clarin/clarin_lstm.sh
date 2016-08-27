@@ -90,7 +90,7 @@ if [ $stage -le 8 ]; then
     --chunk-right-context $chunk_right_context \
     --egs-dir "$common_egs_dir" \
     --remove-egs $remove_egs \
-    data/train_hires data/lang exp/tri3b_ali $dir  || exit 1;
+    data/train_hires data/lang_sp exp/tri3b_ali $dir  || exit 1;
 fi
 
 if [ $stage -le 9 ]; then
@@ -103,7 +103,7 @@ if [ $stage -le 9 ]; then
   if [ -z $frames_per_chunk ]; then
     frames_per_chunk=$chunk_width
   fi
-  graph_dir=exp/tri3b/graph
+  graph_dir=exp/tri3b/graph_sp
   num_jobs=`cat data/test_hires/utt2spk|cut -d' ' -f2|sort -u|wc -l`
   steps/nnet3/lstm/decode.sh --nj $num_jobs --cmd "$decode_cmd" \
 	  --extra-left-context $extra_left_context \
