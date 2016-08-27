@@ -32,6 +32,7 @@ initial_effective_lrate=0.0006
 final_effective_lrate=0.00006
 num_jobs_initial=2
 num_jobs_final=12
+num_jobs_decode=40
 momentum=0.5
 num_chunk_per_minibatch=100
 samples_per_iter=20000
@@ -104,8 +105,7 @@ if [ $stage -le 9 ]; then
     frames_per_chunk=$chunk_width
   fi
   graph_dir=exp/tri3b/graph_sp
-  num_jobs=`cat data/test_hires/utt2spk|cut -d' ' -f2|sort -u|wc -l`
-  steps/nnet3/lstm/decode.sh --nj $num_jobs --cmd "$decode_cmd" \
+  steps/nnet3/decode.sh --nj $num_jobs_decode --cmd "$decode_cmd" \
 	  --extra-left-context $extra_left_context \
 	  --extra-right-context $extra_right_context \
 	  --frames-per-chunk "$frames_per_chunk" \

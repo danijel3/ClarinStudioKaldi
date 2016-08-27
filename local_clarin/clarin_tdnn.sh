@@ -13,6 +13,7 @@
 stage=0
 train_stage=-10
 dir=exp/nnet3/nnet_tdnn_a
+nj=40
 . cmd.sh
 . ./path.sh
 . ./utils/parse_options.sh
@@ -48,7 +49,7 @@ if [ $stage -le 9 ]; then
   # this does offline decoding that should give the same results as the real
   # online decoding.
   graph_dir=exp/tri3b/graph_sp
-  steps/nnet3/decode.sh --nj 8 --cmd "$decode_cmd" \
+  steps/nnet3/decode.sh --nj $nj --cmd "$decode_cmd" \
      --online-ivector-dir exp/nnet3/ivectors_test \
      $graph_dir data/test_hires $dir/decode || exit 1;
 fi
