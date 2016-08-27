@@ -40,14 +40,14 @@ if [ $stage -le 8 ]; then
     --cmd "$decode_cmd" \
     --pnorm-input-dim 2000 \
     --pnorm-output-dim 250 \
-    data/train_hires data/lang exp/tri3b_ali $dir  || exit 1;
+    data/train_hires data/lang_sp exp/tri3b_ali $dir  || exit 1;
 fi
 
 
 if [ $stage -le 9 ]; then
   # this does offline decoding that should give the same results as the real
   # online decoding.
-  graph_dir=exp/tri3b/graph
+  graph_dir=exp/tri3b/graph_sp
   steps/nnet3/decode.sh --nj 8 --cmd "$decode_cmd" \
      --online-ivector-dir exp/nnet3/ivectors_test \
      $graph_dir data/test_hires $dir/decode || exit 1;

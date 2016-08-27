@@ -32,7 +32,7 @@ if [ $stage -le 2 ]; then
   # to train the diag-UBM on top of.  We align the subset data for this purpose.
 
   steps/align_fmllr.sh --nj 40 --cmd "$train_cmd" \
-    data/train_ss data/lang exp/tri3b exp/nnet3/tri3b_ali_ss
+    data/train_ss data/lang_sp exp/tri3b exp/nnet3/tri3b_ali_ss
 fi
 
 if [ $stage -le 3 ]; then
@@ -42,7 +42,7 @@ if [ $stage -le 3 ]; then
   steps/train_lda_mllt.sh --cmd "$train_cmd" --num-iters 13 \
     --realign-iters "" \
     --splice-opts "--left-context=3 --right-context=3" \
-    5000 10000 data/train_ss_hires data/lang \
+    5000 10000 data/train_ss_hires data/lang_sp \
      exp/nnet3/tri3b_ali_ss exp/nnet3/tri5b
 fi
 
