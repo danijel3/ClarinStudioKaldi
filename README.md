@@ -1,37 +1,22 @@
-# ClarinStudioKaldi
+# ClarinStudioKaldi *stressmarks* branch
 
-A baseline Automatic Speech Recognition system for Polish based on Kaldi.
+This branch is an attempt to introduce stressmarks into the lexicon.
 
-The scripts and files are based on WSJ Kaldi example pulled from the github on Aug, 19. 2016
+##
 
-## Contacts
+Files changed driectly:
 
- * Krzysztof Marasek <kmarasek@pja.edu.pl>
- * Danijel Koržinek <danijel@pja.edu.pl>
- * Łukasz Brocki <lucas@pja.eud.pl>
- * Krzysztof Wołk <kwolk@pja.edu.pl>
+  * [data/local/dict/lexicon.txt](data/local/dict/lexicon.txt)
+  * [data/local/dict/nonsilence_phones.txt](data/local/dict/nonsilence_phones.txt)
+  * [data/local/dict/extra_questions.txt](data/local/dict/extra_questions.txt)
 
-## About the licenses
+Files changed indirectly (generated using scripts):
+  * data/local/dict/lexiconp.txt
+  * data/lang\* directories
+  * any model/graph generated using the above
 
-The audio dataset is released under the license terms described in the LICENSE.audio file.
 
-Any code in this archive that is a part of the Kaldi project (http://kaldi-asr.org) and its license terms are described in the individual files.
-
-Any other code in the archive is released on the same terms as the majority of the Kaldi project - the Apache 2.0 License.
-
-## Usage
-
-Obtain Kaldi from http://kaldi-asr.org/
-
-Modify path.sh and possibly cmd.sh.
-
-Open and read run.sh for all the details or simply run the script.
-
-From the begnning, until rescoring tri3b_mmi using the large const-arpa model, it takes about 5 hours to run, with nj=10.
-
-The corpus was contructed from the full studio corpus, where 10% (55) of randomly chosen sessions were held-out for the test set. If you intend to compare your result to this baseline, we recommend not modifying the train/test set.
-
-## Baseline results
+## Baseline results (without stressmarks)
 
 ```
 %WER 30.06 [ 7872 / 26189, 1141 ins, 1536 del, 5195 sub ] exp/mono0/decode/wer_10_0.0
@@ -52,28 +37,27 @@ The corpus was contructed from the full studio corpus, where 10% (55) of randoml
 3.23% [ 847 / 26189, 564 insertions, 18 deletions, 265 substitutions ]
 ```
 
-## NNest results
-
-These take a little bit longer to train and require GPUs: ~2.5 hours for TDNN and >12 hours for LSTM.
-
-### TDNN setup (nnet3)
+## New results (with stressmarks)
 ```
-%WER 9.25 [ 2423 / 26189, 697 ins, 406 del, 1320 sub ] exp/nnet3/nnet_tdnn_a/decode/wer_14_0.0
-%WER 5.91 [ 1549 / 26189, 614 ins, 231 del, 704 sub ] exp/nnet3/nnet_tdnn_a/decode_rs/wer_14_0.5
-```
-
-### Oracle of nnet3 lattices
-```
-2.83% [ 740 / 26189, 485 insertions, 27 deletions, 228 substitutions ]
-```
-
-### LSTM setup
-```
-%WER 8.91 [ 2333 / 26189, 687 ins, 393 del, 1253 sub ] exp/nnet3/lstm_ld5/decode/wer_12_0.0
-%WER 5.78 [ 1514 / 26189, 547 ins, 255 del, 712 sub ] exp/nnet3/lstm_ld5/decode_rs/wer_15_0.0
+%WER 31.26 [ 8187 / 26189, 977 ins, 1833 del, 5377 sub ] exp/mono0/decode/wer_11_0.0
+%WER 17.79 [ 4660 / 26189, 1077 ins, 770 del, 2813 sub ] exp/tri1/decode/wer_16_0.0
+%WER 17.55 [ 4596 / 26189, 1076 ins, 682 del, 2838 sub ] exp/tri3b/decode.si/wer_16_0.0
+%WER 17.09 [ 4475 / 26189, 1079 ins, 602 del, 2794 sub ] exp/tri3b/decode_sp.si/wer_18_0.0
+%WER 17.09 [ 4475 / 26189, 1079 ins, 602 del, 2794 sub ] exp/tri3b_mmi/decode.si/wer_18_0.0
+%WER 17.09 [ 4475 / 26189, 1079 ins, 602 del, 2794 sub ] exp/tri3b_mmi/decode_wb.si/wer_18_0.0
+%WER 16.64 [ 4358 / 26189, 984 ins, 739 del, 2635 sub ] exp/tri2a/decode/wer_17_0.0
+%WER 16.50 [ 4320 / 26189, 1056 ins, 591 del, 2673 sub ] exp/tri3b_20k/decode.si/wer_15_0.5
+%WER 15.77 [ 4129 / 26189, 1023 ins, 622 del, 2484 sub ] exp/tri2b/decode/wer_16_0.0
+%WER 13.53 [ 3543 / 26189, 1017 ins, 532 del, 1994 sub ] exp/tri3b/decode/wer_19_0.0
+%WER 13.20 [ 3458 / 26189, 1057 ins, 446 del, 1955 sub ] exp/tri3b/decode_sp/wer_19_0.0
+%WER 12.88 [ 3372 / 26189, 1055 ins, 420 del, 1897 sub ] exp/tri3b_20k/decode/wer_18_0.0
+%WER 12.36 [ 3238 / 26189, 1044 ins, 403 del, 1791 sub ] exp/tri3b_mmi/decode/wer_15_0.0
+%WER 11.56 [ 3028 / 26189, 894 ins, 438 del, 1696 sub ] exp/tri3b_mmi/decode_wb/wer_16_0.0
+%WER 7.51 [ 1966 / 26189, 773 ins, 231 del, 962 sub ] exp/tri3b_mmi/decode_rs/wer_17_0.5
 ```
 
-### Oracle for lstm lattices
+### Lattice oracle of exp/tri3b_mmi/decode_wb
 ```
-2.61% [ 684 / 26189, 416 insertions, 36 deletions, 232 substitutions ]
+3.35% [ 878 / 26189, 588 insertions, 10 deletions, 280 substitutions ]
 ```
+

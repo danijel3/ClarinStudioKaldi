@@ -1,25 +1,25 @@
-I
+I I*
 S
 Z
-a
+a a*
 b
 d
 dZ
 dz
 dzi
-e
-en
+e e*
+en en*
 f
 g
-i
+i i*
 j
 k
 l
 m
 n
 ni
-o
-on
+o o*
+on on*
 p
 r
 s
@@ -28,7 +28,7 @@ t
 tS
 ts
 tsi
-u
+u u*
 v
 w
 x
