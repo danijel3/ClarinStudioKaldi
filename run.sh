@@ -1,14 +1,19 @@
 #!/bin/bash
 
 . ./path.sh ## set the paths in this file correctly!
-#. ./cmd.sh ## You'll want to change cmd.sh to something that will work on your system.
-           ## This relates to the queue.
+
+# link to scripts from the standard Kaldi distribution
+# we try to use these as much as possible
+ln -s $KALDI_ROOT/egs/wsj/s5/conf
+ln -s $KALDI_ROOT/egs/wsj/s5/local
+ln -s $KALDI_ROOT/egs/wsj/s5/utils
+ln -s $KALDI_ROOT/egs/wsj/s5/steps
 
 # exits script if error occurs anywhere
 # you might not want to do this for interactive shells.
 set -e
 
-#check if the user wants to clean the project
+# check if the user wants to clean the project
 local_clarin/clarin_pl_clean.sh
 
 export nj=40 ##number of concurrent processes
