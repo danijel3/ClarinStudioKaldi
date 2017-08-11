@@ -4,10 +4,10 @@
 
 # link to scripts from the standard Kaldi distribution
 # we try to use these as much as possible
-ln -s $KALDI_ROOT/egs/wsj/s5/conf
-ln -s $KALDI_ROOT/egs/wsj/s5/local
-ln -s $KALDI_ROOT/egs/wsj/s5/utils
-ln -s $KALDI_ROOT/egs/wsj/s5/steps
+if [ ! -f $KALDI_ROOT/egs/wsj/s5/conf ] ; then ln -s $KALDI_ROOT/egs/wsj/s5/conf ; fi
+if [ ! -f $KALDI_ROOT/egs/wsj/s5/local ] ; then ln -s $KALDI_ROOT/egs/wsj/s5/local ; fi
+if [ ! -f $KALDI_ROOT/egs/wsj/s5/utils ] ; then ln -s $KALDI_ROOT/egs/wsj/s5/utils ; fi
+if [ ! -f $KALDI_ROOT/egs/wsj/s5/steps ] ; then ln -s $KALDI_ROOT/egs/wsj/s5/steps ; fi
 
 # exits script if error occurs anywhere
 # you might not want to do this for interactive shells.
