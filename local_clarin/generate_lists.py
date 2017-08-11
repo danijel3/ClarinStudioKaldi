@@ -1,33 +1,28 @@
-from os import listdir
-from os.path import basename, splitext, realpath, exists
+from os import listdir, makedirs
+from os.path import basename, splitext, realpath, exists, join
 import argparse
 import glob
 import codecs
 
-def process(dir,audio):
+def process(dir,audio,sessfile):
 
 	dir = realpath(dir)
-	if not exists(dir+'/sessions'):
-		print 'You need to have '+dir+' already created!'
-		print 'It needs to contain a sessions file with a list of sessions for that subset!'
-		raise IOError('Missing '+dir+'/sessions')
-
-	with open(dir+'/sessions','r') as f:
+	
+	with open(sessfile,'r') as f:
 		lines=f.read().splitlines()
 	
-	wav_list=open(dir+'/wav.scp','w')
-	text=open(dir+'/text','w')
-	spk_list=open(dir+'/utt2spk','w')
+	wav_list=open(join(dir,'wav.scp'),'w')
+	text=open(join(dir,'text'),'w')
+	spk_list=open(join(dir,'utt2spk'),'w')
 	for s in lines:
-		
+
 		wav_files=sorted(glob.glob(audio+'/'+s+'/*.wav'))
-		
-	
+
 		for w in wav_files: 
 			n=splitext(basename(w))[0]
 			p=realpath(w)
 
-			with codecs.open(audio+'/'+s+'/'+n+'.txt','r','utf-8') as f:
+			with codecs.open(join(audio,s,n+'.txt'),'r','utf-8') as f:
 				try:
 					txt_file=f.read().splitlines()[0]
 				except:
@@ -55,7 +50,12 @@ def process(dir,audio):
 parser = argparse.ArgumentParser(description='Generate files in the train/test subdirs of the data dir: wav.scp, ,text, utt2spk')
 parser.add_argument('audio', help='path to dir with audio files')
 parser.add_argument('data', help='path to data dir')
+parser.add_argument('sessions', help='path to dir containing sessions files')
 args = parser.parse_args()
 
-process(args.data+'/train',args.audio)
-process(args.data+'/test',args.audio)
+if not exists(join(args.data,'train')):
+	makedirs(join(args.data,'train'))
+if not exists(join(args.data,'test')):
+	makedirs(join(args.data,'test'))
+process(join(args.data,'train'),args.audio,join(args.sessions,'train.sessions'))
+process(join(args.data,'test'),args.audio,join(args.sessions,'test.sessions'))
