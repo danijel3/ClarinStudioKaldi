@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -n "Would you like to clean everything all the experiments in this project? (type yes): "
+echo -n "Would you like to clean all the data and experiments in this project? (type yes): "
 read f
 if [[ "$f" != "yes" ]] ; then
 	echo "Exitting..."
