@@ -218,7 +218,7 @@ if [ $stage -le 16 ]; then
     --trainer.num-epochs=4 \
     --trainer.frames-per-iter=3000000 \
     --trainer.optimization.num-jobs-initial=2 \
-    --trainer.optimization.num-jobs-final=3 \
+    --trainer.optimization.num-jobs-final=6 \
     --trainer.optimization.initial-effective-lrate=0.001 \
     --trainer.optimization.final-effective-lrate=0.0001 \
     --trainer.optimization.shrink-value=1.0 \
