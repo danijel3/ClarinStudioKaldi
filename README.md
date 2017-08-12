@@ -27,53 +27,62 @@ Modify path.sh and possibly cmd.sh.
 
 Open and read run.sh for all the details or simply run the script.
 
-From the begnning, until rescoring tri3b_mmi using the large const-arpa model, it takes about 5 hours to run, with nj=10.
-
 The corpus was contructed from the full studio corpus, where 10% (55) of randomly chosen sessions were held-out for the test set. If you intend to compare your result to this baseline, we recommend not modifying the train/test set.
 
 ## Baseline results
 
-```
-%WER 30.06 [ 7872 / 26189, 1141 ins, 1536 del, 5195 sub ] exp/mono0/decode/wer_10_0.0
-%WER 17.56 [ 4598 / 26189, 1005 ins, 758 del, 2835 sub ] exp/tri1/decode/wer_16_0.0
-%WER 16.75 [ 4387 / 26189, 1068 ins, 659 del, 2660 sub ] exp/tri2a/decode/wer_15_0.0
-%WER 15.75 [ 4125 / 26189, 885 ins, 707 del, 2533 sub ] exp/tri2b/decode/wer_19_0.0
-%WER 13.50 [ 3535 / 26189, 1066 ins, 486 del, 1983 sub ] exp/tri3b/decode/wer_18_0.0
-%WER 13.10 [ 3432 / 26189, 993 ins, 453 del, 1986 sub ] exp/tri3b/decode_sp/wer_18_0.5
-%WER 12.88 [ 3372 / 26189, 976 ins, 459 del, 1937 sub ] exp/tri3b_20k/decode/wer_18_0.5
-%WER 12.41 [ 3251 / 26189, 1099 ins, 344 del, 1808 sub ] exp/tri3b_mmi/decode/wer_13_0.0
-%WER 11.64 [ 3048 / 26189, 969 ins, 364 del, 1715 sub ] exp/tri3b_mmi/decode_wb/wer_14_0.0
-%WER 7.37 [ 1930 / 26189, 752 ins, 204 del, 974 sub ] exp/tri3b_mmi/decode_rs/wer_18_0.0
-```
+``
+%WER 30.20 [ 7909 / 26189, 1189 ins, 1480 del, 5240 sub ] exp/mono0/decode/wer_10_0.0
+%WER 17.79 [ 4658 / 26189, 1095 ins, 757 del, 2806 sub ] exp/tri1/decode/wer_16_0.0
+%WER 17.69 [ 4632 / 26189, 1088 ins, 651 del, 2893 sub ] exp/tri3b/decode_nosp.si/wer_16_0.0
+%WER 16.97 [ 4445 / 26189, 1139 ins, 526 del, 2780 sub ] exp/tri3b/decode.si/wer_16_0.0
+%WER 16.97 [ 4445 / 26189, 1139 ins, 526 del, 2780 sub ] exp/tri3b_mmi/decode.si/wer_16_0.0
+%WER 16.97 [ 4445 / 26189, 1139 ins, 526 del, 2780 sub ] exp/tri3b_mmi/decode_wb.si/wer_16_0.0
+%WER 16.81 [ 4402 / 26189, 1001 ins, 769 del, 2632 sub ] exp/tri2a/decode/wer_17_0.0
+%WER 15.85 [ 4150 / 26189, 1040 ins, 645 del, 2465 sub ] exp/tri2b/decode/wer_17_0.0
+%WER 13.65 [ 3574 / 26189, 1095 ins, 467 del, 2012 sub ] exp/tri3b/decode_nosp/wer_17_0.0
+%WER 13.02 [ 3410 / 26189, 1007 ins, 447 del, 1956 sub ] exp/tri3b/decode/wer_17_0.5
+%WER 12.31 [ 3225 / 26189, 1035 ins, 364 del, 1826 sub ] exp/tri3b_mmi/decode/wer_15_0.0
+%WER 11.66 [ 3053 / 26189, 942 ins, 376 del, 1735 sub ] exp/tri3b_mmi/decode_wb/wer_15_0.0
+%WER 8.76 [ 2294 / 26189, 771 ins, 356 del, 1167 sub ] exp/nnet3/tdnn1a_sp/decode/wer_14_0.0
+%WER 7.48 [ 1960 / 26189, 755 ins, 231 del, 974 sub ] exp/tri3b_mmi/decode_rs/wer_17_0.5
+%WER 6.88 [ 1801 / 26189, 488 ins, 306 del, 1007 sub ] exp/chain/tdnn1f_sp/decode/wer_10_0.5
+%WER 5.77 [ 1512 / 26189, 586 ins, 259 del, 667 sub ] exp/nnet3/tdnn1a_sp/decode_rs/wer_16_1.0
+%WER 4.36 [ 1143 / 26189, 403 ins, 198 del, 542 sub ] exp/chain/tdnn1f_sp/decode_rs/wer_12_0.0
+``
 
-### Lattice oracle of exp/tri3b_mmi/decode_wb
+### Lattice oracles
 
-```
-3.23% [ 847 / 26189, 564 insertions, 18 deletions, 265 substitutions ]
-```
+``
+exp/tri3b_mmi/decode_wb/oracle_wer: 3.28% [ 858 / 26189, 575 insertions, 14 deletions, 269 substitutions ]
+exp/nnet3/tdnn1a_sp/decode/oracle_wer: 3.01% [ 787 / 26189, 513 insertions, 28 deletions, 246 substitutions ]
+exp/chain/tdnn1f_sp/decode/oracle_wer: 1.56% [ 408 / 26189, 238 insertions, 26 deletions, 144 substitutions ]
 
-## NNest results
+``
 
-These take a little bit longer to train and require GPUs: ~2.5 hours for TDNN and >12 hours for LSTM.
+### Model legend
 
-### TDNN setup (nnet3)
-```
-%WER 9.25 [ 2423 / 26189, 697 ins, 406 del, 1320 sub ] exp/nnet3/nnet_tdnn_a/decode/wer_14_0.0
-%WER 5.91 [ 1549 / 26189, 614 ins, 231 del, 704 sub ] exp/nnet3/nnet_tdnn_a/decode_rs/wer_14_0.5
-```
+  * ``mono0`` - initial monophone model
+  * ``tri1`` - initial triphone model
+  * ``tri2a`` - triphone model retrained on realigned corpus
+  * ``tri2b`` - triphones + context (+/-3 frames) + LDA
+  * ``tri3b(nosp)`` - ``tri2b`` + SAT (fMLLR)
+  * ``tri3b(si)`` - same as tri3b, but without speaker adaptation
+  * ``tri3b`` - tri3b(nosp) but with lexicon rescoring and silence probabilities
+  * ``tri3b_mmi`` - tri3b with MMI discriminative training
+  * ``tri3b_mmi(wb)`` - ``tri3b_mmi`` decoded with a wide beam
+  * ``tri3b_mmi(ts)`` - ``tri3b_mmi(wb)`` rescored with a large LM
+  * ``nnet3`` - regular TDNN
+  * ``nnet3(rs)`` - TDNN rescored with a large LM
+  * ``chain`` - chain TDNN
+  * ``chain(rs)`` chain TDNN rescored with a large LM
 
-### Oracle of nnet3 lattices
-```
-2.83% [ 740 / 26189, 485 insertions, 27 deletions, 228 substitutions ]
-```
+### Training times
 
-### LSTM setup
-```
-%WER 8.91 [ 2333 / 26189, 687 ins, 393 del, 1253 sub ] exp/nnet3/lstm_ld5/decode/wer_12_0.0
-%WER 5.78 [ 1514 / 26189, 547 ins, 255 del, 712 sub ] exp/nnet3/lstm_ld5/decode_rs/wer_15_0.0
-```
+All the experiment from the start (creating the initial MFCC features) to the last GMM based model (``tri3b_mmi/decode_rs``), also including all the decoding steps, took 3 hours and 29 minutes on a double Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz using 40 parallel jobs.
 
-### Oracle for lstm lattices
-```
-2.61% [ 684 / 26189, 416 insertions, 36 deletions, 232 substitutions ]
-```
+The ``nnet3/run_ivectors_common.sh`` script took 35 minuntes to complete on the same CPU settings.
+
+The regular TDNN model took 2 hours 34 minutes on a triple NVIDIA K80 using at most 6 parallel GPU jobs. Decoding on the 40 threads of the CPU took about 5 minutes with an average real-time factor of 1.89 (i.e. almost 2 times slower than real-time).
+
+The chain TDNN took 1 hour 11 minuts on the same GPU settings as above. Decoding on 55 parallel CPU threads took about 2 minutes with an average real-time factor of 1.07 (i.e. almost real-time).
