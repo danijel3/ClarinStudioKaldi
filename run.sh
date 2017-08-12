@@ -138,7 +138,7 @@ fi
 # NNET setups - run the ones below only if you have a fast computer with GPUs!
 
 # Commmon for all of the below:
-./local/nnet3/run_ivector_common.sh --nj 40 --train_set train --test_sets test --gmm tri3b_ali
+./local/nnet3/run_ivector_common.sh --nj $nj --train_set train --test_sets test --gmm tri3b_ali
 
 ./local_clarin/clarin_tdnn.sh --gmm tri3b_ali --stage 10
 steps/nnet3/decode.sh --nj $nj --num-threads 4 --online-ivector-dir exp/nnet3/ivectors_test_hires \
