@@ -31,7 +31,7 @@ The corpus was contructed from the full studio corpus, where 10% (55) of randoml
 
 ## Baseline results
 
-``
+```
 %WER 30.20 [ 7909 / 26189, 1189 ins, 1480 del, 5240 sub ] exp/mono0/decode/wer_10_0.0
 %WER 17.79 [ 4658 / 26189, 1095 ins, 757 del, 2806 sub ] exp/tri1/decode/wer_16_0.0
 %WER 17.69 [ 4632 / 26189, 1088 ins, 651 del, 2893 sub ] exp/tri3b/decode_nosp.si/wer_16_0.0
@@ -49,16 +49,15 @@ The corpus was contructed from the full studio corpus, where 10% (55) of randoml
 %WER 6.88 [ 1801 / 26189, 488 ins, 306 del, 1007 sub ] exp/chain/tdnn1f_sp/decode/wer_10_0.5
 %WER 5.77 [ 1512 / 26189, 586 ins, 259 del, 667 sub ] exp/nnet3/tdnn1a_sp/decode_rs/wer_16_1.0
 %WER 4.36 [ 1143 / 26189, 403 ins, 198 del, 542 sub ] exp/chain/tdnn1f_sp/decode_rs/wer_12_0.0
-``
+```
 
 ### Lattice oracles
 
-``
+```
 exp/tri3b_mmi/decode_wb/oracle_wer: 3.28% [ 858 / 26189, 575 insertions, 14 deletions, 269 substitutions ]
 exp/nnet3/tdnn1a_sp/decode/oracle_wer: 3.01% [ 787 / 26189, 513 insertions, 28 deletions, 246 substitutions ]
 exp/chain/tdnn1f_sp/decode/oracle_wer: 1.56% [ 408 / 26189, 238 insertions, 26 deletions, 144 substitutions ]
-
-``
+```
 
 ### Model legend
 
