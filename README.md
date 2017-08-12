@@ -2,7 +2,7 @@
 
 A baseline Automatic Speech Recognition system for Polish based on Kaldi.
 
-The scripts and files are based on WSJ Kaldi example pulled from the github on Aug, 19. 2016
+The scripts and files are based on WSJ Kaldi example pulled from the github on Aug, 11. 2017
 
 ## Contacts
 
