@@ -10,6 +10,13 @@ The scripts and files are based on WSJ Kaldi example pulled from the github on A
  * Danijel Koržinek <danijel@pja.edu.pl>
  * Łukasz Brocki <lucas@pja.eud.pl>
  * Krzysztof Wołk <kwolk@pja.edu.pl>
+ 
+## Citation
+
+If you use this in your reaserch, please cite this paper:
+
+> *Danijel Koržinek, Krzysztof Marasek, Łukasz Brocki, and Krzysztof Wołk* **Polish read speech corpus for speech tools and services** In Selected papers from the CLARIN Annual Conference 2016, Aix-en-Provence, 26–28 October 2016, CLARIN Common Language Resourcesand Technology Infrastructure, number 136, pages 54–62. LinköpingUniversity Electronic Press, Linköpings universitet, 2017.
+
 
 ## About the licenses
 
