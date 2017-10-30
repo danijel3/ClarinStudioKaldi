@@ -69,7 +69,7 @@ cat $dir/nonsilence_phones.txt | perl -e 'while(<>){ foreach $p (split(" ", $_))
 
 #Transcribe the wordlist
 export LD_LIBRARY_PATH=$KALDI_ROOT/tools/openfst/lib
-phonetisaurus_apply --model local_clarin/model.fst --lexicon local_clarin/lexicon.txt --word_list $word_list -p 0.8 > $dir/lexicon_raw_nosil.txt
+phonetisaurus_apply --model local_clarin/model.fst --lexicon local_clarin/lexicon.txt --word_list $word_list -p 0.8 > $dir/lexicon_raw_nosil.txt || exit 1
 
 sort -u $dir/lexicon_raw_nosil.txt -o $dir/lexicon_raw_nosil.txt
 
