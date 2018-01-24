@@ -17,7 +17,7 @@ else
 		echo "Download doesn't match the one on the server! "
 		echo "Erase the audio.tar.gz file (and audio folder) and run this script again!"
 		exit -1
-	fi
+    fi
 fi
 
 if [ ! -d audio	] ; then
@@ -28,7 +28,6 @@ else
 	echo "Remove the audio dir to extract them again..."
 fi
 popd
-
 
 if [ ! -d data ] ; then mkdir data ; fi
 

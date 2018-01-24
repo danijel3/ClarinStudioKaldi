@@ -27,37 +27,37 @@ Modify path.sh and possibly cmd.sh.
 
 Open and read run.sh for all the details or simply run the script.
 
-The corpus was contructed from the full studio corpus, where 10% (55) of randomly chosen sessions were held-out for the test set. If you intend to compare your result to this baseline, we recommend not modifying the train/test set.
+The corpus was contructed from the full studio corpus, where ~10% (55) of randomly chosen sessions were held-out for the test set. No speaker can be a part of both train and test sets.
+If you intend to compare your result to this baseline, we recommend not modifying the train/test set.
 
 ## Baseline results
 
 ``
-%WER 30.20 [ 7909 / 26189, 1189 ins, 1480 del, 5240 sub ] exp/mono0/decode/wer_10_0.0
-%WER 17.79 [ 4658 / 26189, 1095 ins, 757 del, 2806 sub ] exp/tri1/decode/wer_16_0.0
-%WER 17.69 [ 4632 / 26189, 1088 ins, 651 del, 2893 sub ] exp/tri3b/decode_nosp.si/wer_16_0.0
-%WER 16.97 [ 4445 / 26189, 1139 ins, 526 del, 2780 sub ] exp/tri3b/decode.si/wer_16_0.0
-%WER 16.97 [ 4445 / 26189, 1139 ins, 526 del, 2780 sub ] exp/tri3b_mmi/decode.si/wer_16_0.0
-%WER 16.97 [ 4445 / 26189, 1139 ins, 526 del, 2780 sub ] exp/tri3b_mmi/decode_wb.si/wer_16_0.0
-%WER 16.81 [ 4402 / 26189, 1001 ins, 769 del, 2632 sub ] exp/tri2a/decode/wer_17_0.0
-%WER 15.85 [ 4150 / 26189, 1040 ins, 645 del, 2465 sub ] exp/tri2b/decode/wer_17_0.0
-%WER 13.65 [ 3574 / 26189, 1095 ins, 467 del, 2012 sub ] exp/tri3b/decode_nosp/wer_17_0.0
-%WER 13.02 [ 3410 / 26189, 1007 ins, 447 del, 1956 sub ] exp/tri3b/decode/wer_17_0.5
-%WER 12.31 [ 3225 / 26189, 1035 ins, 364 del, 1826 sub ] exp/tri3b_mmi/decode/wer_15_0.0
-%WER 11.66 [ 3053 / 26189, 942 ins, 376 del, 1735 sub ] exp/tri3b_mmi/decode_wb/wer_15_0.0
-%WER 8.76 [ 2294 / 26189, 771 ins, 356 del, 1167 sub ] exp/nnet3/tdnn1a_sp/decode/wer_14_0.0
-%WER 7.48 [ 1960 / 26189, 755 ins, 231 del, 974 sub ] exp/tri3b_mmi/decode_rs/wer_17_0.5
-%WER 6.88 [ 1801 / 26189, 488 ins, 306 del, 1007 sub ] exp/chain/tdnn1f_sp/decode/wer_10_0.5
-%WER 5.77 [ 1512 / 26189, 586 ins, 259 del, 667 sub ] exp/nnet3/tdnn1a_sp/decode_rs/wer_16_1.0
-%WER 4.36 [ 1143 / 26189, 403 ins, 198 del, 542 sub ] exp/chain/tdnn1f_sp/decode_rs/wer_12_0.0
+%WER 29.90 [ 8684 / 29043, 913 ins, 1868 del, 5903 sub ] exp/mono0/decode/wer_10_0.0
+%WER 16.48 [ 4787 / 29043, 719 ins, 847 del, 3221 sub ] exp/tri3b/decode_nosp.si/wer_16_0.0
+%WER 15.89 [ 4615 / 29043, 750 ins, 767 del, 3098 sub ] exp/tri3b/decode.si/wer_17_0.0
+%WER 15.89 [ 4615 / 29043, 750 ins, 767 del, 3098 sub ] exp/tri3b_mmi/decode.si/wer_17_0.0
+%WER 15.89 [ 4615 / 29043, 750 ins, 767 del, 3098 sub ] exp/tri3b_mmi/decode_wb.si/wer_17_0.0
+%WER 15.88 [ 4613 / 29043, 660 ins, 851 del, 3102 sub ] exp/tri1/decode/wer_15_0.0
+%WER 15.24 [ 4426 / 29043, 672 ins, 795 del, 2959 sub ] exp/tri2a/decode/wer_15_0.0
+%WER 14.75 [ 4285 / 29043, 612 ins, 826 del, 2847 sub ] exp/tri2b/decode/wer_17_0.0
+%WER 12.20 [ 3542 / 29043, 710 ins, 552 del, 2280 sub ] exp/tri3b/decode_nosp/wer_17_0.0
+%WER 11.82 [ 3432 / 29043, 671 ins, 548 del, 2213 sub ] exp/tri3b/decode/wer_17_0.5
+%WER 11.21 [ 3256 / 29043, 728 ins, 520 del, 2008 sub ] exp/tri3b_mmi/decode/wer_15_0.5
+%WER 11.01 [ 3198 / 29043, 674 ins, 597 del, 1927 sub ] exp/tri3b_mmi/decode_wb/wer_17_0.5
+%WER 7.37 [ 2140 / 29043, 381 ins, 416 del, 1343 sub ] exp/nnet3/tdnn1a_sp/decode/wer_13_0.0
+%WER 5.73 [ 1663 / 29043, 182 ins, 378 del, 1103 sub ] exp/chain/tdnn1f_sp/decode/wer_10_1.0
+%WER 5.30 [ 1540 / 29043, 457 ins, 340 del, 743 sub ] exp/tri3b_mmi/decode_rs/wer_17_1.0
+%WER 3.53 [ 1025 / 29043, 262 ins, 229 del, 534 sub ] exp/nnet3/tdnn1a_sp/decode_rs/wer_14_0.0
+%WER 2.45 [ 711 / 29043, 113 ins, 184 del, 414 sub ] exp/chain/tdnn1f_sp/decode_rs/wer_13_0.0
 ``
 
 ### Lattice oracles
 
 ``
-exp/tri3b_mmi/decode_wb/oracle_wer: 3.28% [ 858 / 26189, 575 insertions, 14 deletions, 269 substitutions ]
-exp/nnet3/tdnn1a_sp/decode/oracle_wer: 3.01% [ 787 / 26189, 513 insertions, 28 deletions, 246 substitutions ]
-exp/chain/tdnn1f_sp/decode/oracle_wer: 1.56% [ 408 / 26189, 238 insertions, 26 deletions, 144 substitutions ]
-
+exp/tri3b_mmi/decode_wb/oracle_wer: 2.31% [ 672 / 29043, 330 insertions, 25 deletions, 317 substitutions ]
+exp/nnet3/tdnn1a_sp/decode/oracle_wer: 1.56% [ 453 / 29043, 174 insertions, 36 deletions, 243 substitutions ]
+exp/chain/tdnn1f_sp/decode/oracle_wer: 0.82% [ 237 / 29043, 57 insertions, 25 deletions, 155 substitutions ]
 ``
 
 ### Model legend
@@ -71,7 +71,7 @@ exp/chain/tdnn1f_sp/decode/oracle_wer: 1.56% [ 408 / 26189, 238 insertions, 26 d
   * ``tri3b`` - tri3b(nosp) but with lexicon rescoring and silence probabilities
   * ``tri3b_mmi`` - tri3b with MMI discriminative training
   * ``tri3b_mmi(wb)`` - ``tri3b_mmi`` decoded with a wide beam
-  * ``tri3b_mmi(ts)`` - ``tri3b_mmi(wb)`` rescored with a large LM
+  * ``tri3b_mmi(rs)`` - ``tri3b_mmi(wb)`` rescored with a large LM
   * ``nnet3`` - regular TDNN
   * ``nnet3(rs)`` - TDNN rescored with a large LM
   * ``chain`` - chain TDNN

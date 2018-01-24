@@ -53,7 +53,7 @@ mkdir -p $dir
 # We are adding suffixes _B, _E, _S for beginning, ending, and singleton phones.
 
 # silence phones, one per line.
-(echo sil; echo spn) > $dir/silence_phones.txt
+(echo sil) > $dir/silence_phones.txt
 echo sil > $dir/optional_silence.txt
 
 # nonsilence phones; on each line is a list of phones that correspond
@@ -69,14 +69,14 @@ cat $dir/nonsilence_phones.txt | perl -e 'while(<>){ foreach $p (split(" ", $_))
 
 #Transcribe the wordlist
 export LD_LIBRARY_PATH=$KALDI_ROOT/tools/openfst/lib
-phonetisaurus_apply --model local_clarin/model.fst --lexicon local_clarin/lexicon.txt --word_list $word_list -p 0.8 > $dir/lexicon_raw_nosil.txt
+phonetisaurus-apply --model local_clarin/model.fst --lexicon local_clarin/lexicon.txt --word_list $word_list -p 0.8 > $dir/lexicon_raw_nosil.txt
 
 sort -u $dir/lexicon_raw_nosil.txt -o $dir/lexicon_raw_nosil.txt
 
 # Add the silences, noises etc.
 # the sort | uniq is to remove a duplicated pron.
 # lexicon.txt is without the _B, _E, _S, _I markers.
-(echo -e '!SIL\tsil'; echo -e '<SPOKEN_NOISE>\tspn'; echo -e '<unk>\tspn' ) | \
+(echo -e '<unk>\tsil' ) | \
  cat - $dir/lexicon_raw_nosil.txt | sort -u > $dir/lexicon.txt || exit 1;
 
 # Cleanup

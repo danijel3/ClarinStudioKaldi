@@ -16,6 +16,13 @@ def process(dir,audio,sessfile):
 	spk_list=open(join(dir,'utt2spk'),'w')
 	for s in lines:
 
+		spk_path=join(audio,s,'spk.txt')
+		if exists(spk_path):
+			with codecs.open(spk_path,'r','utf-8') as f:
+				spk=f.read().strip()
+		else:
+			spk=s	
+
 		wav_files=sorted(glob.glob(audio+'/'+s+'/*.wav'))
 
 		for w in wav_files: 
@@ -39,7 +46,7 @@ def process(dir,audio,sessfile):
 
 			text.write(s+'_'+n+' '+txt+'\n')
 			
-			spk_list.write(s+'_'+n+' '+s+'\n')
+			spk_list.write(s+'_'+n+' '+spk+'\n')
 
 	
 	wav_list.close()

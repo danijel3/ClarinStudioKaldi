@@ -27,7 +27,7 @@ nj=30
 
 train_set=train
 test_sets=test
-gmm=tri3b_ali        # this is the source gmm-dir that we'll use for alignments; it
+gmm=tri3b        # this is the source gmm-dir that we'll use for alignments; it
                  # should have alignments for the specified training data.
 num_threads_ubm=40
 nnet3_affix=       # affix for exp dirs, e.g. it was _cleaned in tedlium.
@@ -53,10 +53,10 @@ where "nvcc" is installed.
 EOF
 fi
 
-local/nnet3/run_ivector_common.sh --stage $stage --nj $nj \
-                                  --train-set $train_set --gmm $gmm \
-                                  --num-threads-ubm $num_threads_ubm \
-                                  --nnet3-affix "$nnet3_affix"
+#local/nnet3/run_ivector_common.sh --stage $stage --nj $nj \
+#                                  --train-set $train_set --gmm $gmm \
+#                                  --num-threads-ubm $num_threads_ubm \
+#                                  --nnet3-affix "$nnet3_affix"
 
 
 
@@ -108,10 +108,11 @@ if [ $stage -le 13 ]; then
     --feat.cmvn-opts="--norm-means=false --norm-vars=false" \
     --trainer.srand=$srand \
     --trainer.max-param-change=2.0 \
-    --trainer.num-epochs=3 \
+    --trainer.num-epochs=2 \
     --trainer.samples-per-iter=400000 \
-    --trainer.optimization.num-jobs-initial=2 \
-    --trainer.optimization.num-jobs-final=6 \
+    --trainer.optimization.num-jobs-initial=4 \
+    --trainer.optimization.num-jobs-final=4 \
+    --trainer.num-jobs-compute-prior=4 \
     --trainer.optimization.initial-effective-lrate=0.0015 \
     --trainer.optimization.final-effective-lrate=0.00015 \
     --trainer.optimization.minibatch-size=256,128 \

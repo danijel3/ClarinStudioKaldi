@@ -1,6 +1,4 @@
-!SIL	sil
-<SPOKEN_NOISE>	spn
-<UNK>	spn
+<unk>	sil
 a	a
 aare	a a r e
 ab	a b
@@ -152,6 +150,7 @@ adaptacji	a d a p t a ts j i
 adaptacyjne	a d a p t a ts I j n e
 adaptery	a d a p t e r I
 adaptuje	a d a p t u j e
+adartystą	a d a r t I s t o m
 adekwatne	a d e k f a t n e
 adekwatnej	a d e k f a t n e j
 adekwatnie	a d e k f a t ni e
@@ -346,6 +345,7 @@ aisis	a j i si i s
 ajudahu	a j u d a x u
 ak	a k
 ak	a k a
+aka	a k a
 akaakowin	a k a a k o v i n
 akademia	a k a d e m j a
 akademickich	a k a d e m i ts k i x
@@ -358,6 +358,7 @@ akademii	a k a d e m j i
 akademikiem	a k a d e m i k j e m
 akademików	a k a d e m i k u f
 akademików	a k a d e m i k u v
+akademilków	a k a d e m i l k u v
 akapicie	a k a p i tsi e
 akapit	a k a p i t
 akapitach	a k a p i t a x
@@ -433,6 +434,7 @@ akowców	a k o f ts u f
 akowców	a k o f ts u v
 akowców	a k o v ts u f
 akowców	a k o v ts u v
+akowin	a k o v i n
 akredytacji	a k r e d I t a ts i
 akredytacji	a k r e d I t a ts j i
 akredytacyjny	a k r e d I t a ts I j n I
@@ -443,12 +445,14 @@ akrę	a k r e
 akrę	a k r en
 aksamitne	a k s a m i t n e
 aksamitnym	a k s a m i t n I m
+aksel	a k s e l
 aksjomat	a k s j o m a t
 aksjomatyki	a k s j o m a t I k i
 aksjomatów	a k s j o m a t u f
 aksjomatów	a k s j o m a t u v
 aksonów	a k s o n u f
 aksonów	a k s o n u v
+aksymalną	a k s I m a l n o m
 akt	a k t
 akta	a k t a
 aktach	a k t a x
@@ -680,6 +684,7 @@ aluzyjny	a l u z I j n I
 alvaro	a l v a r o
 amanda	a m a n d a
 amant	a m a n t
+amarantową	a m a r a n t o v o m
 amarntową	a m a r n t o v o m
 amarntową	a m a r n t o v on
 amatorom	a m a t o r o m
@@ -740,6 +745,7 @@ amerykańskiej	a m e r I k a ni s k j e j
 amerykańskiemu	a m e r I k a ni s k j e m u
 amerykańskim	a m e r I k a ni s k i m
 amerykańskimi	a m e r I k a ni s k i m i
+amerykańsko	a m e r I k a ni s k o
 amerykańskorosyjskich	a m e r I k a ni s k o r o s I j s k i x
 amerykańską	a m e r I k a ni s k o m
 amerykańską	a m e r I k a ni s k on
@@ -765,6 +771,7 @@ amok	a m o k
 amoku	a m o k u
 amolu	a m o l u
 amoralni	a m o r a l ni i
+amortyzacyjny	a m o r t I z a ts I j n I
 amortyzacyjnych	a m o r t I z a ts I j n I x
 amortyzował	a m o r t I z o v a w
 amplitudach	a m p l i t u d a x
@@ -897,6 +904,7 @@ angażując	a n g a Z u j on ts
 angeles	a n g e l e s
 angeli	a n dZ e l i
 angeli	a n g e l i
+angelowie	a n g e l o v j e
 angielska	a n g j e l s k a
 angielski	a n g j e l s k i
 angielskich	a n g j e l s k i x
@@ -1602,6 +1610,7 @@ audycji	a w d I ts i
 audycji	a w d I ts j i
 audyt	a u d I t
 audyt	a w d I t
+audytor	a w d I t o r
 audytorium	a u d I t o r j u m
 audytorium	a w d I t o r j u m
 augustowa	a u g u s t o v a
@@ -1934,6 +1943,7 @@ awaryjność	a v a r I j n o si tsi
 awatara	a v a t a r a
 awersji	a v e r s i
 awersji	a v e r s j i
+awinion	a v i ni j o n
 awinionu	a v i ni o n u
 awiwie	a v i v j e
 awiwu	a v i v u
@@ -2096,6 +2106,7 @@ bajkę	b a j k en
 bajor	b a j o r
 bajorem	b a j o r e m
 bajzel	b a j z e l
+bakamo	b a k a m o
 bakerom	b a k e r o m
 bako	b a k o
 bakowska	b a k o f s k a
@@ -2478,6 +2489,7 @@ bałtyk	b a w t I k
 bałtykiem	b a w t I k j e m
 bałtyku	b a w t I k u
 bały	b a w I
+bałym	b a w I m
 bańce	b a ni ts e
 bańka	b a ni k a
 bańkę	b a ni k e
@@ -2522,6 +2534,7 @@ belgradowi	b e l g r a d o v i
 belgradu	b e l g r a d u
 belgradzie	b e l g r a dzi e
 belize	b e l i z e
+beliśmy	b e l i si m I
 belka	b e l k a
 belkami	b e l k a m i
 belki	b e l k i
@@ -3204,6 +3217,7 @@ bieganina	b j e g a ni i n a
 biegać	b j e g a tsi
 biegał	b j e g a w
 biegała	b j e g a w a
+biegałaś	b j e g a w a si
 biegi	b j e g i
 biegiem	b j e g j e m
 biegle	b j e g l e
@@ -3348,6 +3362,7 @@ biletów	b i l e t u v
 bili	b i l i
 bilu	b i l u
 bimber	b i m b e r
+binasik	b i n a si i k
 bingo	b i n g o
 biochemicznych	b j o x e m i tS n I x
 biodra	b j o d r a
@@ -3364,6 +3379,7 @@ biografię	b j o g r a f j en
 biolodzy	b j o l o dz I
 biologia	b j o l o g j a
 biologiczna	b j o l o g i tS n a
+biologicznej	b j o l o g i tS n e j
 biologicznie	b j o l o g i tS ni e
 biologicznych	b j o l o g i tS n I x
 biologią	b j o l o g j o m
@@ -3400,6 +3416,7 @@ birkenau	b i r k e n a u
 birkenau	b i r k e n a w
 birłukin	b i r w u k i n
 bis	b i s
+biserowa	b i s e r o v a
 biskup	b i s k u p
 biskupa	b i s k u p a
 biskupi	b i s k u p i
@@ -3902,6 +3919,7 @@ borowiny	b o r o v i n I
 borowskiego	b o r o f s k j e g o
 borowskiego	b o r o v s k j e g o
 boru	b o r u
+borusewicz	b o r u s e v i tS
 borusiewicza	b o r u si e v i tS a
 borussia	b o r u s si a
 borussii	b o r u s si i
@@ -4409,6 +4427,7 @@ budynku	b u d I n k u
 budynków	b u d I n k u f
 budynków	b u d I n k u v
 budzeni	b u dz e ni i
+budzenia	b u dz e ni j a
 budzenie	b u dz e ni e
 budzenie	b u dz e ni j e
 budzi	b u dzi i
@@ -4585,6 +4604,7 @@ butelek	b u t e l e k
 butelka	b u t e l k a
 butelkach	b u t e l k a x
 butelki	b u t e l k i
+butelkowane	b u t e l k o v a n e
 butelkowaną	b u t e l k o v a n o m
 butelkowaną	b u t e l k o v a n on
 butelkowe	b u t e l k o v e
@@ -4845,6 +4865,7 @@ błaszczykowski	b w a S tS I k o v s k i
 bławat	b w a v a t
 błazna	b w a z n a
 błocie	b w o tsi e
+błocista	b w o tsi i s t a
 błocka	b w o ts k a
 błogie	b w o g j e
 błogosławi	b w o g o s w a v i
@@ -5860,6 +5881,7 @@ chłód	x w u t
 ci	tsi i
 ciacha	tsi a x a
 ciacho	tsi a x o
+cianicia	tsi a ni i tsi a
 ciarki	tsi a r k i
 ciasne	tsi a s n e
 ciasnego	tsi a s n e g o
@@ -6439,6 +6461,7 @@ coraz	ts o r a z
 coroczne	ts o r o tS n e
 corocznie	ts o r o tS ni e
 corocznym	ts o r o tS n I m
+cos	k o s
 cotygodniowe	ts o t I g o d ni o v e
 cotygodniowych	ts o t I g o d ni o v I x
 country	k a n t r I
@@ -6677,6 +6700,7 @@ czarnomorskim	tS a r n o m o r s k i m
 czarnosecinnym	tS a r n o s e tsi i n n I m
 czarnowiejską	tS a r n o v j e j s k o m
 czarnowiejską	tS a r n o v j e j s k on
+czarnościennym	tS a r n o si tsi e n n I m
 czarnuszka	tS a r n u S k a
 czarny	tS a r n I
 czarnych	tS a r n I x
@@ -6738,6 +6762,7 @@ czcią	tS tsi o m
 czcią	tS tsi on
 czczenie	tS tS e ni e
 czczenie	tS tS e ni j e
+cze	tS e
 czech	tS e x
 czechach	tS e x a x
 czechami	tS e x a m i
@@ -6844,6 +6869,7 @@ czerwieniąc	tS e r v j e ni j o n ts
 czerwieniąc	tS e r v j e ni o n ts
 czerwieniąc	tS e r v j e ni on ts
 czerwień	tS e r v j e ni
+czerwieńsi	tS e r v j e ni si i
 czerwiński	tS e r v i ni s k i
 czerwona	tS e r v o n a
 czerwone	tS e r v o n e
@@ -6877,6 +6903,7 @@ cześnikiem	tS e si ni i k j e m
 cześć	tS e si tsi
 cziczerin	tS i tS e r i n
 czile	tS i l e
+czip	tS i p
 czipsach	tS i p s a x
 czipsy	tS i p s I
 czkawki	tS k a f k i
@@ -7110,6 +7137,7 @@ czynione	tS I ni j o n e
 czynione	tS I ni o n e
 czynionych	tS I ni j o n I x
 czynionych	tS I ni o n I x
+czynionym	tS I ni j o n I m
 czynią	tS I ni j o m
 czynią	tS I ni j on
 czynią	tS I ni on
@@ -7384,6 +7412,7 @@ dadaistów	d a d a j i s t u f
 dadaistów	d a d a j i s t u v
 dadzą	d a dz o m
 dadzą	d a dz on
+daewo	d a e v o
 daewoo	d e w u
 dagmar	d a g m a r
 dahomeju	d a x o m e j u
@@ -7439,6 +7468,7 @@ daleką	d a l e k on
 dali	d a l i
 dalmacji	d a l m a ts i
 dalmacji	d a l m a ts j i
+dalsz	d a l S
 dalsza	d a l S a
 dalsze	d a l S e
 dalszego	d a l S e g o
@@ -7625,6 +7655,7 @@ dań	d a ni
 dba	d b a
 dbają	d b a j o m
 dbają	d b a j on
+dbających	d b a j o n ts I x
 dbającychabywszyscymnielubili	d b a j o n ts I x a b I f S I s ts I m ni e l u b i l i
 dbającychabywszyscymnielubili	d b a j o n ts I x a b I v S I s ts I m ni e l u b i l i
 dbającychabywszyscymnielubili	d b a j on ts I x a b I f S I s ts I m ni e l u b i l i
@@ -7984,6 +8015,7 @@ destrukcji	d e s t r u k ts j i
 destrukcyjna	d e s t r u k ts I j n a
 destrukcyjnie	d e s t r u k ts I j ni e
 destruktywnej	d e s t r u k t I v n e j
+deswande	d e s f a n d e
 deswanden	d e s f a n d e n
 deszcz	d e S tS
 deszczach	d e S tS a x
@@ -8106,6 +8138,7 @@ diety	d j e t I
 dietę	d j e t e
 dietę	d j e t en
 dika	d i k a
+dilerskiego	d i l e r s k j e g o
 dilerzy	d i l e Z I
 dilerów	d i l e r u f
 dilerów	d i l e r u v
@@ -8593,6 +8626,7 @@ dokładają	d o k w a d a j on
 dokładać	d o k w a d a tsi
 dokładna	d o k w a d n a
 dokładne	d o k w a d n e
+dokładnego	d o k w a d n e g o
 dokładnej	d o k w a d n e j
 dokładnie	d o k w a d ni e
 dokładniej	d o k w a d ni e j
@@ -9301,6 +9335,7 @@ dotarł	d o t a r w
 dotarła	d o t a r w a
 dotarłem	d o t a r w e m
 dotarło	d o t a r w o
+dotchnięcie	d o t x ni e ni tsi e
 dotkliwe	d o t k l i v e
 dotkliwie	d o t k l i v j e
 dotkliwiej	d o t k l i v j e j
@@ -9469,6 +9504,7 @@ dowiódł	d o v j u d w
 dowiódł	d o v j u t
 dowlokłem	d o v l o k w e m
 downa	d o v n a
+dowo	d o v o
 dowodach	d o v o d a x
 dowodem	d o v o d e m
 dowodowe	d o v o d o v e
@@ -9606,6 +9642,7 @@ dołączył	d o w o n tS I w
 dołączył	d o w on tS I w
 doń	d o ni
 dońskich	d o ni s k i x
+doś	d o si
 doświadcza	d o si f j a d tS a
 doświadcza	d o si f j a t tS a
 doświadczają	d o si f j a d tS a j o m
@@ -9895,6 +9932,7 @@ drumond	d r u m o n t
 drutem	d r u t e m
 drutu	d r u t u
 druty	d r u t I
+drużyn	d r u Z I n
 drużyna	d r u Z I n a
 drużynie	d r u Z I ni e
 drużynie	d r u Z I ni j e
@@ -10229,6 +10267,7 @@ dwójkę	d v u j k e
 dwójkę	d v u j k en
 dwóm	d v u m
 dwór	d v u r
+dy	d I
 dydaktyczne	d I d a k t I tS n e
 dydaktycznych	d I d a k t I tS n I x
 dydaktyczną	d I d a k t I tS n o m
@@ -10315,6 +10354,7 @@ dyplomaci	d I p l o m a tsi i
 dyplomacja	d I p l o m a ts j a
 dyplomacji	d I p l o m a ts i
 dyplomacji	d I p l o m a ts j i
+dyplomastyczne	d I p l o m a s t I tS n e
 dyplomata	d I p l o m a t a
 dyplomatyczne	d I p l o m a t I tS n e
 dyplomatycznie	d I p l o m a t I tS ni e
@@ -10827,6 +10867,7 @@ dziesięcinę	dzi e si e ni tsi i n e
 dziesięcinę	dzi e si e ni tsi i n en
 dziesięcinę	dzi e si en tsi i n e
 dziesięcinę	dzi e si en tsi i n en
+dziesięcio	dzi e si e ni tsi o
 dziesięciodniowym	dzi e si e ni tsi o d ni o v I m
 dziesięciodniowym	dzi e si en tsi o d ni o v I m
 dziesięciogodzinny	dzi e si e ni tsi o g o dzi i n n I
@@ -11207,6 +11248,7 @@ dłonią	d w o ni o m
 dłonią	d w o ni on
 dłoń	d w o ni
 dłońmi	d w o ni m i
+dłu	d w u
 dłubaniny	d w u b a ni i n I
 dłubał	d w u b a w
 dług	d w u g
@@ -11489,6 +11531,7 @@ egzemplarz	e g z e m p l a S
 egzemplarz	e g z e m p l a Z
 egzemplarze	e g z e m p l a Z e
 egzemplarzy	e g z e m p l a Z I
+egzinu	e g z i n u
 egzotyczna	e g z o t I tS n a
 egzotyczne	e g z o t I tS n e
 egzotycznego	e g z o t I tS n e g o
@@ -11513,6 +11556,7 @@ eisdorf	e j i s d o r f
 eisdorf	e j i z d o r f
 ej	e j
 ejlacie	e j l a tsi e
+ek	e k
 ekierowca	e k j e r o f ts a
 ekip	e k i p
 ekipa	e k i p a
@@ -11618,6 +11662,7 @@ eksperymentujesz	e k s p e r I m e n t u j e S
 eksperymenty	e k s p e r I m e n t I
 eksperymentów	e k s p e r I m e n t u f
 eksperymentów	e k s p e r I m e n t u v
+ekspirli	e k s p i r l i
 eksplikacji	e k s p l i k a ts i
 eksploatacji	e k s p l o a t a ts i
 eksploatacji	e k s p l o a t a ts j i
@@ -11659,6 +11704,7 @@ ekspresowo	e k s p r e s o v o
 ekspresowych	e k s p r e s o v I x
 ekspress	e k s p r e s
 ekspress	e k s p r e s s
+ekspresso	e k s p r e s s o
 ekspresyjnym	e k s p r e s I j n I m
 ekstatycznej	e k s t a t I tS n e j
 ekstazie	e k s t a zi e
@@ -11709,6 +11755,7 @@ eleganckim	e l e g a n ts k i m
 eleganckimi	e l e g a n ts k i m i
 elegię	e l e g j e
 elegię	e l e g j en
+elegnickie	e l e g ni i ts k j e
 elei	e l e i
 elei	e l e j i
 elekt	e l e k t
@@ -11892,6 +11939,7 @@ endecji	e n d e ts j i
 endeckie	e n d e ts k j e
 endecką	e n d e ts k o m
 endecką	e n d e ts k on
+endencki	e n d e n ts k i
 endorfiny	e n d o r f i n I
 endywią	e n d I v j o m
 endywią	e n d I v j on
@@ -11941,6 +11989,7 @@ ententa	e n t e n t a
 ententy	e n t e n t I
 ententę	e n t e n t e
 ententę	e n t e n t en
+enteny	e n t e n I
 entuzjastycznie	e n t u z j a s t I tS ni e
 entuzjastyczny	e n t u z j a s t I tS n I
 entuzjastycznych	e n t u z j a s t I tS n I x
@@ -12047,6 +12096,7 @@ esman	e s m a n
 esperalem	e s p e r a l e m
 espresso	e s p r e s o
 espresso	e s p r e s s o
+essalaam	e s a l a a m
 esta	e s t a
 estakad	e s t a k a d
 estakad	e s t a k a t
@@ -12110,6 +12160,7 @@ etycznych	e t I tS n I x
 etycznym	e t I tS n I m
 etyka	e t I k a
 etyki	e t I k i
+etykietą	e t I k j e t o m
 etyką	e t I k o m
 etyką	e t I k on
 etykę	e t I k e
@@ -12224,6 +12275,7 @@ ewaluacyjna	e v a l u a ts I j n a
 ewaluacyjna	e v a l u w a ts I j n a
 ewaluacyjnej	e v a l u a ts I j n e j
 ewaluacyjnej	e v a l u w a ts I j n e j
+ewangelia	e v a n g e l j a
 ewangelicka	e v a n g e l i ts k a
 ewangeliczne	e v a n g e l i tS n e
 ewangelii	e v a n g e l i
@@ -12286,6 +12338,7 @@ ezoterycznego	e z o t e r I tS n e g o
 eł	e w
 ełku	e w k u
 eże	e Z e
+fa	f a
 fabian	f a b j a n
 fabiański	f a b j a ni s k i
 fabryce	f a b r I ts e
@@ -13603,6 +13656,7 @@ gdynianie	g d I ni a ni e
 gdynianie	g d I ni a ni j e
 gdynianie	g d I ni j a ni e
 gdynianie	g d I ni j a ni j e
+gdyńsko	g d I ni s k o
 gdyńskosłupskim	g d I ni s k o s w u p s k i m
 gdyśmy	g d I si m I
 gdyż	g d I S
@@ -13620,6 +13674,7 @@ gebhard	g e b x a r d
 gebhard	g e b x a r t
 gebhard	g e p x a r d
 gebhard	g e p x a r t
+gego	g e g o
 gehennę	g e x e n n e
 gehennę	g e x e n n en
 geja	g e j a
@@ -13720,6 +13775,7 @@ geograficznych	g e o g r a f i tS n I x
 geografię	g e o g r a f j e
 geografię	g e o g r a f j en
 geologia	g e o l o g j a
+geologiczna	g e o l o g i tS n a
 geologiczny	g e o l o g i tS n I
 geologicznych	g e o l o g i tS n I x
 geologiczną	g e o l o g i tS n o m
@@ -13736,6 +13792,7 @@ geometryczną	g e o m e t r I tS n o m
 geometryczną	g e o m e t r I tS n on
 geopolityka	g e o p o l i t I k a
 gerejowi	g e r e j o v i
+gerenalnego	g e r e n a l n e g o
 germanie	g e r m a ni e
 germanie	g e r m a ni j e
 germanowie	g e r m a n o v j e
@@ -13863,6 +13920,7 @@ giętkości	g j en t k o si tsi i
 giętkość	g j e n t k o si tsi
 giętkość	g j en t k o si tsi
 giżycka	g i Z I ts k a
+glac	g l a ts
 gladiatorem	g l a d j a t o r e m
 gladioli	g l a d j o l i
 glanc	g l a n ts
@@ -13896,6 +13954,7 @@ gliną	g l i n o m
 gliną	g l i n on
 gliwic	g l i v i ts
 gliwiczanin	g l i v i tS a ni i n
+glob	g l o b
 globach	g l o b a x
 globalizacja	g l o b a l i z a ts j a
 globalne	g l o b a l n e
@@ -14626,6 +14685,7 @@ gruncie	g r u ni tsi e
 grunt	g r u n t
 gruntach	g r u n t a x
 gruntowe	g r u n t o v e
+gruntowej	g r u n t o v e j
 gruntownego	g r u n t o v n e g o
 gruntownej	g r u n t o v n e j
 gruntownie	g r u n t o v ni e
@@ -14785,8 +14845,10 @@ grą	g r o m
 grą	g r on
 grę	g r e
 grę	g r en
+guantum	g u a n t u m
 gubernator	g u b e r n a t o r
 gubernatora	g u b e r n a t o r a
+gubernatorem	g u b e r n a t o r e m
 gubi	g u b i
 gubienie	g u b j e ni e
 gubienie	g u b j e ni j e
@@ -14921,6 +14983,7 @@ gwinejskiej	g v i n e j s k j e j
 gwizd	g v i z d
 gwizd	g v i z t
 gwizdała	g v i z d a w a
+gwizdałam	g v i z d a w a m
 gwizdem	g v i z d e m
 gwizdkiem	g v i s t k j e m
 gwizdkiem	g v i z d k j e m
@@ -14935,6 +14998,7 @@ gwożdżenie	g v o Z dZ e ni e
 gwożdżenie	g v o Z dZ e ni j e
 gwóźdź	g v u zi dzi
 gwóźdź	g v u zi tsi
+gwóźdźiółka	g v u zi dzi j u w k a
 gzyms	g z I m s
 gór	g u r
 góra	g u r a
@@ -15498,6 +15562,7 @@ harmonogramu	x a r m o n o g r a m u
 harrachovie	x a r a x o v j e
 harrachovie	x a r r a x o v j e
 hartem	x a r t e m
+harvard	x a r v a r d
 harvarda	x a r v a r d a
 harvardzie	x a r v a r dzi e
 haseł	x a s e w
@@ -15604,6 +15669,7 @@ herberta	x e r b e r t a
 herbie	x e r b j e
 herbu	x e r b u
 herby	x e r b I
+hercel	x e r ts e l
 herezji	x e r e z i
 herezji	x e r e z j i
 herlinga	x e r l i n g a
@@ -15875,6 +15941,7 @@ hortino	x o r t i n o
 horyzoncie	x o r I z o n tsi e
 horyzoncie	x o r I z o ni tsi e
 horyzont	x o r I z o n t
+horyzontalna	x o r I z o n t a l n a
 horyzontalnaczyli	x o r I z o n t a l n a tS I l i
 horyzontami	x o r I z o n t a m i
 horyzontem	x o r I z o n t e m
@@ -15992,6 +16059,8 @@ ibrahimowem	i b r a x i m o v e m
 ibrahimowie	i b r a x i m o v j e
 ibuprofen	i b u p r o f e n
 ich	i x
+ichni	i x ni i
+ichs	a j k s
 idea	i d e a
 idealisty	i d e a l i s t I
 idealistyczną	i d e a l i s t I tS n o m
@@ -16289,6 +16358,7 @@ impulsów	i m p u l s u v
 imputujesz	i m p u t u j e S
 imputują	i m p u t u j o m
 imputują	i m p u t u j on
+imunitetu	i m u ni i t e t u
 imć	i m tsi
 in	i n
 inaczej	i n a tS e j
@@ -16360,6 +16430,7 @@ indywidualną	i n d I v i d u w a l n on
 indywiduum	i n d I v i d u u m
 indziej	i n dzi e j
 indziej	i ni dzi e j
+inf	i n f
 infekcja	i n f e k ts j a
 infekcjami	i n f e k ts j a m i
 infekcji	i n f e k ts i
@@ -16582,6 +16653,7 @@ insynuacje	i n s I n u a ts j e
 insynuacje	i n s I n u w a ts j e
 insynuować	i n s I n u o v a tsi
 insynuować	i n s I n u w o v a tsi
+int	i n t
 integracja	i n t e g r a ts j a
 integracji	i n t e g r a ts i
 integracji	i n t e g r a ts j i
@@ -16846,6 +16918,7 @@ inwentaryzowanie	i n v e n t a r I z o v a ni j e
 inwentarz	i n v e n t a S
 inwentarz	i n v e n t a Z
 inwentarza	i n v e n t a Z a
+inwestments	i n v e s t m e n ts
 inwestor	i n v e s t o r
 inwestorami	i n v e s t o r a m i
 inwestorom	i n v e s t o r o m
@@ -16923,6 +16996,7 @@ irlandzkie	i r l a n dz k j e
 irlandzkie	i r l a n ts k j e
 irlandzkiego	i r l a n dz k j e g o
 irlandzkiego	i r l a n ts k j e g o
+irona	i r o n a
 ironia	i r o ni a
 ironia	i r o ni j a
 ironiczny	i r o ni i tS n I
@@ -17024,6 +17098,7 @@ istotę	i s t o t e
 istotę	i s t o t en
 istrii	i s t r i
 istrii	i s t r j i
+iszkoła	i S k o w a
 italii	i t a l i
 italii	i t a l j i
 itepe	i t e p e
@@ -17033,6 +17108,7 @@ iwana	i v a n a
 iwaszkiewicz	i v a S k j e v i tS
 iwańczuk	i v a ni tS u k
 iwoniczu	i v o ni i tS u
+iz	i z
 izabela	i z a b e l a
 izb	i z b
 izb	i z p
@@ -17445,6 +17521,7 @@ jaśniała	j a si ni a w a
 jaśnie	j a si ni e
 jaśnieje	j a si ni e j e
 jaśniejsze	j a si ni e j S e
+jaśniejszą	j a si ni e j S o m
 jaźni	j a zi ni i
 je	j e
 jechali	j e x a l i
@@ -17458,6 +17535,7 @@ jeden	j e d e n
 jedenastego	j e d e n a s t e g o
 jedenastej	j e d e n a s t e j
 jedenastka	j e d e n a s t k a
+jedenastm	j e d e n a s t m
 jedenastoosobowa	j e d e n a s t o o s o b o v a
 jedenastu	j e d e n a s t u
 jedenaście	j e d e n a si tsi e
@@ -17470,6 +17548,7 @@ jednakowe	j e d n a k o v e
 jednakowo	j e d n a k o v o
 jednakże	j e d n a g Z e
 jednakże	j e d n a k Z e
+jednastka	j e d n a s t k a
 jedne	j e d n e
 jednego	j e d n e g o
 jednej	j e d n e j
@@ -17697,6 +17776,7 @@ jeździł	j e zi dzi i w
 jeździła	j e zi dzi i w a
 jeździłam	j e zi dzi i w a m
 jeździłby	j e zi dzi i w b I
+jeździłbym	j e zi dzi i w b I m
 jeździłem	j e zi dzi i w e m
 jeździły	j e zi dzi i w I
 jeźdźcy	j e si tsi ts I
@@ -17915,6 +17995,7 @@ języków	j e n z I k u f
 języków	j e n z I k u v
 języków	j en z I k u f
 języków	j en z I k u v
+k	k a
 ka	k a
 kabaretami	k a b a r e t a m i
 kabat	k a b a t
@@ -17990,6 +18071,7 @@ kaganiec	k a g a ni e ts
 kaganiec	k a g a ni j e ts
 kaganki	k a g a n k i
 kagańcowe	k a g a ni ts o v e
+kagiehaem	k a g j e x a e m
 kairu	k a i r u
 kairu	k a j i r u
 kajak	k a j a k
@@ -18214,6 +18296,7 @@ kapitalizm	k a p i t a l i z m
 kapitalizmem	k a p i t a l i z m e m
 kapitalizmu	k a p i t a l i z m u
 kapitalizmy	k a p i t a l i z m I
+kapitalizmów	k a p i t a l i z m u f
 kapitaliści	k a p i t a l i si tsi i
 kapitalnego	k a p i t a l n e g o
 kapitan	k a p i t a n
@@ -18562,6 +18645,7 @@ katolikiem	k a t o l i k j e m
 katolikom	k a t o l i k o m
 katolików	k a t o l i k u f
 katolików	k a t o l i k u v
+katologującym	k a t o l o g u j o n ts I m
 katorżniczej	k a t o r Z ni i tS e j
 katowic	k a t o v i ts
 katowicach	k a t o v i ts a x
@@ -18645,6 +18729,7 @@ kazała	k a z a w a
 kazałem	k a z a w e m
 kazały	k a z a w I
 kazań	k a z a ni
+kaziciela	k a zi i tsi e l a
 kazik	k a zi i k
 kazimierz	k a zi i m j e S
 kazimierz	k a zi i m j e Z
@@ -18677,6 +18762,7 @@ kałwa	k a w v a
 kaśka	k a si k a
 kaźmierczak	k a si m j e r tS a k
 kaźmierczak	k a zi m j e r tS a k
+kaźna	k a zi n a
 kaźni	k a zi ni i
 kaźnia	k a zi ni a
 każda	k a Z d a
@@ -18716,6 +18802,7 @@ kenii	k e ni j i
 kent	k e n t
 kerm	k e r m
 kfor	k f o r
+ki	k i
 kibic	k i b i ts
 kibice	k i b i ts e
 kibicom	k i b i ts o m
@@ -18872,6 +18959,7 @@ kilkadziesiąt	k i l k a dzi e si on t
 kilkakrotnie	k i l k a k r o t ni e
 kilkanaście	k i l k a n a si tsi e
 kilkaset	k i l k a s e t
+kilko	k i l k o
 kilkoma	k i l k o m a
 kilkoro	k i l k o r o
 kilku	k i l k u
@@ -18954,6 +19042,7 @@ kipiącego	k i p j o n ts e g o
 kipiącego	k i p j on ts e g o
 kirgizji	k i r g i z i
 kirgizji	k i r g i z j i
+kisendżer	k i s e n dZ e r
 kisiel	k i si e l
 kisielu	k i si e l u
 kissendżer	k i s e n dZ e r
@@ -18976,6 +19065,7 @@ kiwnięcia	k i v ni j en tsi a
 kiściastych	k i si tsi a s t I x
 kiście	k i si tsi e
 kiść	k i si tsi
+klafoutis	k l a f o u t i s
 klaksonu	k l a k s o n u
 klaksony	k l a k s o n I
 klaką	k l a k o m
@@ -19222,6 +19312,7 @@ kluczą	k l u tS o m
 kluczą	k l u tS on
 klucząc	k l u tS o n ts
 klucząc	k l u tS on ts
+klupczyńskiego	k l u p tS I ni s k j e g o
 kluska	k l u s k a
 kluski	k l u s k i
 klątwą	k l o n t f o m
@@ -19420,6 +19511,7 @@ koktajle	k o k t a j l e
 koktajli	k o k t a j l i
 koków	k o k u f
 koków	k o k u v
+kol	k o l
 kolacja	k o l a ts j a
 kolacji	k o l a ts i
 kolacji	k o l a ts j i
@@ -19734,6 +19826,7 @@ kominka	k o m i n k a
 kominkiem	k o m i n k j e m
 kominku	k o m i n k u
 kominom	k o m i n o m
+kominowy	k o m i n o v I
 kominternu	k o m i n t e r n u
 kominów	k o m i n u f
 kominów	k o m i n u v
@@ -20553,6 +20646,7 @@ koordynującą	k o o r d I n u j o n ts on
 koordynującą	k o o r d I n u j on ts o m
 koordynującą	k o o r d I n u j on ts on
 koorganizatora	k o o r g a ni i z a t o r a
+kop	k o p
 kopacz	k o p a tS
 kopacze	k o p a tS e
 kopaczy	k o p a tS I
@@ -21138,9 +21232,12 @@ krakanie	k r a k a ni j e
 krakovia	k r a k o v j a
 krakovii	k r a k o v i
 krakovii	k r a k o v j i
+krakovię	k r a k o v j e
 krakowa	k r a k o v a
+krakowia	k r a k o v j a
 krakowiacy	k r a k o v j a ts I
 krakowie	k r a k o v j e
+krakowii	k r a k o v j i
 krakowscy	k r a k o f s ts I
 krakowscy	k r a k o v s ts I
 krakowska	k r a k o f s k a
@@ -21223,6 +21320,7 @@ kreacji	k r e a ts i
 kreacji	k r e a ts j i
 kreacją	k r e a ts j o m
 kreacją	k r e a ts j on
+kreakcji	k r e a k ts i
 kreatora	k r e a t o r a
 kreatorze	k r e a t o Z e
 kreatur	k r e a t u r
@@ -21319,6 +21417,7 @@ kristallinum	k r i s t a l l i n u m
 krocie	k r o tsi e
 kroczki	k r o tS k i
 kroczy	k r o tS I
+krof	k r o f
 kroić	k r o i tsi
 kroić	k r o j i tsi
 kroju	k r o j u
@@ -21451,6 +21550,7 @@ kryminogenność	k r I m i n o g e n n o si tsi
 krymscy	k r I m s ts I
 krymskich	k r I m s k i x
 krypt	k r I p t
+kryptomimie	k r I p t o m i m j e
 kryptonim	k r I p t o ni i m
 kryptonimem	k r I p t o ni i m e m
 kryptonimie	k r I p t o ni i m j e
@@ -21572,6 +21672,7 @@ krzysztofa	k S I S t o f a
 krzysztofem	k S I S t o f e m
 krzywda	k S I v d a
 krzywdy	k S I v d I
+krzywdze	k S I v dz e
 krzywdzenie	k S I v dz e ni e
 krzywdzenie	k S I v dz e ni j e
 krzywdzie	k S I v dzi e
@@ -21660,6 +21761,7 @@ króliki	k r u l i k i
 królikiewicz	k r u l i k j e v i tS
 królom	k r u l o m
 królowa	k r u l o v a
+królować	k r u l o v a tsi
 królowe	k r u l o v e
 królowej	k r u l o v e j
 królowi	k r u l o v i
@@ -22160,6 +22262,7 @@ kuglowanie	k u g l o v a ni e
 kuglowanie	k u g l o v a ni j e
 kujaw	k u j a f
 kujaw	k u j a v
+kujawsko	k u j a v s k o
 kujawskopomorskiego	k u j a f s k o p o m o r s k j e g o
 kujawskopomorskiego	k u j a v s k o p o m o r s k j e g o
 kujawy	k u j a v I
@@ -22355,6 +22458,7 @@ kurierem	k u r j e r e m
 kuriozalne	k u r j o z a l n e
 kuriozalny	k u r j o z a l n I
 kurka	k u r k a
+kurkumową	k u r k u m o v o m
 kurkę	k u r k e
 kurkę	k u r k en
 kurlandii	k u r l a n d i
@@ -22527,6 +22631,7 @@ kwestią	k f e s t j o m
 kwestią	k f e s t j on
 kwestię	k f e s t j e
 kwestię	k f e s t j en
+kwia	k f j a
 kwiat	k f j a t
 kwiatach	k f j a t a x
 kwiatowych	k f j a t o v I x
@@ -22566,6 +22671,8 @@ kwotowo	k f o t o v o
 kwoty	k f o t I
 kwotę	k f o t e
 kwotę	k f o t en
+kóliki	k u l i k i
+kóre	k u r e
 kórym	k u r I m
 ków	k u f
 ków	k u v
@@ -22702,6 +22809,7 @@ kłosek	k w o s e k
 kłosków	k w o s k u f
 kłosków	k w o s k u v
 kłosy	k w o s I
+kłubus	k w u b u s
 kłuje	k w u j e
 kły	k w I
 kłócicie	k w u tsi i tsi e
@@ -22753,6 +22861,7 @@ labiryncie	l a b i r I ni tsi e
 labirynt	l a b i r I n t
 labiryntu	l a b i r I n t u
 labirynty	l a b i r I n t I
+labolatorium	l a b o l a t o r j u m
 laboratorium	l a b o r a t o r j u m
 laboratoriów	l a b o r a t o r j u f
 laboratoriów	l a b o r a t o r j u v
@@ -23272,6 +23381,7 @@ liberalny	l i b e r a l n I
 liberalnych	l i b e r a l n I x
 liberalną	l i b e r a l n o m
 liberalną	l i b e r a l n on
+liberatora	l i b e r a t o r a
 liberatowa	l i b e r a t o v a
 liberia	l i b e r j a
 liberii	l i b e r i
@@ -23507,6 +23617,7 @@ lipową	l i p o v o m
 lipową	l i p o v on
 lipski	l i p s k i
 lira	l i r a
+lirika	l i r i k a
 liry	l i r I
 lirycznych	l i r I tS n I x
 liryk	l i r I k
@@ -23649,6 +23760,7 @@ liźnięcie	l i zi ni e ni tsi e
 liźnięcie	l i zi ni en tsi e
 liźnięcie	l i zi ni j en tsi e
 lnianych	l ni a n I x
+lob	l o b
 lobbowania	l o b b o v a ni a
 lobbowania	l o b b o v a ni j a
 lobbowania	l o b o v a ni a
@@ -24271,6 +24383,7 @@ majami	m a j a m i
 majanka	m a j a n k a
 majanko	m a j a n k o
 majcherka	m a j x e r k a
+majdenów	m a j d e n u f
 majestatyczna	m a j e s t a t I tS n a
 majestatyczny	m a j e s t a t I tS n I
 majkel	m a j k e l
@@ -24595,6 +24708,7 @@ mapą	m a p o m
 mapą	m a p on
 mapę	m a p e
 mapę	m a p en
+mar	m a r
 maratończykiem	m a r a t o ni tS I k j e m
 marazmu	m a r a z m u
 marca	m a r ts a
@@ -25039,6 +25153,7 @@ małostkowe	m a w o s t k o v e
 małości	m a w o si tsi i
 małość	m a w o si tsi
 małp	m a w p
+małpo	m a w p o
 małpy	m a w p I
 mały	m a w I
 małych	m a w I x
@@ -25067,6 +25182,7 @@ maści	m a si tsi i
 maślane	m a si l a n e
 maślanki	m a si l a n k i
 maśle	m a si l e
+maźnięcie	m a zi ni j en tsi e
 maźnięcię	m a zi ni e ni tsi e
 maźnięcię	m a zi ni e ni tsi en
 maźnięcię	m a zi ni en tsi e
@@ -25094,6 +25210,7 @@ mecenatu	m e ts e n a t u
 mechaniczna	m e x a ni i tS n a
 mechaniczne	m e x a ni i tS n e
 mechanicznie	m e x a ni i tS ni e
+mechaniczno	m e x a ni i tS n o
 mechanicznobiologicznej	m e x a ni i tS n o b j o l o g i tS n e j
 mechaniczny	m e x a ni i tS n I
 mechanicznych	m e x a ni i tS n I x
@@ -25341,6 +25458,7 @@ metą	m e t o m
 metą	m e t on
 metę	m e t e
 metę	m e t en
+mewa	m e v a
 mewia	m e v j a
 mezopotamię	m e z o p o t a m j e
 mezopotamię	m e z o p o t a m j en
@@ -25413,6 +25531,7 @@ miała	m j a w a
 miałaby	m j a w a b I
 miałabym	m j a w a b I m
 miałam	m j a w a m
+miałał	m j a w a w
 miałaś	m j a w a si
 miałby	m j a w b I
 miałbym	m j a w b I m
@@ -25552,6 +25671,7 @@ mierzyliśmy	m j e Z I l i si m I
 mierzyć	m j e Z I tsi
 mierząc	m j e Z o n ts
 mierząc	m j e Z on ts
+mierzę	m j e Z e
 miesiąc	m j e si o n ts
 miesiąc	m j e si on ts
 miesiąca	m j e si o n ts a
@@ -25763,6 +25883,7 @@ mijały	m i j a w I
 miki	m i k i
 mikołaj	m i k o w a j
 mikołaja	m i k o w a j a
+mikołajczykową	m i k o w a j tS I k o v o m
 mikołajem	m i k o w a j e m
 mikro	m i k r o
 mikroelementów	m i k r o e l e m e n t u f
@@ -26032,6 +26153,7 @@ miskę	m i s k e
 miskę	m i s k en
 misteriów	m i s t e r j u f
 misteriów	m i s t e r j u v
+mistrem	m i s t r e m
 mistrz	m i s t S
 mistrz	m i s tS
 mistrza	m i s t S a
@@ -26517,6 +26639,7 @@ monarchy	m o n a r x I
 monarchów	m o n a r x u f
 monarchów	m o n a r x u v
 monarszej	m o n a r S e j
+monduje	m o n d u j e
 monet	m o n e t
 monetarnej	m o n e t a r n e j
 monety	m o n e t I
@@ -26611,6 +26734,7 @@ moralnego	m o r a l n e g o
 moralnej	m o r a l n e j
 moralni	m o r a l ni i
 moralnie	m o r a l ni e
+moralno	m o r a l n o
 moralnopolitycznym	m o r a l n o p o l i t I tS n I m
 moralnoprawnych	m o r a l n o p r a v n I x
 moralnoprawnym	m o r a l n o p r a v n I m
@@ -26628,6 +26752,7 @@ morałów	m o r a w u v
 mord	m o r d
 mord	m o r t
 mordami	m o r d a m i
+mordasewic	m o r d a s e v i ts
 mordasewiczzubrzycka	m o r d a s e v i dZ z u b Z I ts k a
 mordasewiczzubrzycka	m o r d a s e v i tS z u b Z I ts k a
 morderca	m o r d e r ts a
@@ -26668,6 +26793,7 @@ morenowe	m o r e n o v e
 morgan	m o r g a n
 morowego	m o r o v e g o
 morowym	m o r o v I m
+morron	m o r r o n
 morska	m o r s k a
 morski	m o r s k i
 morskich	m o r s k i x
@@ -26799,6 +26925,7 @@ moździerz	m o zi dzi e S
 moździerz	m o zi dzi e Z
 moździerzach	m o zi dzi e Z a x
 moździerzy	m o zi dzi e Z I
+moż	m o Z
 może	m o Z e
 możecie	m o Z e tsi e
 możemy	m o Z e m I
@@ -26917,6 +27044,7 @@ mundurowymi	m u n d u r o v I m i
 munduru	m u n d u r u
 mundury	m u n d u r I
 mundurze	m u n d u Z e
+mundżahedini	m u n dZ a x e d i ni i
 mur	m u r
 murach	m u r a x
 mural	m u r a l
@@ -26993,11 +27121,13 @@ muszę	m u S en
 mutantów	m u t a n t u f
 mutantów	m u t a n t u v
 mutar	m u t a r
+muz	m u z
 muzea	m u z e a
 muzeach	m u z e a x
 muzealne	m u z e a l n e
 muzealną	m u z e a l n o m
 muzealną	m u z e a l n on
+muzeinów	m u z e i n u f
 muzeum	m u z e u m
 muzeum	m u z e w m
 muzeów	m u z e u f
@@ -27137,6 +27267,7 @@ myślę	m I si l e
 myślę	m I si l en
 myśmy	m I si m I
 móc	m u ts
+móg	m u g
 mógł	m u g
 mógł	m u g w
 mógłby	m u g w b I
@@ -27243,6 +27374,7 @@ mąkę	m on k en
 mąż	m o n S
 mąż	m o n Z
 mąż	m on S
+mę	m en
 męczarniach	m e n tS a r ni a x
 męczarniach	m en tS a r ni a x
 męczarnią	m e n tS a r ni j o m
@@ -27809,6 +27941,7 @@ nadreńskiej	n a d r e ni s k j e j
 nadrobić	n a d r o b i tsi
 nadrobię	n a d r o b j e
 nadrobię	n a d r o b j en
+nadrzenć	n a d Z e ni tsi
 nadrzeć	n a d Z e tsi
 nadrzędnej	n a d Z e n d n e j
 nadrzędnej	n a d Z en d n e j
@@ -27997,6 +28130,7 @@ nagrywanie	n a g r I v a ni e
 nagrywanie	n a g r I v a ni j e
 nagrywaniem	n a g r I v a ni e m
 nagrywaniem	n a g r I v a ni j e m
+nagrywany	n a g r I v a n I
 nagrywał	n a g r I v a w
 nagrzane	n a g Z a n e
 nagrzany	n a g Z a n I
@@ -28038,6 +28172,7 @@ naiwny	n a i v n I
 naiwny	n a j i v n I
 naiwnych	n a i v n I x
 naiwnych	n a j i v n I x
+naj	n a j
 najazdami	n a j a z d a m i
 najazdy	n a j a z d I
 najbardziej	n a j b a r dzi e j
@@ -28188,6 +28323,7 @@ najgłębszym	n a j g w en p S I m
 najistotniejsze	n a j i s t o t ni e j S e
 najistotniejszych	n a j i s t o t ni e j S I x
 najjaśniejsza	n a j j a si ni e j S a
+najjaśniejszej	n a j j a si ni e j S e j
 najjaśniejszych	n a j j a si ni e j S I x
 najjaśniejszą	n a j j a si ni e j S o m
 najjaśniejszą	n a j j a si ni e j S on
@@ -28525,6 +28661,7 @@ nakładanych	n a k w a d a n I x
 nakładać	n a k w a d a tsi
 nakładem	n a k w a d e m
 nakładow	n a k w a d o f
+nakładowy	n a k w a d o v I
 nakłady	n a k w a d I
 nakładów	n a k w a d u f
 nakładów	n a k w a d u v
@@ -29676,6 +29813,7 @@ nazwał	n a z v a w
 nazwałem	n a z v a w e m
 nazwie	n a z v j e
 nazwijmy	n a z v i j m I
+nazwiksk	n a z v i k s k
 nazwisk	n a z v i s k
 nazwiska	n a z v i s k a
 nazwiskiem	n a z v i s k j e m
@@ -30242,9 +30380,11 @@ nielegalne	ni e l e g a l n e
 nielegalnego	ni e l e g a l n e g o
 nielegalnej	ni e l e g a l n e j
 nielegalnych	ni e l e g a l n I x
+nieleganckie	ni e l e g a n ts k j e
 nielegislacyjnych	ni e l e g i s l a ts I j n I x
 nieletnich	ni e l e t ni i x
 nieleśne	ni e l e si n e
+nieli	ni e l i
 nieliczenia	ni e l i tS e ni a
 nieliczenia	ni e l i tS e ni j a
 nieliczne	ni e l i tS n e
@@ -30483,6 +30623,7 @@ niepamiętnych	ni e p a m j en t n I x
 niepamięć	ni e p a m j e ni tsi
 niepamięć	ni e p a m j en tsi
 nieparzystych	ni e p a Z I s t I x
+nieperfumowane	ni e p e r f u m o v a n e
 niepewna	ni e p e v n a
 niepewne	ni e p e v n e
 niepewnej	ni e p e v n e j
@@ -30837,6 +30978,7 @@ niesprzeczności	ni e s p S e tS n o si tsi i
 niesprzeczność	ni e s p S e tS n o si tsi
 niespójność	ni e s p u j n o si tsi
 niespłacane	ni e s p w a ts a n e
+niespłacone	ni e s p w a ts o n e
 niestabilna	ni e s t a b i l n a
 niestabilność	ni e s t a b i l n o si tsi
 niestabilnym	ni e s t a b i l n I m
@@ -31117,6 +31259,7 @@ nieważności	ni e v a Z n o si tsi i
 nieważność	ni e v a Z n o si tsi
 nieważny	ni e v a Z n I
 nieważnych	ni e v a Z n I x
+niewdzenie	ni e v dz e ni e
 niewdzięczne	ni e v dzi e n tS n e
 niewdzięczne	ni e v dzi en tS n e
 nieweryfikowalne	ni e v e r I f i k o v a l n e
@@ -31220,6 +31363,7 @@ niewybaczalnych	ni e v I b a tS a l n I x
 niewyczerpalne	ni e v I tS e r p a l n e
 niewyczerpana	ni e v I tS e r p a n a
 niewyczerpane	ni e v I tS e r p a n e
+niewydająca	ni e v I d a j o n ts a
 niewydolności	ni e v I d o l n o si tsi i
 niewydolną	ni e v I d o l n o m
 niewydolną	ni e v I d o l n on
@@ -31323,10 +31467,12 @@ niezaspokojoną	ni e z a s p o k o j o n o m
 niezaspokojoną	ni e z a s p o k o j o n on
 niezastąpiony	ni e z a s t o m p j o n I
 niezastąpiony	ni e z a s t on p j o n I
+niezastępiony	ni e z a s t e m p j o n I
 niezautoryzowana	ni e z a u t o r I z o v a n a
 niezautoryzowana	ni e z a w t o r I z o v a n a
 niezauważalnie	ni e z a u v a Z a l ni e
 niezauważalnie	ni e z a w v a Z a l ni e
+niezauważalnym	ni e z a w v a Z a l n I m
 niezauważanym	ni e z a u v a Z a n I m
 niezauważanym	ni e z a w v a Z a n I m
 niezauważone	ni e z a u v a Z o n e
@@ -31754,6 +31900,7 @@ nominację	n o m i n a ts j en
 nominalna	n o m i n a l n a
 nominalnej	n o m i n a l n e j
 nominalnie	n o m i n a l ni e
+nominalną	n o m i n a l n o m
 nominałach	n o m i n a w a x
 nominałem	n o m i n a w e m
 nominowani	n o m i n o v a ni i
@@ -31899,6 +32046,7 @@ notujemy	n o t u j e m I
 notę	n o t e
 notę	n o t en
 novum	n o v u m
+now	n o v
 nowa	n o v a
 nowak	n o v a k
 nowaka	n o v a k a
@@ -32428,6 +32576,7 @@ obiadowe	o b j a d o v e
 obiadowej	o b j a d o v e j
 obiadu	o b j a d u
 obiciem	o b i tsi e m
+obidują	o b i d u j o m
 obie	o b j e
 obieca	o b j e ts a
 obiecają	o b j e ts a j o m
@@ -32698,6 +32847,7 @@ obok	o b o k
 obolałych	o b o l a w I x
 obopólnej	o b o p u l n e j
 obory	o b o r I
+obow	o b o f
 obowiązana	o b o v j o n z a n a
 obowiązana	o b o v j on z a n a
 obowiązany	o b o v j o n z a n I
@@ -32871,6 +33021,7 @@ obraźliwym	o b r a zi l i v I m
 obraża	o b r a Z a
 obrażają	o b r a Z a j o m
 obrażają	o b r a Z a j on
+obrażający	o b r a Z a j on ts I
 obrażani	o b r a Z a ni i
 obrażać	o b r a Z a tsi
 obrażał	o b r a Z a w
@@ -32878,6 +33029,7 @@ obrażały	o b r a Z a w I
 obrażenia	o b r a Z e ni a
 obrażenia	o b r a Z e ni j a
 obrażeń	o b r a Z e ni
+obrażliwy	o b r a Z l i v I
 obrażony	o b r a Z o n I
 obrocie	o b r o tsi e
 obrona	o b r o n a
@@ -33134,6 +33286,7 @@ obsiewał	o b si e v a w
 obsiewał	o p si e v a w
 obstalowanych	o b s t a l o v a n I x
 obstalowanych	o p s t a l o v a n I x
+obstalowywali	o p s t a l o v I v a l i
 obstawał	o b s t a v a w
 obstawał	o p s t a v a w
 obstawili	o b s t a v i l i
@@ -33323,6 +33476,7 @@ obydwoje	o b I d v o j e
 obydwoma	o b I d v o m a
 obyty	o b I t I
 obywa	o b I v a
+obywajcie	o b I v a j tsi e
 obywając	o b I v a j o n ts
 obywając	o b I v a j on ts
 obywatel	o b I v a t e l
@@ -33599,6 +33753,7 @@ od	o d
 od	o t
 odarte	o d a r t e
 odarty	o d a r t I
+odasabnianie	o d a s a b ni a ni e
 odbicia	o d b i tsi a
 odbicie	o d b i tsi e
 odbiciu	o d b i tsi u
@@ -33952,6 +34107,7 @@ odczytywanie	o t tS I t I v a ni e
 odczytywanie	o t tS I t I v a ni j e
 odczytywany	o d tS I t I v a n I
 odczytywany	o t tS I t I v a n I
+odczyć	o t tS I tsi
 odda	o d d a
 oddaje	o d d a j e
 oddajesz	o d d a j e S
@@ -33976,6 +34132,7 @@ oddalenia	o d d a l e ni j a
 oddalenie	o d d a l e ni e
 oddalenie	o d d a l e ni j e
 oddali	o d d a l i
+oddaliliśmy	o d d a l i l i si m I
 oddalił	o d d a l i w
 oddaliśmy	o d d a l i si m I
 oddalona	o d d a l o n a
@@ -34171,6 +34328,7 @@ odezwie	o d e z v j e
 odezwą	o d e z v o m
 odezwą	o d e z v on
 odeń	o d e ni
+odfarmalizowanie	o t f a r m a l i z o v a ni e
 odformalizowanie	o d f o r m a l i z o v a ni e
 odformalizowanie	o d f o r m a l i z o v a ni j e
 odformalizowanie	o t f o r m a l i z o v a ni e
@@ -34977,6 +35135,7 @@ odrzuciły	o d Z u tsi i w I
 odrzucona	o d Z u ts o n a
 odrzucone	o d Z u ts o n e
 odrzuconej	o d Z u ts o n e j
+odrzucono	o d Z u ts o n o
 odrzucony	o d Z u ts o n I
 odrzutowce	o d Z u t o f ts e
 odrzutowce	o d Z u t o v ts e
@@ -35467,6 +35626,7 @@ odwiózł	o d v j u z w
 odwlecze	o d v l e tS e
 odwlekając	o d v l e k a j o n ts
 odwlekając	o d v l e k a j on ts
+odwo	o d v o
 odwodnienia	o d v o d ni e ni a
 odwodnienia	o d v o d ni e ni j a
 odwodnionej	o d v o d ni o n e j
@@ -35689,6 +35849,7 @@ ofensywę	o f e n s I v e
 ofensywę	o f e n s I v en
 ofensywę	o f en s I v e
 ofensywę	o f en s I v en
+ofer	o f e r
 ofercie	o f e r tsi e
 oferentami	o f e r e n t a m i
 ofermę	o f e r m e
@@ -35888,6 +36049,7 @@ ogonku	o g o n k u
 ogonowym	o g o n o v I m
 ogony	o g o n I
 ogorek	o g o r e k
+ogra	o g r a
 ogranicza	o g r a ni i tS a
 ograniczają	o g r a ni i tS a j o m
 ograniczają	o g r a ni i tS a j on
@@ -35975,6 +36137,7 @@ ogrzewa	o g Z e v a
 ogrzewają	o g Z e v a j o m
 ogrzewają	o g Z e v a j on
 ogrzewana	o g Z e v a n a
+ogrzewane	o g Z e v a n e
 ogrzewania	o g Z e v a ni a
 ogrzewania	o g Z e v a ni j a
 ogrzewanie	o g Z e v a ni e
@@ -36564,6 +36727,7 @@ oną	o n o m
 oną	o n on
 opad	o p a d
 opad	o p a t
+opada	o p a d a
 opadach	o p a d a x
 opadające	o p a d a j o n ts e
 opadające	o p a d a j on ts e
@@ -36699,6 +36863,7 @@ operujących	o p e r u j on ts I x
 operuję	o p e r u j e
 operuję	o p e r u j en
 opery	o p e r I
+operze	o p e Z e
 opiece	o p j e ts e
 opieczętowany	o p j e tS e n t o v a n I
 opieczętowany	o p j e tS en t o v a n I
@@ -36827,6 +36992,7 @@ opon	o p o n
 oponach	o p o n a x
 oponami	o p o n a m i
 oponent	o p o n e n t
+oponentce	o p o n e n t ts e
 oponentnce	o p o n e n t n ts e
 oponentów	o p o n e n t u f
 oponentów	o p o n e n t u v
@@ -36838,6 +37004,7 @@ oporu	o p o r u
 opory	o p o r I
 oporów	o p o r u f
 oporów	o p o r u v
+opow	o p o f
 opowiada	o p o v j a d a
 opowiadają	o p o v j a d a j o m
 opowiadają	o p o v j a d a j on
@@ -36905,6 +37072,7 @@ opracować	o p r a ts o v a tsi
 opracował	o p r a ts o v a w
 opracowała	o p r a ts o v a w a
 opracowań	o p r a ts o v a ni
+opracowianiu	o p r a ts o v j a ni u
 opracowują	o p r a ts o v u j o m
 opracowują	o p r a ts o v u j on
 opracowując	o p r a ts o v u j o n ts
@@ -36953,6 +37121,7 @@ oprzeć	o p S e tsi
 oprzytomniałem	o p S I t o m ni a w e m
 oprócz	o p r u tS
 opróżniłem	o p r u Z ni i w e m
+ops	o p s
 optimo	o p t i m o
 optyczne	o p t I tS n e
 optyczny	o p t I tS n I
@@ -37110,6 +37279,7 @@ organiczne	o r g a ni i tS n e
 organicznej	o r g a ni i tS n e j
 organiczny	o r g a ni i tS n I
 organicznych	o r g a ni i tS n I x
+organiz	o r g a ni i z
 organizacja	o r g a ni i z a ts j a
 organizacjach	o r g a ni i z a ts j a x
 organizacjami	o r g a ni i z a ts j a m i
@@ -37504,6 +37674,7 @@ oskrzelowopłucną	o s k S e l o v o p w u ts n o m
 oskrzelowopłucną	o s k S e l o v o p w u ts n on
 oslo	o s l o
 osmańskimi	o s m a ni s k i m i
+osnabruk	o s n a b r u k
 osnowę	o s n o v e
 osnowę	o s n o v en
 osob	o s o b
@@ -37593,6 +37764,7 @@ ostatnią	o s t a t ni j o m
 ostatnią	o s t a t ni j on
 ostatnią	o s t a t ni o m
 ostatnią	o s t a t ni on
+ostaty	o s t a t I
 ostentacja	o s t e n t a ts j a
 osterholzer	o s t e r x o l z e r
 ostiepok	o s t j e p o k
@@ -38009,6 +38181,7 @@ otępienie	o t e m p j e ni e
 otępienie	o t e m p j e ni j e
 otępienie	o t en p j e ni e
 otępienie	o t en p j e ni j e
+ouropie	o u r o p j e
 outsourcing	o u t s o u r tsi i n g
 outsourcing	o u t s o u r tsi i n k
 outsourcing	o u ts o u r tsi i n g
@@ -38306,6 +38479,7 @@ ożyć	o Z I tsi
 ożył	o Z I w
 p	p
 p	p e
+pa	p a
 pabianice	p a b j a ni i ts e
 pabie	p a b j e
 pabla	p a b l a
@@ -38802,6 +38976,7 @@ parlamentarzystę	p a r l a m e n t a Z I s t en
 parlamentem	p a r l a m e n t e m
 parlamentowi	p a r l a m e n t o v i
 parlamentu	p a r l a m e n t u
+parli	p a r l i
 parlin	p a r l i n
 parma	p a r m a
 parmą	p a r m o m
@@ -39112,6 +39287,7 @@ pauliną	p a u l i n on
 pauliną	p a w l i n o m
 pauliną	p a w l i n on
 pawelec	p a v e l e ts
+pawell	p a v e l l
 paweł	p a v e w
 pawiaka	p a v j a k a
 pawilon	p a v i l o n
@@ -39217,6 +39393,7 @@ pchnęła	p x n en w a
 pchnęło	p x n e w o
 pchnęło	p x n en w o
 pe	p e
+peape	p e a p e
 pececie	p e ts e tsi e
 pecety	p e ts e t I
 pech	p e x
@@ -40152,6 +40329,7 @@ pięciolatek	p j e ni tsi o l a t e k
 pięciolatek	p j en tsi o l a t e k
 pięcioletni	p j e ni tsi o l e t ni i
 pięcioletni	p j en tsi o l e t ni i
+pięciolitrowym	p j e ni tsi o l i t r o v I m
 pięcioma	p j e ni tsi o m a
 pięcioma	p j en tsi o m a
 pięcioro	p j e ni tsi o r o
@@ -40542,6 +40720,7 @@ platformę	p l a t f o r m e
 platformę	p l a t f o r m en
 platfusom	p l a t f u s o m
 platinim	p l a t i ni i m
+platinum	p l a t i n u m
 plazek	p l a z e k
 plaż	p l a Z
 plaża	p l a Z a
@@ -40591,6 +40770,7 @@ plemnikom	p l e m ni i k o m
 plemników	p l e m ni i k u f
 plemników	p l e m ni i k u v
 plenarnych	p l e n a r n I x
+plenecie	p l e n e tsi e
 plenerowe	p l e n e r o v e
 plewami	p l e v a m i
 plewy	p l e v I
@@ -42882,6 +43062,7 @@ pokrywającej	p o k r I v a j o n ts e j
 pokrywającej	p o k r I v a j on ts e j
 pokrywających	p o k r I v a j o n ts I x
 pokrywających	p o k r I v a j on ts I x
+pokrywającą	p o k r I v a j o n ts o m
 pokrywamy	p o k r I v a m I
 pokrywana	p o k r I v a n a
 pokrywania	p o k r I v a ni a
@@ -43016,6 +43197,7 @@ polegający	p o l e g a j on ts I
 polegających	p o l e g a j o n ts I x
 polegających	p o l e g a j on ts I x
 polegali	p o l e g a l i
+polegar	p o l e g a r
 polegać	p o l e g a tsi
 polegał	p o l e g a w
 polegała	p o l e g a w a
@@ -43085,10 +43267,12 @@ policzone	p o l i tS o n e
 policzyć	p o l i tS I tsi
 policzyła	p o l i tS I w a
 policzyłem	p o l i tS I w e m
+polietonach	p o l j e t o n a x
 polifoniczna	p o l i f o ni i tS n a
 poligraficznej	p o l i g r a f i tS n e j
 poligraficzny	p o l i g r a f i tS n I
 poligraficznych	p o l i g r a f i tS n I x
+polintyką	p o l i n t I k o m
 polisa	p o l i s a
 polisy	p o l i s I
 polisę	p o l i s e
@@ -43185,10 +43369,12 @@ polskiemu	p o l s k j e m u
 polskim	p o l s k i m
 polskimi	p o l s k i m i
 polsko	p o l s k o
+polskoamerykańskie	p o l s k o a m e r I k a ni s k j e
 polskoangielskofrancuskoniemieckorosyjskiego	p o l s k o a n g j e l s k o f r a n ts u s k o ni e m j e ts k o r o s I j s k j e g o
 polskobolszewicka	p o l s k o b o l S e v i ts k a
 polskobolszewickiej	p o l s k o b o l S e v i ts k j e j
 polskofrancuskiego	p o l s k o f r a n ts u s k j e g o
+polskokoreańskie	p o l s k o k o r e a ni s k j e
 polskolitewskie	p o l s k o l i t e f s k j e
 polskolitewskie	p o l s k o l i t e v s k j e
 polskoniemiecki	p o l s k o ni e m j e ts k i
@@ -43202,6 +43388,7 @@ polskoniemieckiej	p o l s k o ni j e m j e ts k j e j
 polskorosyjskich	p o l s k o r o s I j s k i x
 polskoukraińskiego	p o l s k o u k r a i ni s k j e g o
 polskoukraińskiego	p o l s k o u k r a j i ni s k j e g o
+polskowęgierska	p o l s k o v e n g j e r s k a
 polskołotewska	p o l s k o w o t e f s k a
 polskołotewska	p o l s k o w o t e v s k a
 polskości	p o l s k o si tsi i
@@ -43234,6 +43421,7 @@ polą	p o l o m
 polą	p o l on
 polędwice	p o l e n d v i ts e
 polędwice	p o l en d v i ts e
+poma	p o m a
 pomachał	p o m a x a w
 pomaga	p o m a g a
 pomagają	p o m a g a j o m
@@ -43337,6 +43525,7 @@ pomnaża	p o m n a Z a
 pomniejszaniem	p o m ni e j S a ni e m
 pomniejszaniem	p o m ni e j S a ni j e m
 pomniejszone	p o m ni e j S o n e
+pomniejszonych	p o m ni e j S o n I x
 pomniejszonym	p o m ni e j S o n I m
 pomniejszy	p o m ni e j S I
 pomniejszych	p o m ni e j S I x
@@ -43369,6 +43558,7 @@ pomogło	p o m o g w o
 pomogły	p o m o g w I
 pomordowanych	p o m o r d o v a n I x
 pomorska	p o m o r s k a
+pomorskiego	p o m o r s k j e g o
 pomorskim	p o m o r s k i m
 pomoru	p o m o r u
 pomorza	p o m o Z a
@@ -43773,6 +43963,7 @@ poprowadzona	p o p r o v a dz o n a
 poprowadzono	p o p r o v a dz o n o
 poprowadzą	p o p r o v a dz o m
 poprowadzą	p o p r o v a dz on
+poprowadzę	p o p r o v a dz e
 poproś	p o p r o si
 poproście	p o p r o si tsi e
 poprzeczne	p o p S e tS n e
@@ -43961,6 +44152,7 @@ porcję	p o r ts j en
 pordzewiałe	p o r dz e v j a w e
 pornograficzne	p o r n o g r a f i tS n e
 pornograficznych	p o r n o g r a f i tS n I x
+poro	p o r o
 porobię	p o r o b j e
 porobię	p o r o b j en
 porodem	p o r o d e m
@@ -44476,6 +44668,7 @@ postrzeganie	p o s t S e g a ni j e
 postrzeganiu	p o s t S e g a ni u
 postrzegany	p o s t S e g a n I
 postrzeganym	p o s t S e g a n I m
+postrzegać	p o s t S e g a tsi
 postrzegał	p o s t S e g a w
 postrzegały	p o s t S e g a w I
 postulaty	p o s t u l a t I
@@ -44808,6 +45001,7 @@ potockiego	p o t o ts k j e g o
 potocznie	p o t o tS ni e
 potoczny	p o t o tS n I
 potocznym	p o t o tS n I m
+potoczyć	p o t o tS I tsi
 potoczył	p o t o tS I w
 potok	p o t o k
 potoki	p o t o k i
@@ -44867,6 +45061,7 @@ potrawkę	p o t r a v k en
 potrawy	p o t r a v I
 potrawę	p o t r a v e
 potrawę	p o t r a v en
+potrusia	p o t r u si a
 potrwa	p o t r f a
 potrwać	p o t r f a tsi
 potrycjuszów	p o t r I ts j u S u f
@@ -45707,6 +45902,7 @@ powykonawczej	p o v I k o n a v tS e j
 powylegiwać	p o v I l e g i v a tsi
 powymierały	p o v I m j e r a w I
 powyradzały	p o v I r a dz a w I
+powyrównywalnym	p o v I r u v n I v a l n I m
 powysychają	p o v I s I x a j o m
 powysychają	p o v I s I x a j on
 powyżej	p o v I Z e j
@@ -46423,6 +46619,7 @@ pożądała	p o Z o n d a w a
 pożądała	p o Z on d a w a
 pożądań	p o Z o n d a ni
 pożądań	p o Z on d a ni
+pr	p r
 prac	p r a ts
 praca	p r a ts a
 pracach	p r a ts a x
@@ -46448,6 +46645,7 @@ pracodawcę	p r a ts o d a f ts e
 pracodawcę	p r a ts o d a f ts en
 pracodawcę	p r a ts o d a v ts e
 pracodawcę	p r a ts o d a v ts en
+pracodowcami	p r a ts o d o f ts a m i
 pracowali	p r a ts o v a l i
 pracowaliśmy	p r a ts o v a l i si m I
 pracować	p r a ts o v a tsi
@@ -47499,6 +47697,7 @@ prowadzę	p r o v a dz e
 prowadzę	p r o v a dz en
 prowadź	p r o v a dzi
 prowadź	p r o v a tsi
+prowakacji	p r o v a k a ts i
 proweniencja	p r o v e ni e n ts j a
 proweniencja	p r o v e ni j e n ts j a
 proweniencji	p r o v e ni e n ts i
@@ -47892,6 +48091,7 @@ przeciwstawna	p S e tsi i f s t a v n a
 przeciwstawna	p S e tsi i v s t a v n a
 przeciwstawne	p S e tsi i f s t a v n e
 przeciwstawne	p S e tsi i v s t a v n e
+przeciwstawnych	p S e tsi i v s t a v n I x
 przeciwstokowej	p S e tsi i f s t o k o v e j
 przeciwstokowej	p S e tsi i v s t o k o v e j
 przeciwsłoneczne	p S e tsi i f s w o n e tS n e
@@ -48272,6 +48472,7 @@ przedstawiał	p S e ts t a v j a w
 przedstawiało	p S e d s t a v j a w o
 przedstawiało	p S e t s t a v j a w o
 przedstawiało	p S e ts t a v j a w o
+przedstawiałyby	p S e ts t a v j a w I b I
 przedstawiciel	p S e d s t a v i tsi e l
 przedstawiciel	p S e t s t a v i tsi e l
 przedstawiciel	p S e ts t a v i tsi e l
@@ -48374,6 +48575,7 @@ przedstawiły	p S e ts t a v i w I
 przedstawiłyby	p S e d s t a v i w I b I
 przedstawiłyby	p S e t s t a v i w I b I
 przedstawiłyby	p S e ts t a v i w I b I
+przedstępstwem	p S e d s t e m p s t f e m
 przedszkola	p S e d S k o l a
 przedszkola	p S e t S k o l a
 przedszkolaka	p S e d S k o l a k a
@@ -48844,6 +49046,7 @@ przekrętów	p S e k r e n t u f
 przekrętów	p S e k r e n t u v
 przekrętów	p S e k r en t u f
 przekrętów	p S e k r en t u v
+przekszta	p S e k S t a
 przekształca	p S e k S t a w ts a
 przekształcają	p S e k S t a w ts a j o m
 przekształcają	p S e k S t a w ts a j on
@@ -49113,6 +49316,7 @@ przenoszą	p S e n o S o m
 przenoszą	p S e n o S on
 przenośnego	p S e n o si n e g o
 przenośnej	p S e n o si n e j
+przeo	p S e o
 przeobraziło	p S e o b r a zi i w o
 przeobrażenia	p S e o b r a Z e ni a
 przeobrażenia	p S e o b r a Z e ni j a
@@ -49467,6 +49671,7 @@ przestrzeganie	p S e s t S e g a ni e
 przestrzeganie	p S e s t S e g a ni j e
 przestrzegać	p S e s t S e g a tsi
 przestrzegałbym	p S e s t S e g a w b I m
+przestrzegały	p S e s t S e g a w I
 przestrzeni	p S e s t S e ni i
 przestrzeniach	p S e s t S e ni a x
 przestrzeniach	p S e s t S e ni j a x
@@ -49639,6 +49844,7 @@ przesądy	p S e s o n d I
 przesądy	p S e s on d I
 przesądzona	p S e s o n dz o n a
 przesądzona	p S e s on dz o n a
+przesądzoną	p S e s on dz o n o m
 przesądów	p S e s o n d u f
 przesądów	p S e s o n d u v
 przesądów	p S e s on d u f
@@ -49778,6 +49984,7 @@ przewidywał	p S e v i d I v a w
 przewidywała	p S e v i d I v a w a
 przewidzenia	p S e v i dz e ni a
 przewidzenia	p S e v i dz e ni j a
+przewidzenie	p S e v i dz e ni j e
 przewidziana	p S e v i dzi a n a
 przewidziane	p S e v i dzi a n e
 przewidzianej	p S e v i dzi a n e j
@@ -50013,6 +50220,7 @@ prześwietlić	p S e si f j e t l i tsi
 prześwituje	p S e si f i t u j e
 prześwity	p S e si f i t I
 przeźrocze	p S e zi r o tS e
+przeźroczyste	p S e zi r o tS I s t e
 przeżarta	p S e Z a r t a
 przeżuwaczy	p S e Z u v a tS I
 przeżuwania	p S e Z u v a ni a
@@ -50571,6 +50779,7 @@ przylgę	p S I l g e
 przylgę	p S I l g en
 przylotów	p S I l o t u f
 przylotów	p S I l o t u v
+przylutowują	p S I l u t o v u j o m
 przylądka	p S I l o n d k a
 przylądka	p S I l o n t k a
 przylądka	p S I l on d k a
@@ -51276,6 +51485,7 @@ przyznać	p S I z n a tsi
 przyznał	p S I z n a w
 przyznała	p S I z n a w a
 przyznałem	p S I z n a w e m
+przyzwa	p S I z v a
 przyzwalacie	p S I z v a l a tsi e
 przyzwalając	p S I z v a l a j o n ts
 przyzwalając	p S I z v a l a j on ts
@@ -51583,6 +51793,7 @@ ptaszki	p t a S k i
 ptaszków	p t a S k u f
 ptaszków	p t a S k u v
 ptocent	p t o ts e n t
+pu	p u
 public	p a b l i k
 public	p u b l i ts
 publicysta	p u b l i ts I s t a
@@ -51717,6 +51928,7 @@ pustelnika	p u s t e l ni i k a
 pustelnikami	p u s t e l ni i k a m i
 pustka	p u s t k a
 pustki	p u s t k i
+pustko	p u s t k o
 pustkowiach	p u s t k o v j a x
 pustkowiu	p u s t k o v j u
 pustką	p u s t k o m
@@ -51797,6 +52009,7 @@ pułkownik	p u w k o v ni i k
 pułkownika	p u w k o v ni i k a
 pułkowniku	p u w k o v ni i k u
 pułtusk	p u w t u s k
+pułtusku	p u w t u s k u
 puścili	p u si tsi i l i
 puścić	p u si tsi i tsi
 puścił	p u si tsi i w
@@ -51859,6 +52072,7 @@ pyłki	p I w k i
 pyłu	p I w u
 pójdzie	p u j dzi e
 pójdziemy	p u j dzi e m I
+pójdziesz	p u j dzi e S
 pójdą	p u j d o m
 pójdą	p u j d on
 pójdę	p u j d e
@@ -51870,6 +52084,7 @@ póki	p u k i
 pól	p u l
 pómoc	p u m o ts
 pór	p u r
+póz	p u z
 pół	p u w
 półanalfabeta	p u w a n a l f a b e t a
 półanalfabetów	p u w a n a l f a b e t u f
@@ -51959,6 +52174,7 @@ półsnu	p u w s n u
 półsprzęgle	p u w s p S e n g l e
 półsprzęgle	p u w s p S en g l e
 półszlachetnych	p u w S l a x e t n I x
+półszwed	p u w S f e t
 półtora	p u w t o r a
 półtorej	p u w t o r e j
 półuśmieszki	p u w u si m j e S k i
@@ -52699,6 +52915,7 @@ raźniej	r a zi ni e j
 raźny	r a zi n I
 rażenia	r a Z e ni a
 rażenia	r a Z e ni j a
+rażny	r a Z n I
 rażony	r a Z o n I
 rażąc	r a Z o n ts
 rażąc	r a Z on ts
@@ -53395,6 +53612,7 @@ rewelacji	r e v e l a ts i
 rewelacji	r e v e l a ts j i
 rewelację	r e v e l a ts j e
 rewelację	r e v e l a ts j en
+rewelacyjne	r e v e l a ts I j n e
 rewelacyjnie	r e v e l a ts I j ni e
 rewelacyjny	r e v e l a ts I j n I
 rewidenta	r e v i d e n t a
@@ -53842,6 +54060,7 @@ rosnąć	r o s n on tsi
 rospudy	r o s p u d I
 rossiego	r o s si e g o
 rosy	r o s I
+rosyjs	r o s I j s
 rosyjska	r o s I j s k a
 rosyjski	r o s I j s k i
 rosyjskich	r o s I j s k i x
@@ -53862,6 +54081,7 @@ roszczeniami	r o S tS e ni j a m i
 roszczenie	r o S tS e ni e
 roszczenie	r o S tS e ni j e
 roszczeń	r o S tS e ni
+roszczącą	r o S tS o n ts o m
 roszkowski	r o S k o f s k i
 roszkowski	r o S k o v s k i
 rosła	r o s w a
@@ -53898,6 +54118,7 @@ rowki	r o v k i
 rownież	r o v ni e S
 rownież	r o v ni e Z
 rowu	r o v u
+roz	r o s
 rozbawionego	r o s b a v j o n e g o
 rozbawionego	r o z b a v j o n e g o
 rozbawionych	r o s b a v j o n I x
@@ -54290,6 +54511,7 @@ rozgniewanie	r o z g ni e v a ni j e
 rozgniewać	r o z g ni e v a tsi
 rozgoniona	r o z g o ni j o n a
 rozgoniona	r o z g o ni o n a
+rozgonioną	r o z g o ni o n o m
 rozgoryczenia	r o z g o r I tS e ni a
 rozgoryczenia	r o z g o r I tS e ni j a
 rozgoryczenie	r o z g o r I tS e ni e
@@ -55617,6 +55839,7 @@ rozwiały	r o z v j a w I
 rozwibrowane	r o z v i b r o v a n e
 rozwibrowaną	r o z v i b r o v a n o m
 rozwibrowaną	r o z v i b r o v a n on
+rozwiedzenie	r o z v j e dz e ni j e
 rozwiera	r o z v j e r a
 rozwierały	r o z v j e r a w I
 rozwieszone	r o z v j e S o n e
@@ -56043,6 +56266,7 @@ ruś	r u si
 rwało	r v a w o
 rwą	r v o m
 rwą	r v on
+ry	r I
 ryb	r I b
 ryb	r I p
 ryba	r I b a
@@ -56142,6 +56366,7 @@ rynków	r I n k u f
 rynków	r I n k u v
 rynny	r I n n I
 rynsztokami	r I n S t o k a m i
+rynsztoku	r I n S t o k u
 rynsztoków	r I n S t o k u f
 rynsztoków	r I n S t o k u v
 rynsztunku	r I n S t u n k u
@@ -56784,6 +57009,8 @@ rękę	r e n k e
 rękę	r e n k en
 rękę	r en k e
 rękę	r en k en
+s	s
+sa	s a
 saaba	s a a b a
 sabotażu	s a b o t a Z u
 sabotaży	s a b o t a Z I
@@ -56807,12 +57034,14 @@ sadów	s a d u f
 sadów	s a d u v
 sadło	s a d w o
 safanduły	s a f a n d u w I
+sag	s a g
 sagenit	s a g e ni i t
 sahary	s a x a r I
 saharze	s a x a Z e
 sahel	s a x e l
 sahelu	s a x e l u
 sahlu	s a x l u
+sajensfikszyn	s a j en s f i k S I n
 sajgonu	s a j g o n u
 sakralnych	s a k r a l n I x
 sakramentu	s a k r a m e n t u
@@ -56889,6 +57118,7 @@ samobójczej	s a m o b u j tS e j
 samobójczym	s a m o b u j tS I m
 samobójców	s a m o b u j ts u f
 samobójców	s a m o b u j ts u v
+samobójcę	s a m o b u j ts e
 samobójstw	s a m o b u j s t f
 samobójstwa	s a m o b u j s t f a
 samobójstwo	s a m o b u j s t f o
@@ -57108,6 +57338,7 @@ sanoka	s a n o k a
 sanskryckich	s a n s k r I ts k i x
 sanskryckie	s a n s k r I ts k j e
 santa	s a n t a
+sanu	s a n u
 sap	s a p
 sapania	s a p a ni a
 sapania	s a p a ni j a
@@ -57407,6 +57638,7 @@ sekretu	s e k r e t u
 sekrety	s e k r e t I
 seks	s e k s
 seksafery	s e k s a f e r I
+seksem	s e k s e m
 seksowi	s e k s o v i
 seksowna	s e k s o v n a
 sekstelefonów	s e k s t e l e f o n u f
@@ -57674,6 +57906,7 @@ setnej	s e t n e j
 sexem	s e k s e m
 sexualnych	s e k s u a l n I x
 sexualnych	s e k s u w a l n I x
+seza	s e z a
 sezon	s e z o n
 sezonem	s e z o n e m
 sezonie	s e z o ni e
@@ -57703,6 +57936,7 @@ sfinansowana	s f i n a n s o v a n a
 sfinansować	s f i n a n s o v a tsi
 sfingowanej	s f i n g o v a n e j
 sformowali	s f o r m o v a l i
+sformu	s f o r m u
 sformułowania	s f o r m u w o v a ni a
 sformułowania	s f o r m u w o v a ni j a
 sformułowaniach	s f o r m u w o v a ni a x
@@ -57746,6 +57980,7 @@ siatkę	si a t k e
 siatkę	si a t k en
 sidnej	si i d n e j
 sidła	si i d w a
+sie	si e
 siebie	si e b j e
 sieci	si e tsi i
 sieciach	si e tsi a x
@@ -57854,6 +58089,7 @@ siekiery	si e k j e r I
 siekierę	si e k j e r e
 siekierę	si e k j e r en
 siemianowicach	si e m j a n o v i ts a x
+siemno	si e m n o
 sieni	si e ni i
 sieniawie	si e ni a v j e
 sieniawie	si e ni j a v j e
@@ -58794,6 +59030,7 @@ składki	s k w a t k i
 składkom	s k w a d k o m
 składkom	s k w a t k o m
 składnicy	s k w a d ni i ts I
+składnie	s k w a d ni e
 składnik	s k w a d ni i k
 składnika	s k w a d ni i k a
 składniki	s k w a d ni i k i
@@ -58876,6 +59113,7 @@ smaków	s m a k u f
 smaków	s m a k u v
 smalcu	s m a l ts u
 smarami	s m a r a m i
+smardom	s m a r d o m
 smarowali	s m a r o v a l i
 smarowe	s m a r o v e
 smarowych	s m a r o v I x
@@ -59250,6 +59488,7 @@ sparaliżowany	s p a r a l i Z o v a n I
 sparaliżował	s p a r a l i Z o v a w
 spartakusa	s p a r t a k u s a
 spasowane	s p a s o v a n e
+spaw	s p a v
 spawania	s p a v a ni a
 spawania	s p a v a ni j a
 spawie	s p a v j e
@@ -59567,6 +59806,7 @@ spojrzeć	s p o j Z e tsi
 spojówek	s p o j u v e k
 spojówki	s p o j u f k i
 spojówki	s p o j u v k i
+spokoj	s p o k o j
 spokojem	s p o k o j e m
 spokojna	s p o k o j n a
 spokojne	s p o k o j n e
@@ -59979,6 +60219,7 @@ sprostowania	s p r o s t o v a ni a
 sprostowania	s p r o s t o v a ni j a
 sprostowaniem	s p r o s t o v a ni e m
 sprostowaniem	s p r o s t o v a ni j e m
+sprostowałby	s p r o s t o v a w b I
 sprowadza	s p r o v a dz a
 sprowadzają	s p r o v a dz a j o m
 sprowadzają	s p r o v a dz a j on
@@ -60001,6 +60242,7 @@ sprowadzić	s p r o v a dzi i tsi
 sprowadził	s p r o v a dzi i w
 sprowadziła	s p r o v a dzi i w a
 sprowadziły	s p r o v a dzi i w I
+sprowadzone	s p r o v a dz o n e
 sprowadzono	s p r o v a dz o n o
 sprowadzony	s p r o v a dz o n I
 sprowadzonych	s p r o v a dz o n I x
@@ -60179,6 +60421,7 @@ sprężystym	s p r e n Z I s t I m
 sprężystym	s p r en Z I s t I m
 sprężyć	s p r e n Z I tsi
 sprężyć	s p r en Z I tsi
+spsęt	s p s en t
 spuchniętą	s p u x ni e n t o m
 spuchniętą	s p u x ni e n t on
 spuchniętą	s p u x ni en t o m
@@ -60389,6 +60632,7 @@ srebrzystym	s r e b Z I s t I m
 sroki	s r o k i
 sromowcach	s r o m o f ts a x
 sromowcach	s r o m o v ts a x
+ss	e s e s
 ssaków	s a k u f
 ssaków	s a k u v
 ssaków	s s a k u f
@@ -60402,6 +60646,7 @@ ssącotłoczącej	s on ts o t w o tS on ts e j
 ssącotłoczącej	s s o n ts o t w o tS o n ts e j
 ssącotłoczącej	s s o n ts o t w o tS on ts e j
 ssącotłoczącej	s s on ts o t w o tS o n ts e j
+stabilino	s t a b i l i n o
 stabilizacji	s t a b i l i z a ts i
 stabilizacji	s t a b i l i z a ts j i
 stabilizację	s t a b i l i z a ts j e
@@ -61257,6 +61502,7 @@ stratami	s t r a t a m i
 strategia	s t r a t e g j a
 strategiczne	s t r a t e g i tS n e
 strategicznego	s t r a t e g i tS n e g o
+strategicznie	s t r a t e g i tS ni e
 strategiczny	s t r a t e g i tS n I
 strategicznych	s t r a t e g i tS n I x
 strategicznym	s t r a t e g i tS n I m
@@ -61558,6 +61804,7 @@ stuleci	s t u l e tsi i
 stulecia	s t u l e tsi a
 stuleciach	s t u l e tsi a x
 stuleciu	s t u l e tsi u
+stulitrowego	s t u l i t r o v e g o
 stupa	s t u p a
 sturlać	s t u r l a tsi
 stutysięczną	s t u t I si e n tS n o m
@@ -61604,6 +61851,7 @@ stwierdził	s t f j e r dzi i w
 stwierdziła	s t f j e r dzi i w a
 stwierdziłem	s t f j e r dzi i w e m
 stwierdziłlo	s t f j e r dzi i w l o
+stwierdziło	s t f j e r dzi i w o
 stwierdziły	s t f j e r dzi i w I
 stwierdzono	s t f j e r dz o n o
 stworków	s t f o r k u f
@@ -61782,6 +62030,7 @@ subtelny	s u b t e l n I
 subtelny	s u p t e l n I
 subwencje	s u b v e n ts j e
 sucha	s u x a
+sucharskiej	s u x a r s k j e j
 suche	s u x e
 suchego	s u x e g o
 suchej	s u x e j
@@ -62647,6 +62896,7 @@ szczęśliwą	S tS e ni si l i v o m
 szczęśliwą	S tS e ni si l i v on
 szczęśliwą	S tS en si l i v o m
 szczęśliwą	S tS en si l i v on
+sze	S e
 szebeli	S e b e l i
 szedł	S e d
 szedł	S e d w
@@ -62842,6 +63092,7 @@ szkatułką	S k a t u w k on
 szkatuły	S k a t u w I
 szkice	S k i ts e
 szkicownikiem	S k i ts o v ni i k j e m
+szkicowników	S k i ts o v ni i k u f
 szkielet	S k j e l e t
 szkieletowej	S k j e l e t o v e j
 szkieletową	S k j e l e t o v o m
@@ -63621,6 +63872,7 @@ słabym	s w a b I m
 słabymi	s w a b I m i
 słabą	s w a b o m
 słabą	s w a b on
+słabę	s w a b e
 słabł	s w a b
 słabł	s w a b w
 słabł	s w a p
@@ -63906,6 +64158,7 @@ słów	s w u v
 słówek	s w u v e k
 słówkami	s w u f k a m i
 słówkami	s w u v k a m i
+t	t
 ta	t a
 tabel	t a b e l
 tabeli	t a b e l i
@@ -64237,6 +64490,7 @@ tauron	t a w r o n
 taxi	t a k si i
 tazbir	t a s b i r
 tazbir	t a z b i r
+tałrek	t a w r e k
 tańca	t a ni ts a
 tańcem	t a ni ts e m
 tańcu	t a ni ts u
@@ -64309,6 +64563,7 @@ techniką	t e x ni i k on
 technikę	t e x ni i k e
 technikę	t e x ni i k en
 technogiba	t e x n o g i b a
+technologdie	t e x n o l o g d i
 technologia	t e x n o l o g j a
 technologiach	t e x n o l o g j a x
 technologiami	t e x n o l o g j a m i
@@ -64898,6 +65153,7 @@ totalnym	t o t a l n I m
 toteż	t o t e S
 toteż	t o t e Z
 totolotka	t o t o l o t k a
+towa	t o v a
 towar	t o v a r
 towarem	t o v a r e m
 towarowa	t o v a r o v a
@@ -65246,6 +65502,7 @@ treść	t r e si tsi
 trick	t r i ts k
 trikiem	t r i k j e m
 trilery	t r i l e r I
+trillery	t r i l l e r I
 triolach	t r j o l a x
 tristana	t r i s t a n a
 triumf	t r j u m f
@@ -65290,6 +65547,7 @@ trop	t r o p
 tropem	t r o p e m
 tropienia	t r o p j e ni a
 tropienia	t r o p j e ni j a
+tropika	t r o p i k a
 tropikach	t r o p i k a x
 tropikalna	t r o p i k a l n a
 tropikalne	t r o p i k a l n e
@@ -65322,6 +65580,7 @@ trosze	t r o S e
 troszkę	t r o S k e
 troszkę	t r o S k en
 tru	t r u
+truchlińska	t r u x l i ni s k a
 truchlińskabinasik	t r u x l i ni s k a b i n a si i k
 trucht	t r u x t
 truciznami	t r u tsi i z n a m i
@@ -65331,6 +65590,7 @@ trud	t r u t
 trudami	t r u d a m i
 trudem	t r u d e m
 trudna	t r u d n a
+trudnami	t r u d n a m i
 trudne	t r u d n e
 trudnego	t r u d n e g o
 trudnej	t r u d n e j
@@ -65457,6 +65717,7 @@ trybem	t r I b e m
 trybie	t r I b j e
 trybu	t r I b u
 trybun	t r I b u n
+trybuna	t r I b u n a
 trybunale	t r I b u n a l e
 trybunalski	t r I b u n a l s k i
 trybunał	t r I b u n a w
@@ -65478,6 +65739,7 @@ trysnęła	t r I s n e w a
 trysnęła	t r I s n en w a
 tryumfujący	t r I u m f u j o n ts I
 tryumfujący	t r I u m f u j on ts I
+trz	tS S
 trzask	t S a s k
 trzask	tS S a s k
 trzaskał	t S a s k a w
@@ -65543,6 +65805,7 @@ trzema	t S e m a
 trzema	tS S e m a
 trzemy	t S e m I
 trzemy	tS S e m I
+trzepniąte	tS S e p ni j o n t e
 trzepnięte	t S e p ni e n t e
 trzepnięte	t S e p ni en t e
 trzepnięte	tS S e p ni e n t e
@@ -66525,6 +66788,7 @@ ubóstwem	u b u s t f e m
 ubóstwie	u b u s t f j e
 ubóstwo	u b u s t f o
 ucałował	u ts a w o v a w
+uch	u x
 ucha	u x a
 uchem	u x e m
 ucho	u x o
@@ -67413,6 +67677,7 @@ ulice	u l i ts e
 ulicom	u l i ts o m
 ulicy	u l i ts I
 uliczce	u l i tS ts e
+ulicze	u l i tS e
 uliczek	u l i tS e k
 uliczka	u l i tS k a
 uliczkach	u l i tS k a x
@@ -67539,6 +67804,7 @@ umieralność	u m j e r a l n o si tsi
 umieram	u m j e r a m
 umierać	u m j e r a tsi
 umierał	u m j e r a w
+umierałem	u m j e r a w e m
 umierało	u m j e r a w o
 umierały	u m j e r a w I
 umieszczając	u m j e S tS a j o n ts
@@ -67729,6 +67995,7 @@ uniemożliwią	u ni j e m o Z l i v j o m
 uniemożliwią	u ni j e m o Z l i v j on
 uniemożliwić	u ni e m o Z l i v i tsi
 uniemożliwić	u ni j e m o Z l i v i tsi
+uniemożliwiłaby	u ni j e m o Z l i v i w a b I
 unieruchomi	u ni e r u x o m i
 unieruchomi	u ni j e r u x o m i
 uniesienia	u ni e si e ni a
@@ -68041,6 +68308,7 @@ uporządkować	u p o Z on d k o v a tsi
 uporządkować	u p o Z on t k o v a tsi
 uposażenia	u p o s a Z e ni a
 uposażenia	u p o s a Z e ni j a
+uposażenie	u p o s a Z e ni e
 uposażeń	u p o s a Z e ni
 upoważnia	u p o v a Z ni a
 upoważniającą	u p o v a Z ni a j o n ts o m
@@ -68520,6 +68788,7 @@ uskarżał	u s k a r Z a w
 uskarżała	u s k a r Z a w a
 uskarżały	u s k a r Z a w I
 uskuteczniał	u s k u t e tS ni a w
+uspakajał	u s p a k a j a w
 uspokaja	u s p o k a j a
 uspokajają	u s p o k a j a j o m
 uspokajają	u s p o k a j a j on
@@ -68722,6 +68991,7 @@ ustąpiły	u s t o m p i w I
 ustąpiły	u s t on p i w I
 ustępliwości	u s t e m p l i v o si tsi i
 ustępliwości	u s t en p l i v o si tsi i
+ustępnienia	u s t e m p ni e ni a
 ustępowali	u s t e m p o v a l i
 ustępowali	u s t en p o v a l i
 ustępować	u s t e m p o v a tsi
@@ -68881,6 +69151,7 @@ utopijny	u t o p i j n I
 utopista	u t o p i s t a
 utopią	u t o p j o m
 utopią	u t o p j on
+utopiła	u t o p i w a
 utorowała	u t o r o v a w a
 utowarowionych	u t o v a r o v j o n I x
 utożsamia	u t o S s a m j a
@@ -69062,6 +69333,7 @@ uwarunkowania	u v a r u n k o v a ni j a
 uwarunkowanych	u v a r u n k o v a n I x
 uwarunkowaną	u v a r u n k o v a n o m
 uwarunkowaną	u v a r u n k o v a n on
+uwarunkowych	u v a r u n k o v I x
 uważa	u v a Z a
 uważaj	u v a Z a j
 uważają	u v a Z a j o m
@@ -69209,6 +69481,7 @@ uzależniło	u z a l e Z ni i w o
 uzasadnia	u z a s a d ni a
 uzasadniając	u z a s a d ni a j o n ts
 uzasadniając	u z a s a d ni a j on ts
+uzasadniana	u z a s a d ni a n a
 uzasadniania	u z a s a d ni a ni a
 uzasadniania	u z a s a d ni a ni j a
 uzasadniały	u z a s a d ni a w I
@@ -69437,6 +69710,7 @@ uśmiech	u si m j e x
 uśmiecha	u si m j e x a
 uśmiechali	u si m j e x a l i
 uśmiecham	u si m j e x a m
+uśmiechać	u si m j e x a tsi
 uśmiechał	u si m j e x a w
 uśmiechała	u si m j e x a w a
 uśmiechałem	u si m j e x a w e m
@@ -69623,6 +69897,7 @@ volvo	v o l v o
 w	f
 w	v
 w	v u
+wa	v a
 wachlarzem	v a x l a Z e m
 wachowicz	v a x o v i tS
 wachowskiego	v a x o f s k j e g o
@@ -69915,6 +70190,7 @@ warta	v a r t a
 wartburgi	v a r d b u r g i
 wartburgi	v a r t b u r g i
 wartej	v a r t e j
+wartke	v a r t k e
 wartkie	v a r t k j e
 warto	v a r t o
 wartownicy	v a r t o v ni i ts I
@@ -69939,6 +70215,7 @@ wartość	v a r t o si tsi
 warty	v a r t I
 wartą	v a r t o m
 wartą	v a r t on
+waru	v a r u
 warunek	v a r u n e k
 warunkach	v a r u n k a x
 warunkami	v a r u n k a m i
@@ -70001,6 +70278,8 @@ watą	v a t on
 wawelu	v a v e l u
 wawrzyszów	v a v Z I S u f
 wawrzyszów	v a v Z I S u v
+wawławczyka	v a v w a f tS I k a
+wazeliniarz	v a z e l i ni a S
 wał	v a w
 wałami	v a w a m i
 wałanow	v a w a n o f
@@ -70233,6 +70512,7 @@ wczorajszego	f tS o r a j S e g o
 wczorajszy	f tS o r a j S I
 wczorajszych	f tS o r a j S I x
 wczorajszym	f tS o r a j S I m
+wczyt	f tS I t
 wda	v d a
 wdaje	v d a j e
 wdając	v d a j o n ts
@@ -70307,6 +70587,7 @@ wehikułem	v e x i k u w e m
 weidenfellerem	v e i d e n f e l e r e m
 weidenfellerem	v e j i d e n f e l e r e m
 weidenfellerem	v e j i d e n f e l l e r e m
+weindelferem	v e i n d e l f e r e m
 wejchert	v e j x e r t
 wejdzie	v e j dzi e
 wejdą	v e j d o m
@@ -71212,6 +71493,7 @@ witamin	v i t a m i n
 witaminka	v i t a m i n k a
 witaminowych	v i t a m i n o v I x
 witaminy	v i t a m i n I
+witan	v i t a n
 witany	v i t a n I
 witaszka	v i t a S k a
 witałem	v i t a w e m
@@ -71622,6 +71904,7 @@ wnętrzności	v n e n t S n o si tsi i
 wnętrzności	v n e n tS n o si tsi i
 wnętrzności	v n en t S n o si tsi i
 wnętrzności	v n en tS n o si tsi i
+wnętrznu	v n e n tS n u
 wnętrzu	v n e n t S u
 wnętrzu	v n e n tS u
 wnętrzu	v n en t S u
@@ -72001,6 +72284,7 @@ wprowadzające	f p r o v a dz a j o n ts e
 wprowadzające	f p r o v a dz a j on ts e
 wprowadzających	f p r o v a dz a j o n ts I x
 wprowadzających	f p r o v a dz a j on ts I x
+wprowadzana	f p r o v a dz a n a
 wprowadzane	f p r o v a dz a n e
 wprowadzani	f p r o v a dz a ni i
 wprowadzania	f p r o v a dz a ni a
@@ -72183,6 +72467,7 @@ wrocławską	v r o ts w a f s k o m
 wrocławską	v r o ts w a f s k on
 wrocławską	v r o ts w a v s k o m
 wrocławską	v r o ts w a v s k on
+wrocławśródmieście	v r o ts w a v si r u d m j e si tsi e
 wrodzona	v r o dz o n a
 wrodzonych	v r o dz o n I x
 wrodzonymi	v r o dz o n I m i
@@ -72322,6 +72607,7 @@ wręczyli	v r e n tS I l i
 wręczyli	v r en tS I l i
 wręczył	v r e n tS I w
 wręczył	v r en tS I w
+wręsz	v r en S
 wsad	f s a d
 wsad	f s a t
 wsadzania	f s a dz a ni a
@@ -72480,6 +72766,7 @@ wspierają	f s p j e r a j o m
 wspierają	f s p j e r a j on
 wspierając	f s p j e r a j o n ts
 wspierając	f s p j e r a j on ts
+wspierającej	f s p j e r a j o n ts e j
 wspierający	f s p j e r a j o n ts I
 wspierający	f s p j e r a j on ts I
 wspierającymi	f s p j e r a j o n ts I m i
@@ -72604,6 +72891,7 @@ wspólnym	f s p u l n I m
 wspólnymi	f s p u l n I m i
 wspólną	f s p u l n o m
 wspólną	f s p u l n on
+współ	f s p u w
 współautora	f s p u w a u t o r a
 współautora	f s p u w a w t o r a
 współautorów	f s p u w a u t o r u f
@@ -72698,6 +72986,7 @@ wstanie	f s t a ni j e
 wstawali	f s t a v a l i
 wstawać	f s t a v a tsi
 wstawiam	f s t a v j a m
+wstawiamy	f s t a v j a m I
 wstawianie	f s t a v j a ni e
 wstawianie	f s t a v j a ni j e
 wstawieni	f s t a v j e ni i
@@ -72865,6 +73154,7 @@ wszczęła	f S tS e w a
 wszczęła	f S tS en w a
 wszczęło	f S tS e w o
 wszczęło	f S tS en w o
+wszczęścia	f S tS en si tsi a
 wszech	f S e x
 wszechmocny	f S e x m o ts n I
 wszechmogący	f S e x m o g o n ts I
@@ -72908,6 +73198,7 @@ wszelkimi	f S e l k i m i
 wszelką	f S e l k o m
 wszelką	f S e l k on
 wszetecznych	f S e t e tS n I x
+wszy	f S I
 wszyscy	f S I s ts I
 wszystkich	f S I s k i x
 wszystkich	f S I s t k i x
@@ -72950,6 +73241,7 @@ wtargnąłem	f t a r g n o w e m
 wtargnąłem	f t a r g n on w e m
 wtargnęli	f t a r g n e l i
 wtargnęli	f t a r g n en l i
+wtargnęła	f t a r g n e w a
 wtargnęły	f t a r g n e w I
 wtargnęły	f t a r g n en w I
 wtedy	f t e d I
@@ -73006,6 +73298,7 @@ wyabstrahować	v I a b s t r a x o v a tsi
 wyabstrahować	v I a p s t r a x o v a tsi
 wyartykułowania	v I a r t I k u w o v a ni a
 wyartykułowania	v I a r t I k u w o v a ni j a
+wyb	v I b
 wybacz	v I b a tS
 wybacza	v I b a tS a
 wybaczają	v I b a tS a j o m
@@ -73269,6 +73562,7 @@ wycieczek	v I tsi e tS e k
 wycieczki	v I tsi e tS k i
 wycieczkę	v I tsi e tS k e
 wycieczkę	v I tsi e tS k en
+wyciekały	v I tsi e k a w I
 wyciekły	v I tsi e k w I
 wycieraczki	v I tsi e r a tS k i
 wycierają	v I tsi e r a j o m
@@ -74886,6 +75180,7 @@ wypełnią	v I p e w ni on
 wypełnić	v I p e w ni i tsi
 wypełnił	v I p e w ni i w
 wypełniłby	v I p e w ni i w b I
+wypełniło	v I p e w ni i w o
 wypełzali	v I p e w z a l i
 wypełzały	v I p e w z a w I
 wypełzło	v I p e w z w o
@@ -75445,6 +75740,7 @@ wysoce	v I s o ts e
 wysockiego	v I s o ts k j e g o
 wysocy	v I s o ts I
 wysoczyzna	v I s o tS I z n a
+wysok	v I s o k
 wysoka	v I s o k a
 wysoki	v I s o k i
 wysokich	v I s o k i x
@@ -75454,6 +75750,7 @@ wysokiej	v I s o k j e j
 wysokim	v I s o k i m
 wysokimi	v I s o k i m i
 wysoko	v I s o k o
+wysokom	v I s o k o m
 wysokonakładowa	v I s o k o n a k w a d o v a
 wysokonakładowy	v I s o k o n a k w a d o v I
 wysokoprężnych	v I s o k o p r e n Z n I x
@@ -76106,6 +76403,7 @@ wywyższenia	v I v I Z S e ni a
 wywyższenia	v I v I Z S e ni j a
 wywóz	v I v u s
 wywóz	v I v u z
+wywóź	v I v u si
 wywłaszczenia	v I v w a S tS e ni a
 wywłaszczenia	v I v w a S tS e ni j a
 wyzdrowiałem	v I z d r o v j a w e m
@@ -76396,6 +76694,7 @@ wyżywienie	v I Z I v j e ni e
 wyżywienie	v I Z I v j e ni j e
 wyżywić	v I Z I v i tsi
 wyżyć	v I Z I tsi
+wz	v z
 wzajem	v z a j e m
 wzajemna	v z a j e m n a
 wzajemne	v z a j e m n e
@@ -76796,6 +77095,7 @@ wątpliwe	v o n t p l i v e
 wątpliwe	v on t p l i v e
 wątpliwej	v o n t p l i v e j
 wątpliwej	v on t p l i v e j
+wątpliwo	v on t p l i v o
 wątpliwości	v o n t p l i v o si tsi i
 wątpliwości	v on t p l i v o si tsi i
 wątpliwościach	v o n t p l i v o si tsi a x
@@ -77299,6 +77599,9 @@ wśród	f si r u t
 y	I
 y	i
 y	j
+yhm	I x m
+yy	I I
+yyy	I I I
 z	s
 z	z
 za	z a
@@ -77500,6 +77803,7 @@ zabitych	z a b i t I x
 zabić	z a b i tsi
 zabił	z a b i w
 zabiła	z a b i w a
+zabiłby	z a b i w b I
 zabiłem	z a b i w e m
 zabiło	z a b i w o
 zablokowanie	z a b l o k o v a ni e
@@ -77904,6 +78208,7 @@ zacofana	z a ts o f a n a
 zacofaniem	z a ts o f a ni e m
 zacofaniem	z a ts o f a ni j e m
 zacofanym	z a ts o f a n I m
+zacoł	z a ts o w
 zacytowany	z a ts I t o v a n I
 zacytować	z a ts I t o v a tsi
 zacytował	z a ts I t o v a w
@@ -78975,6 +79280,7 @@ zamachał	z a m a x a w
 zamachem	z a m a x e m
 zamachnął	z a m a x n o w
 zamachnął	z a m a x n on w
+zamachowca	z a m a x o v ts a
 zamachowcasamobójcę	z a m a x o f ts a s a m o b u j ts e
 zamachowcasamobójcę	z a m a x o f ts a s a m o b u j ts en
 zamachowcasamobójcę	z a m a x o v ts a s a m o b u j ts e
@@ -79020,6 +79326,7 @@ zamawiać	z a m a v j a tsi
 zamawiałem	z a m a v j a w e m
 zamazują	z a m a z u j o m
 zamazują	z a m a z u j on
+zamałek	z a m a w e k
 zambię	z a m b j e
 zambię	z a m b j en
 zamczysku	z a m tS I s k u
@@ -79450,6 +79757,7 @@ zaoszczędzonego	z a o S tS en dz o n e g o
 zaowocowało	z a o v o ts o v a w o
 zaowocują	z a o v o ts u j o m
 zaowocują	z a o v o ts u j on
+zap	z a p
 zapach	z a p a x
 zapachem	z a p a x e m
 zapachową	z a p a x o v o m
@@ -79760,6 +80068,7 @@ zapowiadał	z a p o v j a d a w
 zapowiadała	z a p o v j a d a w a
 zapowiadałem	z a p o v j a d a w e m
 zapowiadało	z a p o v j a d a w o
+zapowiadoli	z a p o v j a d o l i
 zapowiedzi	z a p o v j e dzi i
 zapowiedziach	z a p o v j e dzi a x
 zapowiedział	z a p o v j e dzi a w
@@ -80266,6 +80575,7 @@ zasilanie	z a si i l a ni e
 zasilanie	z a si i l a ni j e
 zasilaniem	z a si i l a ni e m
 zasilaniem	z a si i l a ni j e m
+zasilenie	z a si i l e ni j e
 zasili	z a si i l i
 zasiliły	z a si i l i w I
 zasiądzie	z a si o ni dzi e
@@ -80361,8 +80671,10 @@ zasobności	z a s o b n o si tsi i
 zasobnych	z a s o b n I x
 zasobu	z a s o b u
 zasoby	z a s o b I
+zaspakajania	z a s p a k a j a ni a
 zaspakajanie	z a s p a k a j a ni e
 zaspakajanie	z a s p a k a j a ni j e
+zaspakajać	z a s p a k a j a tsi
 zaspakające	z a s p a k a j o n ts e
 zaspakające	z a s p a k a j on ts e
 zaspokajania	z a s p o k a j a ni a
@@ -80451,6 +80763,7 @@ zastosują	z a s t o s u j o m
 zastosują	z a s t o s u j on
 zastraszająco	z a s t r a S a j o n ts o
 zastraszająco	z a s t r a S a j on ts o
+zastraszającą	z a s t r a S a j o n ts o m
 zastraszanie	z a s t r a S a ni e
 zastraszanie	z a s t r a S a ni j e
 zastraszenie	z a s t r a S e ni e
@@ -82096,6 +82409,7 @@ zdziwić	z dzi i v i tsi
 zdziwić	zi dzi i v i tsi
 zdziwił	z dzi i v i w
 zdziwił	zi dzi i v i w
+zdziwiłabym	z dzi i v i w a b I m
 zdziwiłbym	z dzi i v i w b I m
 zdziwiłbym	zi dzi i v i w b I m
 zdziwiło	z dzi i v i w o
@@ -82160,6 +82474,7 @@ zegarek	z e g a r e k
 zegarem	z e g a r e m
 zegarka	z e g a r k a
 zegarki	z e g a r k i
+zegaru	z e g a r u
 zegary	z e g a r I
 zegarów	z e g a r u f
 zegarów	z e g a r u v
@@ -82222,6 +82537,7 @@ zerwałem	z e r v a w e m
 zeskakiwali	z e s k a k i v a l i
 zeskoczyli	z e s k o tS I l i
 zeskoczył	z e s k o tS I w
+zesp	z e s p
 zespole	z e s p o l e
 zespolenia	z e s p o l e ni a
 zespolenia	z e s p o l e ni j a
@@ -82396,6 +82712,7 @@ zezwoleniem	z e z v o l e ni e m
 zezwoleniem	z e z v o l e ni j e m
 zezwoleń	z e z v o l e ni
 zezwolił	z e z v o l i w
+zełigowskiego	z e w i g o f s k j e g o
 zeń	z e ni
 ześlizgnął	z e si l i z g n o w
 ześlizgnął	z e si l i z g n on w
@@ -82580,6 +82897,7 @@ zgubny	z g u b n I
 zgubnych	z g u b n I x
 zgubę	z g u b e
 zgubę	z g u b en
+zgód	z g u t
 zgęszczenie	z g e n S tS e ni e
 zgęszczenie	z g e n S tS e ni j e
 zgęszczenie	z g en S tS e ni e
@@ -82695,6 +83013,7 @@ ziemnekakao	zi e m n e k a k a o
 ziemniaczaną	zi e m ni a tS a n o m
 ziemniaczaną	zi e m ni a tS a n on
 ziemniaczki	zi e m ni a tS k i
+ziemniaka	zi e m ni a k a
 ziemniaki	zi e m ni a k i
 ziemniaków	zi e m ni a k u f
 ziemniaków	zi e m ni a k u v
@@ -82968,6 +83287,7 @@ zmasowanych	z m a s o v a n I x
 zmaterializować	z m a t e r j a l i z o v a tsi
 zmawiali	z m a v j a l i
 zmechanizowanej	z m e x a ni i z o v a n e j
+zmi	z m i
 zmian	z m j a n
 zmiana	z m j a n a
 zmianach	z m j a n a x
@@ -83543,6 +83863,7 @@ zniszczymy	z ni i S tS I m I
 zniszczyć	z ni i S tS I tsi
 zniszczyła	z ni i S tS I w a
 zniszczyłbym	z ni i S tS I w b I m
+zniszczyło	z ni i S tS I w o
 zniweczyć	z ni i v e tS I tsi
 zniwelować	z ni i v e l o v a tsi
 zniżki	z ni i S k i
@@ -83600,6 +83921,7 @@ znękani	z n e n k a ni i
 znękani	z n en k a ni i
 znękanych	z n e n k a n I x
 znękanych	z n en k a n I x
+zo	z o
 zobacz	z o b a tS
 zobaczcie	z o b a tS tsi e
 zobaczenia	z o b a tS e ni a
@@ -83732,10 +84054,12 @@ zostaną	z o s t a n o m
 zostaną	z o s t a n on
 zostanę	z o s t a n e
 zostanę	z o s t a n en
+zostatnie	z o s t a t ni e
 zostawali	z o s t a v a l i
 zostawać	z o s t a v a tsi
 zostawała	z o s t a v a w a
 zostawało	z o s t a v a w o
+zostawi	z o s t a v i
 zostawiajcie	z o s t a v j a j tsi e
 zostawiają	z o s t a v j a j o m
 zostawiają	z o s t a v j a j on
@@ -83756,6 +84080,7 @@ zostawmy	z o s t a v m I
 zostać	z o s t a tsi
 został	z o s t a w
 została	z o s t a w a
+zostałaby	z o s t a w a b I
 zostałaś	z o s t a w a si
 zostałby	z o s t a w b I
 zostałem	z o s t a w e m
@@ -83959,6 +84284,7 @@ zróżnicowanie	z r u Z ni i ts o v a ni j e
 zróżnicowaniem	z r u Z ni i ts o v a ni e m
 zróżnicowaniem	z r u Z ni i ts o v a ni j e m
 zróżnicowanych	z r u Z ni i ts o v a n I x
+zróżnicowały	z r u Z ni i ts o v a w I
 zrąbanego	z r o m b a n e g o
 zrąbanego	z r on b a n e g o
 zręby	z r e m b I
@@ -84003,10 +84329,12 @@ zubki	z u b k i
 zubki	z u p k i
 zubożałych	z u b o Z a w I x
 zubożeć	z u b o Z e tsi
+zubrzycka	z u b Z I ts k a
 zuchowaty	z u x o v a t I
 zuchwalstwie	z u x f a l s t f j e
 zuchów	z u x u f
 zuchów	z u x u v
+zudu	z u d u
 zum	z u m
 zupa	z u p a
 zupełna	z u p e w n a
@@ -84602,6 +84930,7 @@ zyskując	z I s k u j o n ts
 zyskując	z I s k u j on ts
 zysków	z I s k u f
 zysków	z I s k u v
+zystandaryzowanej	z I s t a n d a r I z o v a n e j
 zza	z z a
 zziajane	z zi a j a n e
 zziębnięci	z zi e m b ni e ni tsi i
@@ -84789,6 +85118,7 @@ złączeniem	z w o n tS e ni e m
 złączeniem	z w o n tS e ni j e m
 złączeniem	z w on tS e ni e m
 złączeniem	z w on tS e ni j e m
+zżyczy	z Z I tS I
 zżymał	z Z I m a w
 zżółkły	z Z u w k w I
 ód	u d
@@ -85019,6 +85349,7 @@ zżółkły	z Z u w k w I
 łańcuchem	w a ni ts u x e m
 łańcuchową	w a ni ts u x o v o m
 łańcuchową	w a ni ts u x o v on
+łańcuchu	w a ni ts u x u
 łańcuchuruchu	w a ni ts u x u r u x u
 łańcuchy	w a ni ts u x I
 łańcuchów	w a ni ts u x u f
@@ -85039,6 +85370,7 @@ zżółkły	z Z u w k w I
 łenczycy	w e n tS I ts I
 łez	w e s
 łez	w e z
+łilliama	w i l j a m a
 łodydze	w o d I dz e
 łodzi	w o dzi i
 łodzian	w o dzi a n
@@ -85074,6 +85406,7 @@ zżółkły	z Z u w k w I
 łoskot	w o s k o t
 łoskotem	w o s k o t e m
 łosoś	w o s o si
+łoszności	w o S n o si tsi i
 łotwa	w o t f a
 łotwie	w o t f j e
 łotwę	w o t f e
@@ -85363,6 +85696,7 @@ zżółkły	z Z u w k w I
 ścinani	si tsi i n a ni i
 ścinać	si tsi i n a tsi
 ścinki	si tsi i n k i
+ściomierzem	si tsi o m j e Z e m
 ścisk	si tsi i s k
 ściskają	si tsi i s k a j o m
 ściskają	si tsi i s k a j on
@@ -85577,6 +85911,7 @@ zżółkły	z Z u w k w I
 śluzówkę	si l u z u f k en
 śluzówkę	si l u z u v k e
 śluzówkę	si l u z u v k en
+śląks	si l o n k s
 śląsk	si l o n s k
 śląsk	si l on s k
 śląska	si l o n s k a
@@ -85724,6 +86059,7 @@ zżółkły	z Z u w k w I
 śpi	si p i
 śpichlerzowania	si p i x l e Z o v a ni a
 śpichlerzowania	si p i x l e Z o v a ni j a
+śpieszy	si p j e S I
 śpieszyła	si p j e S I w a
 śpiew	si p j e f
 śpiew	si p j e v
@@ -85824,6 +86160,7 @@ zżółkły	z Z u w k w I
 środków	si r o d k u v
 środków	si r o t k u f
 środków	si r o t k u v
+środmieścia	si r o d m j e si tsi a
 środmieście	si r o d m j e si tsi e
 środowe	si r o d o v e
 środowej	si r o d o v e j
@@ -86079,6 +86416,7 @@ zżółkły	z Z u w k w I
 świeżymi	si f j e Z I m i
 świeżą	si f j e Z o m
 świeżą	si f j e Z on
+świnarskiego	si f i n a r s k j e g o
 świnie	si f i ni e
 świnie	si f i ni j e
 świnią	si f i ni j o m
@@ -86379,6 +86717,7 @@ zżółkły	z Z u w k w I
 żmudną	Z m u d n on
 żniw	Z ni i v
 żniwami	Z ni i v a m i
+żo	Z o
 żochowskiej	Z o x o f s k j e j
 żochowskiej	Z o x o v s k j e j
 żoliborzu	Z o l i b o Z u
@@ -86398,6 +86737,7 @@ zżółkły	z Z u w k w I
 żonę	Z o n e
 żonę	Z o n en
 żor	Z o r
+żoł	Z o w
 żołd	Z o w d
 żołd	Z o w t
 żołmierza	Z o w m j e Z a
@@ -86424,6 +86764,7 @@ zżółkły	z Z u w k w I
 żołądku	Z o w on d k u
 żołądku	Z o w on t k u
 żre	Z r e
+żrenica	Z r e ni i ts a
 żreć	Z r e tsi
 żucia	Z u tsi a
 żuczek	Z u tS e k
@@ -86621,6 +86962,7 @@ zżółkły	z Z u w k w I
 żyłce	Z I w ts e
 żyłek	Z I w e k
 żyło	Z I w o
+żyłowiowy	Z I w o v j o v I
 żyły	Z I w I
 żółcienie	Z u w tsi e ni e
 żółcienie	Z u w tsi e ni j e
