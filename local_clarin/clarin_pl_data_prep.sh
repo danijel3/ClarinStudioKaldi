@@ -42,7 +42,12 @@ echo Preparing dictionary...
 if [ ! -d data/local ] ; then mkdir data/local ; fi
 
 cut -f2- -d' ' < data/train/text | tr ' ' '\n' | sort -u > data/local/train.wlist
-ngram -lm local_clarin/arpa.lm.gz -unk -write-vocab data/local/lm.wlist
+if [ x"$(which ngram)" != x"" ]
+then
+	ngram -lm local_clarin/arpa.lm.gz -unk -write-vocab data/local/lm.wlist
+else
+	perl local_clarin/extract_vocab.pl local_clarin/arpa.lm.gz > data/local/lm.wlist
+fi
 tail -n +5 data/local/lm.wlist | cat data/local/train.wlist - | sort -u > data/local/all.wlist
 if [ ! -f local_clarin/model.fst ] ; then gunzip -c local_clarin/model.fst.gz > local_clarin/model.fst ; fi
 local_clarin/clarin_prepare_dict.sh data/local/all.wlist data/local/dict_nosp
