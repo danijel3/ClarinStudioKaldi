@@ -39,7 +39,7 @@ If you intend to compare your result to this baseline, we recommend not modifyin
 
 ## Baseline results
 
-``
+```
 %WER 29.90 [ 8684 / 29043, 913 ins, 1868 del, 5903 sub ] exp/mono0/decode/wer_10_0.0
 %WER 16.48 [ 4787 / 29043, 719 ins, 847 del, 3221 sub ] exp/tri3b/decode_nosp.si/wer_16_0.0
 %WER 15.89 [ 4615 / 29043, 750 ins, 767 del, 3098 sub ] exp/tri3b/decode.si/wer_17_0.0
@@ -57,15 +57,15 @@ If you intend to compare your result to this baseline, we recommend not modifyin
 %WER 5.30 [ 1540 / 29043, 457 ins, 340 del, 743 sub ] exp/tri3b_mmi/decode_rs/wer_17_1.0
 %WER 3.53 [ 1025 / 29043, 262 ins, 229 del, 534 sub ] exp/nnet3/tdnn1a_sp/decode_rs/wer_14_0.0
 %WER 2.45 [ 711 / 29043, 113 ins, 184 del, 414 sub ] exp/chain/tdnn1f_sp/decode_rs/wer_13_0.0
-``
+```
 
 ### Lattice oracles
 
-``
+```
 exp/tri3b_mmi/decode_wb/oracle_wer: 2.31% [ 672 / 29043, 330 insertions, 25 deletions, 317 substitutions ]
 exp/nnet3/tdnn1a_sp/decode/oracle_wer: 1.56% [ 453 / 29043, 174 insertions, 36 deletions, 243 substitutions ]
 exp/chain/tdnn1f_sp/decode/oracle_wer: 0.82% [ 237 / 29043, 57 insertions, 25 deletions, 155 substitutions ]
-``
+```
 
 ### Model legend
 
