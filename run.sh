@@ -124,12 +124,10 @@ utils/mkgraph.sh data/lang_test exp/tri3b exp/tri3b/graph
 steps/decode_fmllr.sh --nj $nj_test exp/tri3b/graph data/test exp/tri3b/decode
 
 #test MMI
-steps/decode_fmllr.sh --nj $nj_test --alignment-model exp/tri3b/final.alimdl --adapt-model exp/tri3b/final.mdl \
-  exp/tri3b/graph data/test exp/tri3b_mmi/decode
+steps/decode_fmllr.sh --nj $nj_test exp/tri3b/graph data/test exp/tri3b_mmi/decode
 
 #decode MMI using wider beam
-steps/decode_fmllr.sh --nj $nj_test --alignment-model exp/tri3b/final.alimdl --adapt-model exp/tri3b/final.mdl \
-  --beam 24 --lattice-beam 12 \
+steps/decode_fmllr.sh --nj $nj_test --beam 24 --lattice-beam 12 \
   exp/tri3b/graph data/test exp/tri3b_mmi/decode_wb
 
 #compute the oracle on the last decoding result - to see how much is possible using these lattices
