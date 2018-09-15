@@ -13,9 +13,9 @@ The scripts and files are based on WSJ Kaldi example pulled from the github on A
  
 ## Citation
 
-If you use this in your reaserch, please cite this paper:
+If you use this in your research, please cite this paper:
 
-> *Danijel Koržinek, Krzysztof Marasek, Łukasz Brocki, and Krzysztof Wołk* **Polish read speech corpus for speech tools and services** In Selected papers from the CLARIN Annual Conference 2016, Aix-en-Provence, 26–28 October 2016, CLARIN Common Language Resourcesand Technology Infrastructure, number 136, pages 54–62. LinköpingUniversity Electronic Press, Linköpings universitet, 2017.
+> *Danijel Koržinek, Krzysztof Marasek, Łukasz Brocki, and Krzysztof Wołk* **Polish read speech corpus for speech tools and services** In Selected papers from the CLARIN Annual Conference 2016, Aix-en-Provence, 26–28 October 2016, CLARIN Common Language Resources and Technology Infrastructure, number 136, pages 54–62. Linköping University Electronic Press, Linköpings universitet, 2017.
 
 
 ## About the licenses
