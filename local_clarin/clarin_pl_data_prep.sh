@@ -32,11 +32,12 @@ popd
 if [ ! -d data ] ; then mkdir data ; fi
 
 echo Generating file lists using proper paths...
-python local_clarin/generate_lists.py $AUDIO_DL_PATH/audio data local_clarin
+python3 local_clarin/generate_lists.py $AUDIO_DL_PATH/audio data local_clarin
 
 echo Generating spk2utt...
 utils/utt2spk_to_spk2utt.pl data/train/utt2spk > data/train/spk2utt
 utils/utt2spk_to_spk2utt.pl data/test/utt2spk > data/test/spk2utt
+utils/utt2spk_to_spk2utt.pl data/dev/utt2spk > data/dev/spk2utt
 
 echo Preparing dictionary...
 if [ ! -d data/local ] ; then mkdir data/local ; fi
