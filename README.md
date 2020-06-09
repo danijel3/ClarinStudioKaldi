@@ -6,7 +6,7 @@ The scripts and files are based on WSJ Kaldi example.
 
 ## Contacts
 
- * Krzysztof Marasek <kmarasek@pja.edu.pl>
+ * Krzysztof Marasek
  * Danijel Koržinek <danijel@pja.edu.pl>
  * Łukasz Brocki <lucas@pja.eud.pl>
  * Krzysztof Wołk <kwolk@pja.edu.pl>
