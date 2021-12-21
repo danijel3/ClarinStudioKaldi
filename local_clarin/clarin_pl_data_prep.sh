@@ -9,10 +9,10 @@ if [ ! -d $AUDIO_DL_PATH ] ; then mkdir -p $AUDIO_DL_PATH ; fi
 pushd $AUDIO_DL_PATH
 if [ ! -f audio.tar.gz ] ; then
 	echo "Downloading audio from the Clarin-pl website (~4.6GB)..."
-	curl -O http://mowa.clarin-pl.eu/korpusy/audio.tar.gz
+	curl -k -L -O https://mowa.clarin-pl.eu/korpusy/audio.tar.gz
 else
 	echo "File already downloaded! Checking if download is consistent..."
-	curl -O http://mowa.clarin-pl.eu/korpusy/audio.md5sum
+	curl -k -L -O https://mowa.clarin-pl.eu/korpusy/audio.md5sum
 	if ! md5sum -c audio.md5sum ; then
 		echo "Download doesn't match the one on the server! "
 		echo "Erase the audio.tar.gz file (and audio folder) and run this script again!"
